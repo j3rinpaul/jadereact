@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jadereact/static/css/main.07fc94c5.css",
+    "main.css": "/jadereact/static/css/main.7f45201c.css",
     "main.js": "/jadereact/static/js/main.0af82a00.js",
     "static/media/Canvas.png": "/jadereact/static/media/Canvas.95e9eccc16e2cbf96d27.png",
     "static/media/fa-solid-900.ttf": "/jadereact/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
@@ -57,11 +57,11 @@
     "index.html": "/jadereact/index.html",
     "static/media/arrow_left.svg": "/jadereact/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/jadereact/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
-    "main.07fc94c5.css.map": "/jadereact/static/css/main.07fc94c5.css.map",
+    "main.7f45201c.css.map": "/jadereact/static/css/main.7f45201c.css.map",
     "main.0af82a00.js.map": "/jadereact/static/js/main.0af82a00.js.map"
   },
   "entrypoints": [
-    "static/css/main.07fc94c5.css",
+    "static/css/main.7f45201c.css",
     "static/js/main.0af82a00.js"
   ]
 }
