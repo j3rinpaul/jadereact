@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jadereact/static/css/main.b2211477.css",
-    "main.js": "/jadereact/static/js/main.d4547aed.js",
+    "main.js": "/jadereact/static/js/main.d63ae78a.js",
     "static/media/fa-solid-900.ttf": "/jadereact/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
     "static/media/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-11.png": "/jadereact/static/media/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-11.b895de05c132d8bc47c4.png",
     "static/media/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-1.png": "/jadereact/static/media/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-1.3f36497160f65cc67971.png",
@@ -12,12 +12,11 @@
     "static/media/arrow1.png": "/jadereact/static/media/arrow1.f7b2cad97f0e67e767d6.png",
     "static/media/velcro.png": "/jadereact/static/media/velcro.53351e9efe8306e2ef49.png",
     "static/media/punch.png": "/jadereact/static/media/punch.2454dacb4209f63ae2d1.png",
-    "static/media/sb1.png": "/jadereact/static/media/sb1.57dd32e13298083c338d.png",
     "static/media/wbase.png": "/jadereact/static/media/wbase.2d9778c2f733d83f8885.png",
-    "static/media/3x3.png": "/jadereact/static/media/3x3.81a0446c7a84a21bab18.png",
     "static/media/rdtap.png": "/jadereact/static/media/rdtap.3e6486a92f2ec2f2b5c9.png",
     "static/media/fish.png": "/jadereact/static/media/fish.5c77cae3d26255e8ebee.png",
     "static/media/fa-brands-400.ttf": "/jadereact/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
+    "static/media/heavyb.jpg": "/jadereact/static/media/heavyb.69b4a9f9d711c37448a8.jpg",
     "static/media/snap.png": "/jadereact/static/media/snap.71e36ce9777fe9db40c1.png",
     "static/media/knit.png": "/jadereact/static/media/knit.6560c2745db3207f8d82.png",
     "static/media/promo.png": "/jadereact/static/media/promo.359187ebc38e556c2feb.png",
@@ -46,16 +45,13 @@
     "static/media/bboard.png": "/jadereact/static/media/bboard.2945260edb2a21d620ec.png",
     "static/media/ttg.png": "/jadereact/static/media/ttg.5e9d9dc06bd7b155a147.png",
     "static/media/xbannerstand.png": "/jadereact/static/media/xbannerstand.8edd92d694c873c31ca5.png",
-    "static/media/alb.png": "/jadereact/static/media/alb.810ae6157ab6e37a3ccd.png",
     "static/media/jbond.png": "/jadereact/static/media/jbond.c1b135a848884eee8b2c.png",
     "static/media/ttl.png": "/jadereact/static/media/ttl.b81aff17af68d32c5264.png",
     "static/media/rollupstand.png": "/jadereact/static/media/rollupstand.d5e39d6a0ffb622e4ea7.png",
     "static/media/eyelet.png": "/jadereact/static/media/eyelet.02a7c4877baf113d0dd1.png",
-    "static/media/PopUpStraight.png": "/jadereact/static/media/PopUpStraight.57d680928ee20e91420a.png",
     "static/media/pl.png": "/jadereact/static/media/pl.972d32168cf40cd8c993.png",
     "static/media/adver.png": "/jadereact/static/media/adver.58afd7d4c6a036f7f980.png",
     "static/media/olfac1.png": "/jadereact/static/media/olfac1.260de4cc71ee9ac39b65.png",
-    "static/media/flb.png": "/jadereact/static/media/flb.f927cc953bedcd048a0e.png",
     "static/media/easel.png": "/jadereact/static/media/easel.333a732953965254daa6.png",
     "static/media/fa-regular-400.ttf": "/jadereact/static/media/fa-regular-400.abf801b7acb6705a15ad.ttf",
     "static/media/img2.webp": "/jadereact/static/media/img2.ade61f8acf3a0ab09c8f.webp",
@@ -80,10 +76,10 @@
     "static/media/arrow_left.svg": "/jadereact/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/jadereact/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
     "main.b2211477.css.map": "/jadereact/static/css/main.b2211477.css.map",
-    "main.d4547aed.js.map": "/jadereact/static/js/main.d4547aed.js.map"
+    "main.d63ae78a.js.map": "/jadereact/static/js/main.d63ae78a.js.map"
   },
   "entrypoints": [
     "static/css/main.b2211477.css",
-    "static/js/main.d4547aed.js"
+    "static/js/main.d63ae78a.js"
   ]
 }
