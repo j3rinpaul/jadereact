@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jadereact/static/css/main.e7159554.css",
-    "main.js": "/jadereact/static/js/main.49446a33.js",
+    "main.js": "/jadereact/static/js/main.aea8c198.js",
     "static/media/fa-solid-900.ttf": "/jadereact/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
     "static/media/umb8.jpg": "/jadereact/static/media/umb8.a58cca0145da0a27b46a.jpg",
     "static/media/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-11.png": "/jadereact/static/media/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-11.b895de05c132d8bc47c4.png",
@@ -84,10 +84,10 @@
     "static/media/arrow_left.svg": "/jadereact/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/jadereact/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
     "main.e7159554.css.map": "/jadereact/static/css/main.e7159554.css.map",
-    "main.49446a33.js.map": "/jadereact/static/js/main.49446a33.js.map"
+    "main.aea8c198.js.map": "/jadereact/static/js/main.aea8c198.js.map"
   },
   "entrypoints": [
     "static/css/main.e7159554.css",
-    "static/js/main.49446a33.js"
+    "static/js/main.aea8c198.js"
   ]
 }
