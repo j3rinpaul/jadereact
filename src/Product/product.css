@@ -1,0 +1,59 @@
+/* css to style the product page */
+/* card alignment */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    font-family:"Poppins" ;
+}
+
+.wrapper1{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,
+    minmax(12rem, 16rem));
+    gap:2rem;
+    justify-content:center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.btns{
+    font-family:inherit;
+    font-weight:bold;
+    font-size:1rem;
+    color: black;
+    text-decoration: none;
+    margin-left: 45rem;
+    margin-right: 45rem;
+    border:1px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    transition:background 200ms ease-in,color 200ms ease-in;
+}
+.ricons{
+    right: 20px;
+    bottom: 80px;
+}
+
+.btns:hover{
+    background-color: #FF9C00;
+    color: white;
+}
+
+.btns a{
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-weight: 400;
+    margin-top: 1%;
+    color: #000000;
+}
+
+.btns a:hover{
+    color: white;
+}
+
+.uk h2{
+    margin-left: 13%;
+    margin-top: 2%;
+}
