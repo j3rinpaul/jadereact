@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/jadereact/static/css/main.e7159554.css",
-    "main.js": "/jadereact/static/js/main.a7806f3d.js",
+    "main.js": "/jadereact/static/js/main.7667a289.js",
     "static/media/slide1.jpg": "/jadereact/static/media/slide1.18f6504c199b1328e39e.jpg",
     "static/media/slide2.jpg": "/jadereact/static/media/slide2.b48669819e70c958eab1.jpg",
+    "static/media/cp.jpg": "/jadereact/static/media/cp.8770257cb9cd8848d840.jpg",
+    "static/media/promo.jpg": "/jadereact/static/media/promo.81c9ce97ad6b4afc4b33.jpg",
     "static/media/fa-solid-900.ttf": "/jadereact/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
     "static/media/umb8.jpg": "/jadereact/static/media/umb8.a58cca0145da0a27b46a.jpg",
     "static/media/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-1.png": "/jadereact/static/media/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-1.3f36497160f65cc67971.png",
@@ -11,13 +13,12 @@
     "static/media/ecoink.png": "/jadereact/static/media/ecoink.bcce7b26f3cb9d72ad45.png",
     "static/media/umb7.jpg": "/jadereact/static/media/umb7.970247b111516b9efd56.jpg",
     "static/media/apt.png": "/jadereact/static/media/apt.38a6bb59c4625b37dbb0.png",
-    "static/media/umb1.png": "/jadereact/static/media/umb1.231e209c54d881d938b4.png",
     "static/media/arrow1.png": "/jadereact/static/media/arrow1.f7b2cad97f0e67e767d6.png",
-    "static/media/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-11.png": "/jadereact/static/media/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-11.582943a2d05165a31a7f.png",
     "static/media/velcro.png": "/jadereact/static/media/velcro.53351e9efe8306e2ef49.png",
     "static/media/punch.png": "/jadereact/static/media/punch.2454dacb4209f63ae2d1.png",
     "static/media/wbase.png": "/jadereact/static/media/wbase.2d9778c2f733d83f8885.png",
     "static/media/rdtap.png": "/jadereact/static/media/rdtap.3e6486a92f2ec2f2b5c9.png",
+    "static/media/cards.png": "/jadereact/static/media/cards.9bef4eb34d2717abd1ae.png",
     "static/media/fish.png": "/jadereact/static/media/fish.5c77cae3d26255e8ebee.png",
     "static/media/fa-brands-400.ttf": "/jadereact/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
     "static/media/heavyb.jpg": "/jadereact/static/media/heavyb.69b4a9f9d711c37448a8.jpg",
@@ -35,6 +36,7 @@
     "static/media/glue.png": "/jadereact/static/media/glue.c4ee7bbf28ed72853803.png",
     "static/media/flag.png": "/jadereact/static/media/flag.0b82b8dfb537120e8777.png",
     "static/media/chrome.png": "/jadereact/static/media/chrome.c1d6f288b4cba1ea28d0.png",
+    "static/media/umb1.png": "/jadereact/static/media/umb1.15ddc3b069265458ff3e.png",
     "static/media/ftoilet.png": "/jadereact/static/media/ftoilet.f5a95025456753faa92f.png",
     "static/media/umb5.jpg": "/jadereact/static/media/umb5.ddba9da529f3354ec2a6.jpg",
     "static/media/broadbase.png": "/jadereact/static/media/broadbase.4224a52db9416ae0c8d3.png",
@@ -42,12 +44,13 @@
     "static/media/pt.png": "/jadereact/static/media/pt.ed3607d630be228cffa8.png",
     "static/media/sb.png": "/jadereact/static/media/sb.cebe07e3ad1f571f77f0.png",
     "static/media/olfac2.png": "/jadereact/static/media/olfac2.7921b87db936a28eefe6.png",
-    "static/media/minirollup.png": "/jadereact/static/media/minirollup.dc0c5d1cad27a9248889.png",
+    "static/media/minirollup.png": "/jadereact/static/media/minirollup.ba590d70199dd84a5204.png",
     "static/media/fa-brands-400.woff2": "/jadereact/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
     "static/media/cutterb.png": "/jadereact/static/media/cutterb.24a891354921c62379ad.png",
     "static/media/umb.png": "/jadereact/static/media/umb.d614d8491020e97f5cba.png",
     "static/media/trans.png": "/jadereact/static/media/trans.408eee9d855d56cbbcce.png",
     "static/media/bboard.png": "/jadereact/static/media/bboard.2945260edb2a21d620ec.png",
+    "static/media/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-11.png": "/jadereact/static/media/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-11.d4e4576114ba5937d00e.png",
     "static/media/ttg.png": "/jadereact/static/media/ttg.5e9d9dc06bd7b155a147.png",
     "static/media/xbannerstand.png": "/jadereact/static/media/xbannerstand.8edd92d694c873c31ca5.png",
     "static/media/ttl.png": "/jadereact/static/media/ttl.b81aff17af68d32c5264.png",
@@ -84,10 +87,10 @@
     "static/media/arrow_left.svg": "/jadereact/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/jadereact/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
     "main.e7159554.css.map": "/jadereact/static/css/main.e7159554.css.map",
-    "main.a7806f3d.js.map": "/jadereact/static/js/main.a7806f3d.js.map"
+    "main.7667a289.js.map": "/jadereact/static/js/main.7667a289.js.map"
   },
   "entrypoints": [
     "static/css/main.e7159554.css",
-    "static/js/main.a7806f3d.js"
+    "static/js/main.7667a289.js"
   ]
 }
