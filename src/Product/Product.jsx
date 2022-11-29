@@ -4,12 +4,12 @@ import "./product.css"
 
 
 import pop2 from "../assets/images/PopUpCurved.png"
-import tent from "../assets/images/tent.png"
-import info from "../assets/images/info.png"
+// import tent from "../assets/images/tent.png"
+// import info from "../assets/images/info.png"
 import ab from "../assets/images/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-1.png"
 import easel from "../assets/images/easel.png"
 // import prom from "../assets/images/promo.png"
-import acb from "../assets/images/acrylicb.png";
+// import acb from "../assets/images/acrylicb.png";
 // import bh from "../assets/images/broh.png";
 // import arrow1 from "../assets/images/arrow1.png";
 // import chrome from "../assets/images/chrome.png";
@@ -250,6 +250,7 @@ const data_f = [
   {"title":"Curved Top Flag / Feather Flag",
     "img":img_curved,
     "desc":["Small : 85 x 200 cm","Medium : 85 x 300 cm","Large : 85 x 400 cm"]
+    //link to detailed page 
   },
   {"title":"TearDrop Flag / Flying Banner",
   "img":img_tdrop,

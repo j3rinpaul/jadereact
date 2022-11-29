@@ -29,6 +29,11 @@ function App() {
             <Route path="/Counter" element={<Counter />}/>
             <Route path="/Printing" element={<Printing />}/>
             <Route path="/Promotional" element={<Promotional />}/>
+
+            {/* routing to seperate page is given here,ProdDetail*/}
+
+            
+
         </Routes>
         <Footer/>
       </div>
