@@ -133,6 +133,17 @@
     margin-top: 3%;
     margin-left: 40%;
 }
+
+.dwnld button{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    align-items: center;
+    border-radius: 5px;
+  
+  
+}
+
 @media only screen and (max-width: 600px){
     .body{
         height: 100vh;

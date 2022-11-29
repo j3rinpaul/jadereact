@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import Wa from '../Home/wa';
+import { Link } from 'react-router-dom';
 function About() {
   return (
     <div className='body'>
@@ -17,51 +18,15 @@ function About() {
       We are supported by an experienced and talented management team of well qualified professionals, technicians who have in depth knowledge about all aspects of our advertising, Sign & Printing Industry
       </p>
       <div className='dwnld'>
-        <a href="./JadeSign.pdf" download="JadeSign.pdf" >
-                <button id='butn'>Download Brochure</button>
-        </a>
+        <button>
+          <Link to="./JadeSign.pdf" target="_blank" download>Download</Link>
+        </button>
         </div>
       </div>
       <br/>
       <br/>
-      <br/>
-      <br/>
-      <br/>
-      {/* <div className='card-content'>
-        <div className='card'>
-          <h3>Our Vision </h3>
-          
-          <p><br/><br/>To become one of the reliable one stop
-            suppliers of Advertising Products &
-            Digital Printing Materials in UAE &
-            MIDDLEEAST
-            <br/><br/>
-            </p>
-        </div>
-        <div className='card'>
-          <h3>Why JADE SIGN?</h3>
-          <p>
-            One stop suppliers for Advertising
-            <br/>
-            Products & Digital Printing Materials
-            <br/>
-            Quality & Sophisticated services
-            <br/>
-            Nominal prices<br/>
-            Capable to handle large quantity<br/>
-            on-Time product delivery<br/>
-          </p>
-        </div> 
-        <div className='card'>
-          <h3>Customer Satisfaction </h3>
-          <p><br/>
-          We also provide customized facility to
-          meet the specific requirement of our
-          customers and ensure customer
-          satisfaction at all stage.
-          </p>
-        </div>
-      </div> */}
+      
+      
       <Wa/>
     </div>
   )
