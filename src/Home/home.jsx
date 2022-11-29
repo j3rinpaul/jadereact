@@ -58,14 +58,14 @@ function Home() {
         
         <div className='wrapper'>
           <HomeCard img = {card2} title="Display Products" red="/Product" />
-          <HomeCard img = {mini} title="Backdrops & Accessories" red="/Backdrop" />
+          <HomeCard img = {mini} title="Backdrop Stand" red="/Backdrop" />
           <HomeCard img = {card3} title="Outdoor Flags & Bases" red="/Flags" />
           <HomeCard img = {umb} title="Tent & Umbrella's" red="/Umbrella" />
           <HomeCard img = {cardi} title="Advertising Accessories" red="/Advd" />
-          <HomeCard img = {qu} title="Q-Stands & Indoor-Flag Poles " red="/Umbrella" />
-          <HomeCard img = {tb} title="Counter & Tables " red="/Umbrella" />
-          <HomeCard img = {car} title="Printing Services" red="/Umbrella" />
-          <HomeCard img = {promt} title="Promotional & Gifts Items " red="/Umbrella" />
+          <HomeCard img = {qu} title="Q-Stands & Indoor-Flag Poles " red="/Qs" />
+          <HomeCard img = {tb} title="Counter & Tables " red="/Counter" />
+          <HomeCard img = {car} title="Printing Services" red="/Printing" />
+          <HomeCard img = {promt} title="Promotional & Gifts Items " red="/Promotional" />
 
         </div>
       </div>

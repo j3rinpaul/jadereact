@@ -47,15 +47,15 @@ export default function NavBar() {
                   id="navitem"
                   title="Products"
                 >
-                  <NavDropdown.Item href="/">Display Products</NavDropdown.Item>
-                  <NavDropdown.Item href="#/action-2">Backdrops & Accessories</NavDropdown.Item>
-                  <NavDropdown.Item href="#/action-2">Outdoor Flags & Bases</NavDropdown.Item>
-                  <NavDropdown.Item href="#/action-2">Tent & Umbrella</NavDropdown.Item>
-                  <NavDropdown.Item href="#/action-3">Advertising accessories</NavDropdown.Item>
-                  <NavDropdown.Item href="#/action-3">Q-Stand & Indoor-Flag Poles</NavDropdown.Item>
-                  <NavDropdown.Item href="#/action-3">Counter & Tables</NavDropdown.Item>
-                  <NavDropdown.Item href="#/action-3">Printing Services</NavDropdown.Item>
-                  <NavDropdown.Item href="#/action-3">Promotional Gifts</NavDropdown.Item>
+                  <NavDropdown.Item href="/Product">Display Products</NavDropdown.Item>
+                  <NavDropdown.Item href="/Backdrop">Backdrops & Accessories</NavDropdown.Item>
+                  <NavDropdown.Item href="/Flags">Outdoor Flags & Bases</NavDropdown.Item>
+                  <NavDropdown.Item href="/Umbrella">Tent & Umbrella</NavDropdown.Item>
+                  <NavDropdown.Item href="/Advd">Advertising accessories</NavDropdown.Item>
+                  <NavDropdown.Item href="/Qs">Q-Stand & Indoor-Flag Poles</NavDropdown.Item>
+                  <NavDropdown.Item href="/Counter">Counter & Tables</NavDropdown.Item>
+                  <NavDropdown.Item href="/Printing">Printing Services</NavDropdown.Item>
+                  <NavDropdown.Item href="/Promotional">Promotional Gifts</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>

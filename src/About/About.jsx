@@ -17,7 +17,7 @@ function About() {
       We are supported by an experienced and talented management team of well qualified professionals, technicians who have in depth knowledge about all aspects of our advertising, Sign & Printing Industry
       </p>
       <div className='dwnld'>
-        <a href="./Jade Sign.pdf" download="Jade Sign.pdf" >
+        <a href="./JadeSign.pdf" download="JadeSign.pdf" >
                 <button id='butn'>Download Brochure</button>
         </a>
         </div>

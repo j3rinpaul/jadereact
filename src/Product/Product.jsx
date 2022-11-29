@@ -2,25 +2,21 @@ import React from 'react'
 import Cards from "../Cards/Card"
 import "./product.css"
 
-import tdrop from "../assets/images/teardrop.png"
+
 import pop2 from "../assets/images/PopUpCurved.png"
-
-import adver from "../assets/images/adver.png"
 import tent from "../assets/images/tent.png"
-import curve from "../assets/images/curved.png"
-
 import info from "../assets/images/info.png"
 import ab from "../assets/images/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-1.png"
 import easel from "../assets/images/easel.png"
-import prom from "../assets/images/promo.png"
+// import prom from "../assets/images/promo.png"
 import acb from "../assets/images/acrylicb.png";
-import bh from "../assets/images/broh.png";
-import arrow1 from "../assets/images/arrow1.png";
-import chrome from "../assets/images/chrome.png";
-import leds from "../assets/images/ledstr.png";
-import trans from "../assets/images/trans.png";
+// import bh from "../assets/images/broh.png";
+// import arrow1 from "../assets/images/arrow1.png";
+// import chrome from "../assets/images/chrome.png";
+// import leds from "../assets/images/ledstr.png";
+// import trans from "../assets/images/trans.png";
 import snap from "../assets/images/snap.png";
-import ft from "../assets/images/ftoilet.png";
+// import ft from "../assets/images/ftoilet.png";
 import dtape from "../assets/images/dtape.png";
 import rdt from "../assets/images/rdtap.png";
 import apt from "../assets/images/apt.png";
@@ -55,17 +51,11 @@ import popli from "../assets/images/popli.png";
 import sb from "../assets/images/sb.png";
 import pl from "../assets/images/pl.png";
 import pl1 from "../assets/images/pl1.png";
-import heavy from "../assets/images/heavyb.jpg";
-import uumb from "../assets/images/umb.png";
-import uumb1 from "../assets/images/umb4.png";
-import uumb2 from "../assets/images/umb2.png";
-import uumb3 from "../assets/images/umb5.jpg";
-import uumb4 from "../assets/images/umb6.png";
-import tent2 from "../assets/images/tent1.jpg";
-import umb7 from "../assets/images/umb7.jpg";
-import umb8 from "../assets/images/umb8.jpg";
+
+
 import adverf from "../assets/images/adverf.png";
 
+//backdrops
 import img_pop from "../assets/img/popup.jpg"
 import img_xban from "../assets/img/xban.jpg"
 import img_rollup from "../assets/img/rollup.jpg"
@@ -73,81 +63,118 @@ import img_adjust from "../assets/img/adjust.jpg"
 import img_ten from "../assets/img/tension.jpg"
 import img_fab from "../assets/img/fabric.jpg"
 
+//outdoor flags
 import img_tdrop from "../assets/img/tear.jpg"
 import img_curved from "../assets/img/curved.jpg"
 import img_lshape from "../assets/img/lshape.jpg"
 import img_tele from "../assets/img/tele.jpg"
+import img_host from "../assets/img/host.jpg"
 
+
+//bases
+import img_cb from "../assets/img/cbase.png"
+import img_cb1 from "../assets/img/cbase2.png"
+import img_cb2 from "../assets/img/cbase3.png"
+
+//display 
+import img_bstand from "../assets/img/bstand.jpg"
+import img_tstand from "../assets/img/tstand.jpg"
+import img_info from "../assets/img/info.jpg"
+import img_slim from "../assets/img/slim.jpg"
+import img_ruf from "../assets/img/ruf.jpg"
+import img_spin from "../assets/img/spin.jpg"
+import img_led from "../assets/img/led.jpg"
+
+//umbrella
+import img_umb from "../assets/img/umb.jpg"
+import img_tent from "../assets/img/tent.jpg"
+
+//qstand
+import img_ret  from "../assets/img/ret.jpg"
+import img_norm from "../assets/img/norm.jpg"
+import img_rope from "../assets/img/rope.jpg"
+import img_conf from "../assets/img/conf.jpg"
+import img_tabt from "../assets/img/tabt.jpg"
+
+
+//display 
 const data1 = [
-  {"title":"Brochure Stand",
-    "img":acb,
+  {"title":"Self Stand Brochure Stand",
+    "img":img_bstand,
     "desc":[" "]
   },
-
-  
-  {"title":"Arrow Sticker Flurecent Reflective ",
-    "img":arrow1,
-    "desc":["5x90 cm "]
-  },
-  {"title":"Chrome Pipe ",
-    "img":chrome,
-    "desc":[" 24mm X 3m "]
-  },
- 
- 
-  {"title":"Neotec Rainproof Transformer ",
-    "img":trans,
-    "desc":["12v-400w "]
+  {"title":"Table Top Brochure Stand",
+    "img":img_tstand,
+    "desc":[" "]
   },
   {"title":"Snap Frame ",
-    "img":snap,
-    "desc":["32mm Round Corner A3"]
-  },
-  {"title":"Acrylic Brochure Holder L Type",
-    "img":bh,
-    "desc":[" "]
-  },
-  {"title":"Jade Light 5050 Led Strip White",
-    "img":leds,
-    "desc":[" "]
-  },
-  {"title":"Sign Boards and Signs ",
-    "img":ft,
-    "desc":["20x10 cm "]
-  },
+  "img":snap,
+  "desc":["32mm Round Corner A3"]
+},
+{"title":"A-Board Stand",
+  "img":ab,
+  "desc":["Size : 100 x 70 cm , A2 , A1"]
+},
+{"title":"Information Stand",
+  "img":img_info,
+  "desc":["Size : A4 , A3"]
+},
+{"title":"Slim Light Box",
+  "img":img_slim,
+  "desc":["Size : A4 , A3"]
+},
+{"title":"Ruffle Box",
+  "img":img_ruf,
+  "desc":["Size : A4 , A3"]
+},
+{"title":"Spin Wheel",
+  "img":img_spin,
+  "desc":["Size : A4 , A3"]
+},
+{"title":"Running LED",
+  "img":img_led,
+  "desc":["Size : A4 , A3"]
+},
+{"title":"Easel Stand",
+  "img":easel,
+  "desc":["Size : A2 , A1 , A0"]
+}
+  // {"title":"Arrow Sticker Flurecent Reflective ",
+  //   "img":arrow1,
+  //   "desc":["5x90 cm "]
+  // },
+  // {"title":"Chrome Pipe ",
+  //   "img":chrome,
+  //   "desc":[" 24mm X 3m "]
+  // },
  
-  {"title":"A-Board Stand",
-    "img":ab,
-    "desc":["Size : 100 x 70 cm , A2 , A1"]
-  },
-  {"title":"Info Board Stand",
-    "img":info,
-    "desc":["Size : A4 , A3"]
-  },
-  // {"title":"Easel Stand Table Top 40 cm",
-  //   "img":easel,
-  //   "desc":["Size : A2 , A1 , A0"]
-  // }
-  // ,
-  // {"title":"Easel Stand Table Top 30 cm",
-  //   "img":easel,
-  //   "desc":["Size : A2 , A1 , A0"]
-  // }
-  // ,
-  {"title":"Easel Stand",
-    "img":easel,
-    "desc":["Size : A2 , A1 , A0"]
-  }
-  ,
+ 
+  // {"title":"Neotec Rainproof Transformer ",
+  //   "img":trans,
+  //   "desc":["12v-400w "]
+  // },
+ 
+  // {"title":"Acrylic Brochure Holder L Type",
+  //   "img":bh,
+  //   "desc":[" "]
+  // },
+  // {"title":"Jade Light 5050 Led Strip White",
+  //   "img":leds,
+  //   "desc":[" "]
+  // },
+  // {"title":"Sign Boards and Signs ",
+  //   "img":ft,
+  //   "desc":["20x10 cm "]
+  // },
  
   // {"title":"3x3 Tent",
   //   "img":tent,
   //   "desc":["Small : 90 x 200 cm","Medium : 100 x 500 cm","Large : 100 x 600 cm"]
   // },
-  {"title":"Promotional Table",
-    "img":prom,
-    "desc":["Size : 85 x 82 x 41 cm"]
-  }
+  // {"title":"Promotional Table",
+  //   "img":prom,
+  //   "desc":["Size : 85 x 82 x 41 cm"]
+  // }
 ]
 
 const data_t = [
@@ -172,46 +199,22 @@ const data_t = [
     "desc":[""]
   },
 ]
+
+//umbrella
 const data_U = [
-  {"title":"Umbrella 1 ",
-    "img":uumb,
-    "desc":["Custom Made"]
-  },
-  {"title":"Umbrella 2 ",
-    "img":uumb1,
-    "desc":["Custom Made"]
-  },
-  {"title":"Umbrella 3 ",
-    "img":uumb2,
-    "desc":["Custom Made"]
-  },
-  {"title":"Umbrella 4",
-    "img":uumb4,
-    "desc":["Custom Made"]
-  },
-  {"title":"Umbrella 5 ",
-    "img":uumb3,
-    "desc":["Custom Made"]
-  },
-  {"title":"Tent 1 ",
-    "img":tent,
-    "desc":["Custom Made"]
-  },
-  {"title":"Tent 2 ",
-    "img":tent2,
-    "desc":["Custom Made"]
-  },
-  {"title":"Umbrella 6 ",
-    "img":umb7,
-    "desc":["Custom Made"]
-  },
-  {"title":"Umbrella 7 ",
-    "img":umb8,
+  {"title":"Umbrella  ",
+    "img":img_umb,
     "desc":["Custom Made"]
   },
   
+  {"title":"Tent  ",
+    "img":img_tent,
+    "desc":["Custom Made"]
+  }
+  
 ]
 
+//backdrops
 const data_b = [
   
   {"title":"Pop Up Stand",
@@ -242,6 +245,7 @@ const data_b = [
  
 ]
 
+//flags
 const data_f = [
   {"title":"Curved Top Flag / Feather Flag",
     "img":img_curved,
@@ -260,64 +264,102 @@ const data_f = [
     "desc":["Small : 90 x 200 cm","Medium : 100 x 500 cm","Large : 100 x 600 cm"]
   },
   {"title":"Hoisting Flag Pole",
-    "img":adverf,
+    "img":img_host,
     "desc":["Small : 90 x 200 cm","Medium : 100 x 500 cm","Large : 100 x 600 cm"]
   },
   {"title":"Advertising Flag Pole",
   "img":adverf,
   "desc":["Small : 90 x 200 cm","Medium : 100 x 500 cm","Large : 100 x 600 cm"]
   },
-  // {"title":"Knitted Polyster Flag",
-  //   "img":knit,
-  //   "desc":[" "]
-  // }
-  // ,
-  // {"title":"Satin Flag",
-  //   "img":sat,
-  //   "desc":[" "]
-  // }
-  // ,
-  // {"title":"Table Top Flag Stand Gold ",
-  //   "img":ttg,
-  //   "desc":["Size : 30 cm"]
-  // }
-  // ,
-  // {"title":"Table Top Flag Stand Silver",
-  //   "img":tts,
-  //   "desc":["Size : 30cm,35cm"]
-  // }
-  // ,
-  // {"title":"Table Top Flag Stand Silver",
-  //   "img":ttl,
-  //   "desc":["Size : 30cm,35cm"]
-  // }
-  // ,
-  // {"title":"Table Top Flag Stand Silver",
-  //   "img":ttv,
-  //   "desc":["Size : 30cm,35cm"]
-  // }
+  
 
 ]
 
+const indoor_flag = [
+  {"title":"Knitted Polyster Flag",
+    "img":knit,
+    "desc":[" "]
+  }
+  ,
+  {"title":"Satin Flag",
+    "img":sat,
+    "desc":[" "]
+  }
+  ,
+  {"title":"Table Top Flag Stand Gold ",
+    "img":ttg,
+    "desc":["Size : 30 cm"]
+  }
+  ,
+  {"title":"Table Top Flag Stand Silver",
+    "img":tts,
+    "desc":["Size : 30cm,35cm"]
+  }
+  ,
+  {"title":"Table Top Flag Stand Silver",
+    "img":ttl,
+    "desc":["Size : 30cm,35cm"]
+  }
+  ,
+  {"title":"Table Top Flag Stand Silver",
+    "img":ttv,
+    "desc":["Size : 30cm,35cm"]
+  }
+
+]
+
+//bases
 const data_fb = [
   
-  {"title":"Water Base",
+  {"title":"Water Base 20L (43x43x12cm)",
     "img":wbase,
     "desc":[""]
   },
-  {"title":"Heavy Duty Water Base Synthetic",
+  {"title":"Heavy Water Base 32 L (50diax12cm)",
     "img":hwbase,
     "desc":[""]
   },
   {"title":"Spider Leg Base",
     "img":sbase,
-    "desc":["Load Capacity : 30kg,40kg"]
   },
-  {"title":"Heavy Duty Water Base",
-    "img":heavy,
+  {"title":"Cement Base 30Kg (40x40x10cm)",
+    "img":img_cb,
     "desc":[""]
   }
+  ,
+  {"title":"Cement Base 45Kg (50diax10cm)",
+    "img":img_cb2,
+    "desc":[""]
+  },
+  {"title":"Cement Base 80Kg",
+    "img":img_cb1,
+    "desc":[""]
+  }
+]
 
+//qstand
+
+const data_q = [
+  {"title":"Retractable Q Stand",
+    "img":img_ret,
+    "desc":[""]
+  },
+  {"title":"Normal Q Stand",
+    "img":img_norm,
+    "desc":[""]
+  },
+  {"title":" Q Stand Rope",
+    "img":img_rope,
+    "desc":[""]
+  },
+  {"title":"Table Top Flag Stand",
+    "img":img_tabt,
+    "desc":[""]
+  },
+  {"title":"Conference Flag Pole",
+    "img":img_conf,
+    "desc":[""]
+  }
 ]
 
 const data_adv = [
@@ -691,6 +733,45 @@ function Umbrella(){
   )
 }
 
+function Qstand(){
+  return(
+    <div>
+      <div className='uk'>
+      <h2>Q-Stand & Indoor-Flag Poles</h2>
+      </div>
+       <div className='wrapper1' >
+       {data_q.map((data,index)=>{
+          return(<Cards id={index} img={data.img} title={data.title} desc={data.desc} />)
+        })}
+       </div>
+    </div>
+  )
+
+}
+
+function Counter(){
+  return(
+    <div>
+      COunter
+    </div>
+  )
+}
+
+function Printing(){
+  return(
+    <div>
+      COunter
+    </div>
+  )
+}
+function Promotional(){
+  return(
+    <div>
+      COunter
+    </div>
+  )
+}
 
 
-export {Product,Flags,Backdrop,Advsidplay,Umbrella}
+
+export {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand,Counter,Printing,Promotional}

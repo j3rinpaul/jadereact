@@ -3,7 +3,7 @@ import NavBar from './Navbar/Navbar'
 import Footer from './Footer/footer'
 import About from './About/About'
 import Home from './Home/home'
-import {Product,Flags,Backdrop,Advsidplay,Umbrella} from './Product/Product'
+import {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand,Counter,Printing,Promotional} from './Product/Product'
 import Contact from './Contact/Contact'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -25,6 +25,10 @@ function App() {
             <Route path="/About" element={<About />}/>
             <Route path="/Contact" element={<Contact />}/>
             <Route path="/Umbrella" element={<Umbrella />}/>
+            <Route path="/Qs" element={<Qstand />}/>
+            <Route path="/Counter" element={<Counter />}/>
+            <Route path="/Printing" element={<Printing />}/>
+            <Route path="/Promotional" element={<Promotional />}/>
         </Routes>
         <Footer/>
       </div>
