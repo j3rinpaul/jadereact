@@ -12,6 +12,8 @@ import umb from "../assets/umb1.png"
 import Wa from './wa';
 import car from "../assets/cards.png"
 import promt from "../assets/promt.png"
+import qu from "../assets/q.png"
+import tb from "../assets/table.jpg"
 
 function Home() {
   return (
@@ -22,9 +24,7 @@ function Home() {
           <Typewriter
             onInit={(typewriter)=> {
             typewriter
-            .typeString("Future of Advertising ")
-            .pauseFor(1000)
-            .deleteAll()
+            
             .typeString("Display Products")
             .pauseFor(1000)
             .deleteAll()
@@ -43,7 +43,6 @@ function Home() {
             .typeString("Printing and Promotional Gifts")
             .pauseFor(1000)
             .deleteAll()
-            .typeString("Future of Advertising")
             .start();
             }}
           />
@@ -58,13 +57,14 @@ function Home() {
         
         
         <div className='wrapper'>
-          <HomeCard img = {cardi} title="Advertising Accessories" red="/Advd" />
           <HomeCard img = {card2} title="Display Products" red="/Product" />
-          <HomeCard img = {card3} title="Flags & Bases" red="/Flags" />
-          {/* <HomeCard img = {mini} title="" red="/Backdrop" /> */}
           <HomeCard img = {mini} title="Backdrops & Accessories" red="/Backdrop" />
-          <HomeCard img = {car} title="Printing Services" red="/Umbrella" />
+          <HomeCard img = {card3} title="Outdoor Flags & Bases" red="/Flags" />
           <HomeCard img = {umb} title="Tent & Umbrella's" red="/Umbrella" />
+          <HomeCard img = {cardi} title="Advertising Accessories" red="/Advd" />
+          <HomeCard img = {qu} title="Q-Stands & Indoor-Flag Poles " red="/Umbrella" />
+          <HomeCard img = {tb} title="Counter & Tables " red="/Umbrella" />
+          <HomeCard img = {car} title="Printing Services" red="/Umbrella" />
           <HomeCard img = {promt} title="Promotional & Gifts Items " red="/Umbrella" />
 
         </div>

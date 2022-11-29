@@ -3,7 +3,7 @@
 #fcolor{
     font-weight: 1000;
     font-family: 'Poppins', sans-serif;
-    background-color: #F5F6F6 !important;
+    background-color: rgb(224, 224, 203) !important;
     /* margin-bottom: 5%; */
 }
 
@@ -15,7 +15,8 @@
 
 #navitem{
     margin-left: 5rem;
-    padding-left: 3rem;
+    padding-left: 4rem;
+    
     font-size: 20px;
     color: black;
 }

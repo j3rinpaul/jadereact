@@ -69,7 +69,14 @@ body{
 .cbody{
     margin: 1rem;
     flex-grow: 1;
+    text-decoration: none;
+    text-align: center;
 }
+
+.cbody h2{
+    color: black;
+}
+
 .hcbody{
     margin: 1rem;
     flex-grow: 1;

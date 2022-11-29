@@ -1,48 +1,14 @@
 import React from 'react'
 import Cards from "../Cards/Card"
 import "./product.css"
-// import Eco from "../assets/images/Eco Solvent PP Paper.png";
-// import plas from "../assets/images/plastic-lamination-films-500x500-removebg-preview.png";
-// import floor from "../assets/images/Floor Lamination.jpg";
-// import mount from "../assets/images/MountingFilm.png";
-// import back from "../assets/images/backlit.png";
-// import canvas from "../assets/images/Canvas.png";
-// import ink from "../assets/images/Inkjet-PP-Synthetic-Paper-for-Eco-Solvent-150_.png";
-// import one from "../assets/images/OneWayVision.png";
-// import wind from "../assets/images/WindowFilm.png";
-// import frost from "../assets/images/FrostedSticker.png";
-// import ref from "../assets/images/ReflectiveSticker.png";
-// import pop3 from "../assets/images/Pop_Up_Curved.png"
-// import pops from "../assets/images/PopUpStraight.png"
-// import pops3 from "../assets/images/3x3.png"
-// import fl from "../assets/images/FrontLitBanner.png"
-// import pop4 from "../assets/images/PopUpCurved.png"
-// import backl from "../assets/images/Backlit-flex.png"
-// import coatb from "../assets/images/CoatedBanner.png"
-// import blackb from "../assets/images/blackbackbanner.png"
-// import popu3 from "../assets/images/3x4popup.png"
-// import popus from "../assets/images/popupstand.png"
-// import popf3 from "../assets/images/4x3fabric.png"
-// import photo from "../assets/images/photo.png"
-// import zig from "../assets/images/brouchure.png"
-// import wb from "../assets/images/board.png"
-// import popt from "../assets/images/popuptable.png"
-// import alb from "../assets/images/alb.png";
-// import sb1 from "../assets/images/sb1.png";
-// import mt from "../assets/images/mt.png";
-// import flb from "../assets/images/flb.png";
-// import backd from "../assets/images/backdrop.png"
-// import fpop from "../assets/images/fabricpopup.png"
-import rollup from "../assets/images/rollupstand.png"
+
 import tdrop from "../assets/images/teardrop.png"
 import pop2 from "../assets/images/PopUpCurved.png"
-import tf from "../assets/images/tensionfabric.png"
+
 import adver from "../assets/images/adver.png"
 import tent from "../assets/images/tent.png"
 import curve from "../assets/images/curved.png"
-import mini from "../assets/images/minirollup.png"
-import xban from "../assets/images/xbannerstand.png"
-import broadb from "../assets/images/broadbase.png"
+
 import info from "../assets/images/info.png"
 import ab from "../assets/images/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-1.png"
 import easel from "../assets/images/easel.png"
@@ -55,7 +21,6 @@ import leds from "../assets/images/ledstr.png";
 import trans from "../assets/images/trans.png";
 import snap from "../assets/images/snap.png";
 import ft from "../assets/images/ftoilet.png";
-// import umb from "../assets/images/umb.png";
 import dtape from "../assets/images/dtape.png";
 import rdt from "../assets/images/rdtap.png";
 import apt from "../assets/images/apt.png";
@@ -99,9 +64,22 @@ import uumb4 from "../assets/images/umb6.png";
 import tent2 from "../assets/images/tent1.jpg";
 import umb7 from "../assets/images/umb7.jpg";
 import umb8 from "../assets/images/umb8.jpg";
+import adverf from "../assets/images/adverf.png";
+
+import img_pop from "../assets/img/popup.jpg"
+import img_xban from "../assets/img/xban.jpg"
+import img_rollup from "../assets/img/rollup.jpg"
+import img_adjust from "../assets/img/adjust.jpg"
+import img_ten from "../assets/img/tension.jpg"
+import img_fab from "../assets/img/fabric.jpg"
+
+import img_tdrop from "../assets/img/tear.jpg"
+import img_curved from "../assets/img/curved.jpg"
+import img_lshape from "../assets/img/lshape.jpg"
+import img_tele from "../assets/img/tele.jpg"
 
 const data1 = [
-  {"title":"Acrylic Brochure Stand",
+  {"title":"Brochure Stand",
     "img":acb,
     "desc":[" "]
   },
@@ -235,85 +213,89 @@ const data_U = [
 ]
 
 const data_b = [
-  {"title":"Tension Fabric Backdrop Straight",
-    "img":tf,
+  
+  {"title":"Pop Up Stand",
+    "img":img_pop,
     "desc":[["Curved : 240x240 cm,240x300cm"],["Straight :240x240 cm,240x300cm"]]
   },
-  
-  {"title":" Rollup Pasting",
-    "img":rollup,
+  {"title":"Fabric Popup Stand",
+    "img":img_fab,
     "desc":["85x200cm,100x200,120x200,150x200"]
+  },
+  {"title":" Rollup Stand",
+    "img":img_rollup,
+    "desc":["85x200cm,100x200,120x200,150x200"]
+  },
+  
+  {"title":"Adjustable Backdrop Stand",
+    "img":img_adjust,
+    "desc":["85x200cm,100x200,120x200,150x200"]
+  },
+  {"title":"Tension Fabric Stand",
+    "img":img_ten,
+    "desc":[["Curved : 240x240 cm,240x300cm"],["Straight :240x240 cm,240x300cm"]]
   },
   {"title":"X-Banner Stand",
-  "img":xban,
+  "img":img_xban,
   "desc":["Size : 85 x 200 cm , 100 x 200 cm , 120 x 200 cm , 150 x 200 cm , 200 x 200 cm , 240 x 200 cm"]
-  },
-  {"title":" Rollup Clip",
-    "img":rollup,
-    "desc":["85x200cm,100x200,120x200,150x200"]
-  },
-  {"title":" Rollup Broadbase",
-    "img":broadb,
-    "desc":["85x200cm,100x200,120x200,150x200,200x200,240x200,300x300"]
-  },
-  {"title":"Mini Roll Up Stand",
-    "img":mini,
-    "desc":["Size : 85 x 200 cm , 100 x 200 cm , 120 x 200 cm , 150 x 200 cm , 200 x 200 cm , 240 x 200 cm"]
   },
  
 ]
 
 const data_f = [
-  {"title":"TearDrop Flag",
-  "img":tdrop,
-  "desc":["Small : 85 x 210 cm","Medium : 110 x 262 cm","Large : 100 x 333 cm"]
-}
-,
-  {"title":"Curved Top Flag",
-    "img":curve,
+  {"title":"Curved Top Flag / Feather Flag",
+    "img":img_curved,
     "desc":["Small : 85 x 200 cm","Medium : 85 x 300 cm","Large : 85 x 400 cm"]
-  }
-  ,
- 
-  {"title":"L-Banner",
-    "img":adver,
+  },
+  {"title":"TearDrop Flag / Flying Banner",
+  "img":img_tdrop,
+  "desc":["Small : 85 x 210 cm","Medium : 110 x 262 cm","Large : 100 x 333 cm"]
+  },
+  {"title":"L-Shape Flag / Square Flag",
+    "img":img_lshape,
     "desc":["Small : 90 x 200 cm","Medium : 90 x 300 cm","Large : 90 x 400 cm"]
-  }
-  ,
-  {"title":"Advertising Flag",
-    "img":adver,
+  },
+  {"title":"Telescopic Flag Pole",
+    "img":img_tele,
     "desc":["Small : 90 x 200 cm","Medium : 100 x 500 cm","Large : 100 x 600 cm"]
-  }
-  ,
-  {"title":"Knitted Polyster Flag",
-    "img":knit,
-    "desc":[" "]
-  }
-  ,
-  {"title":"Satin Flag",
-    "img":sat,
-    "desc":[" "]
-  }
-  ,
-  {"title":"Table Top Flag Stand Gold ",
-    "img":ttg,
-    "desc":["Size : 30 cm"]
-  }
-  ,
-  {"title":"Table Top Flag Stand Silver",
-    "img":tts,
-    "desc":["Size : 30cm,35cm"]
-  }
-  ,
-  {"title":"Table Top Flag Stand Silver",
-    "img":ttl,
-    "desc":["Size : 30cm,35cm"]
-  }
-  ,
-  {"title":"Table Top Flag Stand Silver",
-    "img":ttv,
-    "desc":["Size : 30cm,35cm"]
-  }
+  },
+  {"title":"Hoisting Flag Pole",
+    "img":adverf,
+    "desc":["Small : 90 x 200 cm","Medium : 100 x 500 cm","Large : 100 x 600 cm"]
+  },
+  {"title":"Advertising Flag Pole",
+  "img":adverf,
+  "desc":["Small : 90 x 200 cm","Medium : 100 x 500 cm","Large : 100 x 600 cm"]
+  },
+  // {"title":"Knitted Polyster Flag",
+  //   "img":knit,
+  //   "desc":[" "]
+  // }
+  // ,
+  // {"title":"Satin Flag",
+  //   "img":sat,
+  //   "desc":[" "]
+  // }
+  // ,
+  // {"title":"Table Top Flag Stand Gold ",
+  //   "img":ttg,
+  //   "desc":["Size : 30 cm"]
+  // }
+  // ,
+  // {"title":"Table Top Flag Stand Silver",
+  //   "img":tts,
+  //   "desc":["Size : 30cm,35cm"]
+  // }
+  // ,
+  // {"title":"Table Top Flag Stand Silver",
+  //   "img":ttl,
+  //   "desc":["Size : 30cm,35cm"]
+  // }
+  // ,
+  // {"title":"Table Top Flag Stand Silver",
+  //   "img":ttv,
+  //   "desc":["Size : 30cm,35cm"]
+  // }
 
 ]
 
@@ -609,7 +591,7 @@ function Flags(){
       </div>
       <div className='wrapper1' >
       {data_f.map((data,index)=>{
-        return(<Cards id={index} img={data.img} title={data.title} desc={data.desc} />)
+        return(<Cards id={index} img={data.img} link = {"#"}title={data.title} desc={data.desc} />)
       })}
       </div>
 
@@ -655,7 +637,7 @@ function Product() {
         </div>
         <div className='wrapper1' >
         {data1.map((data,index)=>{
-            return(<Cards id={index} img={data.img} title={data.title} desc={data.desc} />)
+            return(<Cards id={index} img={data.img} link={"#"} title={data.title} desc={data.desc} />)
           })}
        </div>
         <ScrollTop/>
@@ -666,23 +648,7 @@ function Product() {
 function Advsidplay(){
   return(
     <div>
-      {/* <div className='uk'>
-      <h2>Advertising Display Products</h2>
-      </div>
-       <div className='wrapper1' >
-       {data2.map((data,index)=>{
-          return(<Cards id={index} img={data.img} title={data.title} desc={data.desc} />)
-        })}
-       </div>
-
-       <div className='uk'>
-      <h2>Digital Printing Media</h2>
-      </div>
-       <div className='wrapper1' >
-       {data.map((data,index)=>{
-          return(<Cards id={index} img={data.img} title={data.title} desc={data.desc} />)
-        })}
-       </div> */}
+      
 
        <div className='uk'>
       <h2>Adversting Accessiories</h2>

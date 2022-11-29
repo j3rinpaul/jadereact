@@ -14,10 +14,9 @@ import {
 } from "react-router-dom"
 import logo from "../assets/jadelogo-removebg-preview.png"
 import './navbar.css'
-import {
-  AiOutlineWhatsApp
-} from "react-icons/ai"
-
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Nav from 'react-bootstrap/Nav';
 
 export default function NavBar() {
   const [showNavSecond, setShowNavSecond] = useState(false);
@@ -42,12 +41,33 @@ export default function NavBar() {
           <MDBNavbarNav>
             <Link to="/Home"><MDBNavbarLink id='navitem' >Home</MDBNavbarLink></Link>
             <Link to="/About"><MDBNavbarLink id='navitem'>About</MDBNavbarLink></Link>
-            {/* <Link to="/Product"><MDBNavbarLink  id='navitem'>Products</MDBNavbarLink></Link> */}
+            <Navbar.Collapse id="navbar-dark-example">
+              <Nav>
+                <NavDropdown
+                  id="navitem"
+                  title="Products"
+                >
+                  <NavDropdown.Item href="/">Display Products</NavDropdown.Item>
+                  <NavDropdown.Item href="#/action-2">Backdrops & Accessories</NavDropdown.Item>
+                  <NavDropdown.Item href="#/action-2">Outdoor Flags & Bases</NavDropdown.Item>
+                  <NavDropdown.Item href="#/action-2">Tent & Umbrella</NavDropdown.Item>
+                  <NavDropdown.Item href="#/action-3">Advertising accessories</NavDropdown.Item>
+                  <NavDropdown.Item href="#/action-3">Q-Stand & Indoor-Flag Poles</NavDropdown.Item>
+                  <NavDropdown.Item href="#/action-3">Counter & Tables</NavDropdown.Item>
+                  <NavDropdown.Item href="#/action-3">Printing Services</NavDropdown.Item>
+                  <NavDropdown.Item href="#/action-3">Promotional Gifts</NavDropdown.Item>
+                </NavDropdown>
+              </Nav>
+            </Navbar.Collapse>
+            <Link to="/Contact"><MDBNavbarLink  id='navitem'>News</MDBNavbarLink></Link>
             <Link to="/Contact"><MDBNavbarLink  id='navitem'>Contact</MDBNavbarLink></Link>
-            <div className='wbtn'>
+       
+
+           
+            {/* <div className='wbtn'>
               <a href="https://wa.me/971556644943"><AiOutlineWhatsApp/></a>
               {/* <a href="Sales@jadesign.com"><AiOutlineMail/></a> */}
-            </div>
+            {/* </div> */} 
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBContainer>
