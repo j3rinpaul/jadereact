@@ -4,6 +4,7 @@ import Footer from './Footer/footer'
 import About from './About/About'
 import Home from './Home/home'
 import {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand,Counter,Printing,Promotional} from './Product/Product'
+import {Outdoor,Popup,FPopup} from './Product/ProdDetail'
 import Contact from './Contact/Contact'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -31,6 +32,10 @@ function App() {
             <Route path="/Promotional" element={<Promotional />}/>
 
             {/* routing to seperate page is given here,ProdDetail*/}
+
+            <Route path="/Outdoor" element={<Outdoor />}/>
+            <Route path="/Popup" element={<Popup />}/>
+            <Route path="/FPopup" element={<FPopup />}/>
 
             
 

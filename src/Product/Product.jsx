@@ -219,11 +219,11 @@ const data_b = [
   
   {"title":"Pop Up Stand",
     "img":img_pop,
-    "desc":[["Curved : 240x240 cm,240x300cm"],["Straight :240x240 cm,240x300cm"]]
+    "link":"/Popup"
   },
   {"title":"Fabric Popup Stand",
     "img":img_fab,
-    "desc":["85x200cm,100x200,120x200,150x200"]
+    "link":"/FPopup"
   },
   {"title":" Rollup Stand",
     "img":img_rollup,
@@ -249,7 +249,7 @@ const data_b = [
 const data_f = [
   {"title":"Curved Top Flag / Feather Flag",
     "img":img_curved,
-    "desc":["Small : 85 x 200 cm","Medium : 85 x 300 cm","Large : 85 x 400 cm"]
+    "link":"/Outdoor"
     //link to detailed page 
   },
   {"title":"TearDrop Flag / Flying Banner",
@@ -634,7 +634,7 @@ function Flags(){
       </div>
       <div className='wrapper1' >
       {data_f.map((data,index)=>{
-        return(<Cards id={index} img={data.img} link = {"#"}title={data.title} desc={data.desc} />)
+        return(<Cards id={index} img={data.img} link = {data.link}title={data.title}  />)
       })}
       </div>
 
@@ -659,7 +659,7 @@ function Backdrop(){
       </div>
        <div className='wrapper1' >
        {data_b.map((data,index)=>{
-          return(<Cards id={index} img={data.img} title={data.title} desc={data.desc} />)
+          return(<Cards id={index} img={data.img} title={data.title} link={data.link} />)
         })}
        </div>
       
