@@ -44,7 +44,7 @@ export default function NavBar() {
           <MDBNavbarNav>
             <Link to="/Home"><MDBNavbarLink id='navitem' >Home</MDBNavbarLink></Link>
             <Link to="/About"><MDBNavbarLink id='navitem'>About</MDBNavbarLink></Link>
-            <Navbar.Collapse id="navbar-dark-example">
+            {/* <Navbar.Collapse id="navbar-dark-example">
               <Nav>
                 <NavDropdown
                   id="navitem"
@@ -61,7 +61,7 @@ export default function NavBar() {
                   <NavDropdown.Item href="/Promotional">Promotional Gifts</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
-            </Navbar.Collapse>
+            </Navbar.Collapse> */}
 
               {/* <MDBDropdown>
                 <MDBDropdownToggle>Products</MDBDropdownToggle>
