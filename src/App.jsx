@@ -3,11 +3,12 @@ import NavBar from './Navbar/Navbar'
 import Footer from './Footer/footer'
 import About from './About/About'
 import Home from './Home/home'
-import {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand,Counter,Printing,Promotional} from './Product/Product'
-import {Outdoor,Popup,FPopup} from './Product/ProdDetail'
+import {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand/*Printing,Promotional*/} from './Product/Product'
+import {Outdoor,Popup,FPopup,RPopup,APopup,TPopup,XPopup,Cflag,Lflag,TearDflag,Teleflag,Counter} from './Product/ProdDetail'
 import Contact from './Contact/Contact'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import News from './News/News'
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
 
 function App() {
@@ -22,20 +23,29 @@ function App() {
             <Route path="/Product" element={<Product />}/>
             <Route path="/Flags" element={<Flags/>}/>
             <Route path="/Backdrop" element={<Backdrop/>}/>
+            <Route path="/News" element={<News/>}/>
             <Route path="/Advd" element={<Advsidplay/>}/>
             <Route path="/About" element={<About />}/>
             <Route path="/Contact" element={<Contact />}/>
             <Route path="/Umbrella" element={<Umbrella />}/>
             <Route path="/Qs" element={<Qstand />}/>
-            <Route path="/Counter" element={<Counter />}/>
-            <Route path="/Printing" element={<Printing />}/>
-            <Route path="/Promotional" element={<Promotional />}/>
+            {/* <Route path="/Printing" element={<Printing />}/>
+            <Route path="/Promotional" element={<Promotional />}/> */}
 
             {/* routing to seperate page is given here,ProdDetail*/}
 
             <Route path="/Outdoor" element={<Outdoor />}/>
             <Route path="/Popup" element={<Popup />}/>
             <Route path="/FPopup" element={<FPopup />}/>
+            <Route path="/RPopup" element={<RPopup />}/>
+            <Route path="/APopup" element={<APopup />}/>
+            <Route path="/TPopup" element={<TPopup />}/>
+            <Route path="/XPopup" element={<XPopup />}/>
+            <Route path="/Cflag" element={<Cflag />}/>
+            <Route path="/Lflag" element={<Lflag />}/>
+            <Route path="/TearDflag" element={<TearDflag />}/>
+            <Route path="/Teleflag" element={<Teleflag />}/>
+            <Route path="/Counter" element={<Counter />}/>
 
             
 

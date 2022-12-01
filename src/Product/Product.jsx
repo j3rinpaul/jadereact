@@ -227,20 +227,20 @@ const data_b = [
   },
   {"title":" Rollup Stand",
     "img":img_rollup,
-    "desc":["85x200cm,100x200,120x200,150x200"]
+    "link":"/RPopup"
   },
   
   {"title":"Adjustable Backdrop Stand",
     "img":img_adjust,
-    "desc":["85x200cm,100x200,120x200,150x200"]
+    "link":"/aPopup"
   },
   {"title":"Tension Fabric Stand",
     "img":img_ten,
-    "desc":[["Curved : 240x240 cm,240x300cm"],["Straight :240x240 cm,240x300cm"]]
+    "link":"/TPopup"
   },
   {"title":"X-Banner Stand",
   "img":img_xban,
-  "desc":["Size : 85 x 200 cm , 100 x 200 cm , 120 x 200 cm , 150 x 200 cm , 200 x 200 cm , 240 x 200 cm"]
+  "link":"/XPopup"
   },
  
 ]
@@ -249,20 +249,20 @@ const data_b = [
 const data_f = [
   {"title":"Curved Top Flag / Feather Flag",
     "img":img_curved,
-    "link":"/Outdoor"
+    "link":"/Cflag"
     //link to detailed page 
   },
   {"title":"TearDrop Flag / Flying Banner",
   "img":img_tdrop,
-  "desc":["Small : 85 x 210 cm","Medium : 110 x 262 cm","Large : 100 x 333 cm"]
+  "link":"/TearDflag"
   },
   {"title":"L-Shape Flag / Square Flag",
     "img":img_lshape,
-    "desc":["Small : 90 x 200 cm","Medium : 90 x 300 cm","Large : 90 x 400 cm"]
+    "link":"/Lflag"
   },
   {"title":"Telescopic Flag Pole",
     "img":img_tele,
-    "desc":["Small : 90 x 200 cm","Medium : 100 x 500 cm","Large : 100 x 600 cm"]
+    "link":"/Teleflag"
   },
   {"title":"Hoisting Flag Pole",
     "img":img_host,
@@ -276,38 +276,38 @@ const data_f = [
 
 ]
 
-const indoor_flag = [
-  {"title":"Knitted Polyster Flag",
-    "img":knit,
-    "desc":[" "]
-  }
-  ,
-  {"title":"Satin Flag",
-    "img":sat,
-    "desc":[" "]
-  }
-  ,
-  {"title":"Table Top Flag Stand Gold ",
-    "img":ttg,
-    "desc":["Size : 30 cm"]
-  }
-  ,
-  {"title":"Table Top Flag Stand Silver",
-    "img":tts,
-    "desc":["Size : 30cm,35cm"]
-  }
-  ,
-  {"title":"Table Top Flag Stand Silver",
-    "img":ttl,
-    "desc":["Size : 30cm,35cm"]
-  }
-  ,
-  {"title":"Table Top Flag Stand Silver",
-    "img":ttv,
-    "desc":["Size : 30cm,35cm"]
-  }
+// const indoor_flag = [
+//   {"title":"Knitted Polyster Flag",
+//     "img":knit,
+//     "desc":[" "]
+//   }
+//   ,
+//   {"title":"Satin Flag",
+//     "img":sat,
+//     "desc":[" "]
+//   }
+//   ,
+//   {"title":"Table Top Flag Stand Gold ",
+//     "img":ttg,
+//     "desc":["Size : 30 cm"]
+//   }
+//   ,
+//   {"title":"Table Top Flag Stand Silver",
+//     "img":tts,
+//     "desc":["Size : 30cm,35cm"]
+//   }
+//   ,
+//   {"title":"Table Top Flag Stand Silver",
+//     "img":ttl,
+//     "desc":["Size : 30cm,35cm"]
+//   }
+//   ,
+//   {"title":"Table Top Flag Stand Silver",
+//     "img":ttv,
+//     "desc":["Size : 30cm,35cm"]
+//   }
 
-]
+// ]
 
 //bases
 const data_fb = [

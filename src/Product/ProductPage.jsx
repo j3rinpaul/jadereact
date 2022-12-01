@@ -3,6 +3,9 @@ import "./productPage.css"
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+
+
+
 function ProductPage(props) {
   return (
     <div className='pro'>
@@ -36,23 +39,30 @@ function ProductPage(props) {
           
           <div className='items1'>
             <h3>Available Sizes</h3>
-              <p>{props.desc.map((id,d)=>{
+              {/* <p>{props.desc.map((id,d)=>{
                   return(
                     
                     <li id={d}>{id}</li>
                   )
-                  })}</p>
+                  })}</p> */}
+
+              {/* <h4>{props.head1}</h4>
+              <p>{props.text1}</p>
+              <h4>{props.head2}</h4>
+              <p>{props.text2}</p>
+              <h4>{props.head3}</h4>
+              <p>{props.text3}</p>
+              <h4>{props.head4}</h4>
+              <p>{props.text4}</p> */}
               <div>
 
               </div>
               
           </div>
+          <p>{props.detail}</p>
         </div>
     </div>
   )
 }
-// image is passed as props
-//title is passed as props
-//desc is passed as props
 
 export default ProductPage
