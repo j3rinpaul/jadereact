@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jadereact/static/css/main.536442a5.css",
-    "main.js": "/jadereact/static/js/main.9e0f9a4d.js",
+    "main.css": "/jadereact/static/css/main.fec44883.css",
+    "main.js": "/jadereact/static/js/main.8916011d.js",
     "static/media/slide1.jpg": "/jadereact/static/media/slide1.18f6504c199b1328e39e.jpg",
     "static/media/slide2.jpg": "/jadereact/static/media/slide2.b48669819e70c958eab1.jpg",
     "static/media/jadesignanniversarysmall.jpg": "/jadereact/static/media/jadesignanniversarysmall.8cedd89f3b25019f0705.jpg",
@@ -156,11 +156,11 @@
     "index.html": "/jadereact/index.html",
     "static/media/arrow_left.svg": "/jadereact/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/jadereact/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
-    "main.536442a5.css.map": "/jadereact/static/css/main.536442a5.css.map",
-    "main.9e0f9a4d.js.map": "/jadereact/static/js/main.9e0f9a4d.js.map"
+    "main.fec44883.css.map": "/jadereact/static/css/main.fec44883.css.map",
+    "main.8916011d.js.map": "/jadereact/static/js/main.8916011d.js.map"
   },
   "entrypoints": [
-    "static/css/main.536442a5.css",
-    "static/js/main.9e0f9a4d.js"
+    "static/css/main.fec44883.css",
+    "static/js/main.8916011d.js"
   ]
 }
