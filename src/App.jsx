@@ -4,7 +4,8 @@ import Footer from './Footer/footer'
 import About from './About/About'
 import Home from './Home/home'
 import {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand/*Printing,Promotional*/} from './Product/Product'
-import {Outdoor,Popup,FPopup,RPopup,APopup,TPopup,XPopup,Cflag,Lflag,TearDflag,Teleflag,Counter} from './Product/ProdDetail'
+import {Outdoor,Popup,FPopup,RPopup,APopup} from './Product/ProdDetail'
+import {TPopup,XPopup,Cflag,Lflag,TearDflag,Teleflag,Counter} from './Product/ProdDetail'
 import Contact from './Contact/Contact'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";

@@ -15,9 +15,9 @@ import {
 import logo from "../assets/jadelogo-removebg-preview.png"
 import './navbar.css'
 // import { CDropdown,CDropdownMenu,CDropdownToggle,CDropdownItem } from '@coreui/react';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
+// import Nav from 'react-bootstrap/Nav';
 // import Dropdown from 'react-bootstrap/Dropdown';
 // import { MDBDropdown, MDBDropdownItem, MDBDropdownMenu, MDBDropdownToggle } from 'mdb-react-ui-kit';
 
