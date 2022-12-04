@@ -10,16 +10,13 @@ import {
   MDBCollapse
 } from 'mdb-react-ui-kit';
 import {
-  Link,
+  Link, NavLink,
 } from "react-router-dom"
 import logo from "../assets/jadelogo-removebg-preview.png"
 import './navbar.css'
-// import { CDropdown,CDropdownMenu,CDropdownToggle,CDropdownItem } from '@coreui/react';
+import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Nav from 'react-bootstrap/Nav';
-// import Dropdown from 'react-bootstrap/Dropdown';
-// import { MDBDropdown, MDBDropdownItem, MDBDropdownMenu, MDBDropdownToggle } from 'mdb-react-ui-kit';
 
 export default function NavBar() {
   const [showNavSecond, setShowNavSecond] = useState(false);
@@ -30,7 +27,7 @@ export default function NavBar() {
       <MDBContainer fluid>
         <MDBNavbarBrand as={Link} to="/">
             <div id='navimg'>
-                <Link to="/"><img src={logo} alt="" /></Link>
+                <NavLink to="/"><img src={logo} alt="" /></NavLink>
             </div> 
         </MDBNavbarBrand>
         <MDBNavbarToggler
@@ -42,9 +39,9 @@ export default function NavBar() {
         </MDBNavbarToggler>
         <MDBCollapse navbar show={showNavSecond}>
           <MDBNavbarNav>
-            <Link to="/Home"><MDBNavbarLink id='navitem' >Home</MDBNavbarLink></Link>
-            <Link to="/About"><MDBNavbarLink id='navitem'>About</MDBNavbarLink></Link>
-            {/* <Navbar.Collapse id="navbar-dark-example">
+            <NavLink to="/Home"><MDBNavbarLink id='navitem' >Home</MDBNavbarLink></NavLink>
+            <NavLink to="/About"><MDBNavbarLink id='navitem'>About</MDBNavbarLink></NavLink>
+            <Navbar.Collapse id="navbar-dark-example">
               <Nav>
                 <NavDropdown
                   id="navitem"
@@ -61,7 +58,7 @@ export default function NavBar() {
                   <NavDropdown.Item href="/Promotional">Promotional Gifts</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
-            </Navbar.Collapse> */}
+            </Navbar.Collapse>
 
               {/* <MDBDropdown>
                 <MDBDropdownToggle>Products</MDBDropdownToggle>
@@ -74,8 +71,8 @@ export default function NavBar() {
 
               
 
-            <Link to="/News"><MDBNavbarLink  id='navitem'>News</MDBNavbarLink></Link>
-            <Link to="/Contact"><MDBNavbarLink  id='navitem'>Contact</MDBNavbarLink></Link>
+            <NavLink to="/News"><MDBNavbarLink  id='navitem'>News</MDBNavbarLink></NavLink>
+            <NavLink to="/Contact"><MDBNavbarLink  id='navitem'>Contact</MDBNavbarLink></NavLink>
        
 
            

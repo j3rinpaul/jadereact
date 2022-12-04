@@ -21,14 +21,14 @@
    
 }
 
-.show{
+.show1{
     margin-left: -120%;
     width: 200%;
     height: auto;
 
 }
 
-.show img{
+.show1 img{
     width: 100%;
     object-fit: scale-down;
 }
@@ -55,7 +55,7 @@
 }
 
 @media  only screen and (max-width:600px){
-    .show{
+    .show1{
         margin-top: 5%;
         margin-left: -18%;
         width: 100%;
@@ -70,7 +70,7 @@
         margin-left: -5%;
     }
 
-    .show img{
+    .show1 img{
         width: 70%;
     }
     .items1{

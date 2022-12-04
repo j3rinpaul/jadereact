@@ -13,7 +13,7 @@ function ProductPage(props) {
           <h2>{props.title}</h2>
         </div>
         <div className='page1'>
-          <div className='show'>
+          <div className='show1'>
           <Carousel>
                 <div className = "sitem">
                     <img src={props.img1} />  
