@@ -94,8 +94,14 @@ const outFlag = [
         "img1":imgloc,
         "img2":imgloc,
         "img3":imgloc,
-        "desc":[["10x10x12303cm"],["samxsamopsxsampda"],['samxsamopsxsampda']]
-    }
+        "head1":"RollUp Normal",
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]    }
 ]
 //popup
 const d_Popup = [
@@ -107,8 +113,14 @@ const d_Popup = [
         "img4":popc4,
         "img5":popc5,
         "img6":popst2,
-        "desc":[["2 x 3"],['3 x 3'],['4 x 3'],["5 x 3"],["6 x 3"]]
-    },
+        "head1":"RollUp Normal",
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]    },
 
     {
         "title": "PopUp Curved",
@@ -118,8 +130,14 @@ const d_Popup = [
         "img4":popc2,
         "img5":popc4,
         "img6":popc5,
-        "desc":[["Size : 2 x 3  "],['3 x 3'],['4 x 3'],["5 x 3"],["6 x 3"]]
-        
+        "head1":"RollUp Normal",
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]        
     }
 ]
 //fabric
@@ -131,8 +149,14 @@ const f_Popup = [
         "img3":fpop3,
         "img4":fpop4,
         "img5":fpop5,
-        "desc":[["2 x 3"],['3 x 3'],['4 x 3'],["5 x 3"],["6 x 3"]]
-    },
+        "head1":"RollUp Normal",
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]    },
 
 ]
 
@@ -145,8 +169,14 @@ const r_Popup = [
         "img3":normr2,
         "img4":normr3,
         "img5":normr4,
-        "desc":[["2 x 3"],['3 x 3'],['4 x 3'],["5 x 3"],["6 x 3"]]
-    },
+        "head1":"RollUp Normal",
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]    },
     {
         "title": "BroadBase Rollup",
         "img1":fpop1,
@@ -154,8 +184,14 @@ const r_Popup = [
         "img3":fpop3,
         "img4":fpop4,
         "img5":fpop5,
-        "desc":[["2 x 3"],['3 x 3'],['4 x 3'],["5 x 3"],["6 x 3"]]
-    },
+        "head1":"RollUp Normal",
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]    },
 
 ]
 //adjustable
@@ -169,7 +205,13 @@ const a_Popup = [
         "img5":ad4,
         "img6":ad6,
         "head1":"RollUp Normal",
-    },
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]    },
   
 
 ]
@@ -184,7 +226,13 @@ const t_Popup = [
         "img5":ten1,
         "img6":ten6,
         "head1":"RollUp Normal",
-    },
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]    },
   
 
 ]
@@ -198,26 +246,19 @@ const x_Popup = [
         "img4":xban3,
         "img5":xban,
         "head1":"RollUp Normal",
-    },
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]    },
   
 
 ]
 
 //curved flag
-const c_flag = [
-    {
-        "title": "Curved Flag / Feather Flag",
-        "img1":cur,
-        "img2":cur1,
-        "img3":cur2,
-        "img4":cur3,
-        "img5":cur4,
-        "img6":cur5,
-        "head1":"RollUp Normal",
-    },
-  
 
-]
 
 //L flag
 const l_flag = [
@@ -229,7 +270,13 @@ const l_flag = [
         "img4":lflag3,
         "img5":lflag4,
         "head1":"RollUp Normal",
-    },
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]    },
   
 
 ]
@@ -245,7 +292,13 @@ const tear = [
         "img5":tea4,
         "img6":tea5,
         "head1":"RollUp Normal",
-    },
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]    },
   
 
 ]
@@ -262,7 +315,13 @@ const tele = [
         "img5":tel5,
         "img6":tel4,
         "head1":"RollUp Normal",
-    },
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]    },
   
 
 ]
@@ -275,7 +334,13 @@ const count = [
         "img3":table2,
         "img4":table3,
         "head1":"RollUp Normal",
-    },
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]    },
     {
         "title": "Counter Table",
         "img1":coun,
@@ -283,7 +348,13 @@ const count = [
         "img3":coun2,
         "img4":coun3,
         "head1":"RollUp Normal",
-    },
+        "text1":["RollUp Normal","jjjdf"],
+        "head2":"RollUp Normal",
+        "text2":["RollUp Normal","jjjdf"],
+        "head3":"RollUp Normal",
+        "text3":["RollUp Normal","jjjdf"],
+        "head4":"RollUp Normal",
+        "text4":["RollUp Normal","jjjdf"]    },
   
 
 ]
@@ -295,7 +366,11 @@ function Outdoor(){
     return(
         <div>
            {outFlag.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} desc={data.desc} />)
+              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} 
+                head1={data.head1} text1={data.text1}
+                head2={data.head2} text2={data.text2}
+                head3={data.head3} text3={data.text3}
+                head4={data.head4} text4={data.text4} />)
             })}
             <br/>
         </div>
@@ -307,7 +382,11 @@ function Popup(){
     return(
         <div>
            {d_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} desc={data.desc} />)
+              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+                head1={data.head1} text1={data.text1}
+                head2={data.head2} text2={data.text2}
+                head3={data.head3} text3={data.text3}
+                head4={data.head4} text4={data.text4} />)
             })}
             <br/>
         </div>
@@ -319,7 +398,11 @@ function FPopup(){
     return(
         <div>
            {f_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} desc={data.desc} />)
+              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+                head1={data.head1} text1={data.text1}
+                head2={data.head2} text2={data.text2}
+                head3={data.head3} text3={data.text3}
+                head4={data.head4} text4={data.text4} />)
             })}
             <br/>
         </div>
@@ -331,7 +414,12 @@ function RPopup(){
     return(
         <div>
            {r_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} desc={data.desc} />)
+              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+                head1={data.head1} text1={data.text1}
+                head2={data.head2} text2={data.text2}
+                head3={data.head3} text3={data.text3}
+                head4={data.head4} text4={data.text4}
+                 />)
             })}
             <br/>
         </div>
@@ -343,7 +431,11 @@ function APopup(){
     return(
         <div>
            {a_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} desc={data.desc} />)
+              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+                head1={data.head1} text1={data.text1}
+                head2={data.head2} text2={data.text2}
+                head3={data.head3} text3={data.text3}
+                head4={data.head4} text4={data.text4} />)
             })}
             <br/>
         </div>
@@ -354,7 +446,11 @@ function TPopup(){
     return(
         <div>
            {t_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} desc={data.desc} />)
+              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+                head1={data.head1} text1={data.text1}
+                head2={data.head2} text2={data.text2}
+                head3={data.head3} text3={data.text3}
+                head4={data.head4} text4={data.text4} />)
             })}
             <br/>
         </div>
@@ -365,7 +461,11 @@ function XPopup(){
     return(
         <div>
            {x_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} desc={data.desc} />)
+              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+                head1={data.head1} text1={data.text1}
+                head2={data.head2} text2={data.text2}
+                head3={data.head3} text3={data.text3}
+                head4={data.head4} text4={data.text4} />)
             })}
             <br/>
         </div>
@@ -373,11 +473,60 @@ function XPopup(){
 }
 
 //curvedflag
+
+const c_flag = [
+    {
+        "title": "Curved Top Flag / Feather Flag",
+        "img1":cur,
+        "img2":cur1,
+        "img3":cur2,
+        "img4":cur3,
+        "img5":cur4,
+        "img6":cur5,
+        "head1":"2X3 CURVED POP UP",
+        "text1":["67x230cm Two side panels","70x230cm Two front panels", 
+        "Printing size 274x230cm ",
+        "Front visible area 194x230cm"
+        ],
+
+        "head2":"3X3 CURVED POP UP",
+        "text2":["67x230cm Two side panels",
+        "70x230cm Three front panels",
+        "Printing size 344x230cm",
+        " Front visible area 264x230cm"],
+
+        "head3":"4X3 CURVED POP UP",
+        "text3":["67x230cm Two side panels","70x230cm Four front panels", 
+        "Printing size 414x230cm" ,
+       "Front visible area 334x230cm"],
+
+        "head4":"5X3 CURVED POP UP",
+        "text4":["67x230cm Two side panels ",
+        "70x230cm Five front panels ",
+        "Printing size 484x230cm ",
+        "Front visible area 404x230cm"
+        ],
+        "head5":"6X3 CURVED POP UP",
+        "text5":["67x230cm Two side panels",
+        "70x230cm Six front panels ",
+        "Printing size 554x230cm ",
+        "Front visible area 474 x230cm"
+        ]
+    },
+  
+
+]
 function Cflag(){
     return(
         <div>
            {c_flag.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} desc={data.desc} />)
+              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4}
+                head1={data.head1} text1={data.text1}
+                head2={data.head2} text2={data.text2}
+                head3={data.head3} text3={data.text3}
+                head4={data.head4} text4={data.text4}
+                head5={data.head5} text5={data.text5}
+                 img5={data.img5} img6={data.img6}  />)
             })}
             <br/>
         </div>
@@ -388,7 +537,11 @@ function Lflag(){
     return(
         <div>
            {l_flag.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} desc={data.desc} />)
+              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6}
+                head1={data.head1} text1={data.text1}
+                head2={data.head2} text2={data.text2}
+                head3={data.head3} text3={data.text3}
+                head4={data.head4} text4={data.text4} />)
             })}
             <br/>
         </div>
@@ -400,7 +553,11 @@ function TearDflag(){
     return(
         <div>
            {tear.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} desc={data.desc} />)
+              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6}
+                head1={data.head1} text1={data.text1}
+                head2={data.head2} text2={data.text2}
+                head3={data.head3} text3={data.text3}
+                head4={data.head4} text4={data.text4} />)
             })}
             <br/>
         </div>
@@ -412,7 +569,11 @@ function Teleflag(){
     return(
         <div>
            {tele.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} desc={data.desc} />)
+              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6}
+                head1={data.head1} text1={data.text1}
+                head2={data.head2} text2={data.text2}
+                head3={data.head3} text3={data.text3}
+                head4={data.head4} text4={data.text4} />)
             })}
             <br/>
         </div>
@@ -424,7 +585,11 @@ function Counter(){
     return(
         <div>
            {count.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} desc={data.desc} />)
+              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+                head1={data.head1} text1={data.text1}
+                head2={data.head2} text2={data.text2}
+                head3={data.head3} text3={data.text3}
+                head4={data.head4} text4={data.text4} />)
             })}
             <br/>
         </div>

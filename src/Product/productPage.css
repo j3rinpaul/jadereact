@@ -42,6 +42,18 @@
 
 
 }
+.gf{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 7rem;
+    row-gap: 3rem;
+}
+
+.gfc{
+    display: block;
+    float: left;
+    width: 36%;
+}
 .items1 h3{
  
     font-size: 20px;
@@ -56,8 +68,8 @@
 
 @media  only screen and (max-width:600px){
     .show1{
-        margin-top: 5%;
-        margin-left: -18%;
+        margin-top: 3%;
+        margin-left: -8%;
         width: 100%;
     }
     .page1{
@@ -77,14 +89,28 @@
         margin-left: -14px;
         margin-top: 5%;
         margin-bottom: -35%;
+        width: 100%;
+    }
+
+    .gfc{
+        display: block;
+
+    }
+
+    .gf{
+        gap: 4rem;display:grid;
+        grid-template-columns:repeat(auto-fit,
+        minmax(12rem, 16rem));
     }
     .pro{
         padding-left: 10%;
         width: 100%;
+        margin-left: 0%;
     }
     .pro h2{
-        margin-top: 30%;
-        font-size: 40px;
+        margin-top: 20%;
+        font-size: 23px;
+        margin-left: -8%;
     }
 
 }

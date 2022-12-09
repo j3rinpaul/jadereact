@@ -2,6 +2,7 @@ import React from 'react'
 import "./productPage.css"
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Card from 'react-bootstrap/Card';
 
 
 
@@ -39,26 +40,89 @@ function ProductPage(props) {
           
           <div className='items1'>
             <h3>Available Sizes</h3>
-              {/* <p>{props.desc.map((id,d)=>{
-                  return(
-                    
-                    <li id={d}>{id}</li>
-                  )
-                  })}</p> */}
+            
+            <div className='gf'>
 
-              {/* <h4>{props.head1}</h4>
-              <p>{props.text1}</p>
-              <h4>{props.head2}</h4>
-              <p>{props.text2}</p>
-              <h4>{props.head3}</h4>
-              <p>{props.text3}</p>
-              <h4>{props.head4}</h4>
-              <p>{props.text4}</p> */}
-              <div>
-
+              <div className='gfc'>
+                  <Card style={{ width: '18rem' }}>
+                    <Card.Body>
+                      <Card.Title>{props.head1}</Card.Title>
+                      <Card.Text>
+                      <p>{props.text1.map((id,d)=>{
+                        return(
+                        <li id={d}>{id}</li>
+                        )})}</p>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
               </div>
-              
+                
+
+              <div className='gfc'>
+                  <Card style={{ width: '18rem' }}>
+                    <Card.Body>
+                      <Card.Title>{props.head2}</Card.Title>
+                      <Card.Text>
+                      <p>{props.text2.map((id,d)=>{
+                        return(
+                        <li id={d}>{id}</li>
+                        )})}</p>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+              </div>
+                
+
+              <div className='gfc'>
+                  <Card style={{ width: '18rem' }}>
+                    <Card.Body>
+                      <Card.Title>{props.head3}</Card.Title>
+                      <Card.Text>
+                      <p>{props.text3.map((id,d)=>{
+                        return(
+                        <li id={d}>{id}</li>
+                        )})}</p>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+              </div>
+                
+
+              <div className='gfc'>
+                  <Card style={{ width: '18rem' }}>
+                    <Card.Body>
+                      <Card.Title>{props.head4}</Card.Title>
+                      <Card.Text>
+                      <p>{props.text4.map((id,d)=>{
+                        return(
+                        <li id={d}>{id}</li>
+                        )})}</p>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+              </div>
+
+              <div className='gfc'>
+                  <Card style={{ width: '18rem' }}>
+                    <Card.Body>
+                      <Card.Title>{props.head5}</Card.Title>
+                      <Card.Text>
+                      <p>{props.text5.map((id,d)=>{
+                        return(
+                        <li id={d}>{id}</li>
+                        )})}</p>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+              </div>
+                
+                
+             
+                
+              <div>
           </div>
+          </div>
+        </div>
           <p>{props.detail}</p>
         </div>
     </div>
