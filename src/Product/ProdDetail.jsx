@@ -120,7 +120,9 @@ const d_Popup = [
         "head3":"RollUp Normal",
         "text3":["RollUp Normal","jjjdf"],
         "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]    },
+        "text4":["RollUp Normal","jjjdf"],
+        "head5":"RollUp Normal",
+        "text5":["RollUp Normal","jjjdf"]    },
 
     {
         "title": "PopUp Curved",
@@ -130,14 +132,35 @@ const d_Popup = [
         "img4":popc2,
         "img5":popc4,
         "img6":popc5,
-        "head1":"RollUp Normal",
-        "text1":["RollUp Normal","jjjdf"],
-        "head2":"RollUp Normal",
-        "text2":["RollUp Normal","jjjdf"],
-        "head3":"RollUp Normal",
-        "text3":["RollUp Normal","jjjdf"],
-        "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]        
+        "head1":"2X3 CURVED POP UP",
+        "text1":["67x230cm Two side panels","70x230cm Two front panels", 
+        "Printing size 274x230cm ",
+        "Front visible area 194x230cm"
+        ],
+
+        "head2":"3X3 CURVED POP UP",
+        "text2":["67x230cm Two side panels",
+        "70x230cm Three front panels",
+        "Printing size 344x230cm",
+        " Front visible area 264x230cm"],
+
+        "head3":"4X3 CURVED POP UP",
+        "text3":["67x230cm Two side panels","70x230cm Four front panels", 
+        "Printing size 414x230cm" ,
+       "Front visible area 334x230cm"],
+
+        "head4":"5X3 CURVED POP UP",
+        "text4":["67x230cm Two side panels ",
+        "70x230cm Five front panels ",
+        "Printing size 484x230cm ",
+        "Front visible area 404x230cm"
+        ],
+        "head5":"6X3 CURVED POP UP",
+        "text5":["67x230cm Two side panels",
+        "70x230cm Six front panels ",
+        "Printing size 554x230cm ",
+        "Front visible area 474 x230cm"
+        ]      
     }
 ]
 //fabric
@@ -257,74 +280,15 @@ const x_Popup = [
 
 ]
 
-//curved flag
 
 
-//L flag
-const l_flag = [
-    {
-        "title": "L-Shape Flag / Square Flag",
-        "img1":lflag1,
-        "img2":lflag2,
-        "img3":lflag,
-        "img4":lflag3,
-        "img5":lflag4,
-        "head1":"RollUp Normal",
-        "text1":["RollUp Normal","jjjdf"],
-        "head2":"RollUp Normal",
-        "text2":["RollUp Normal","jjjdf"],
-        "head3":"RollUp Normal",
-        "text3":["RollUp Normal","jjjdf"],
-        "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]    },
-  
-
-]
-
-//Tear
-const tear = [
-    {
-        "title": "TearDrop Flag / Flying Banner",
-        "img1":tea,
-        "img2":tea1,
-        "img3":tea2,
-        "img4":tea3,
-        "img5":tea4,
-        "img6":tea5,
-        "head1":"RollUp Normal",
-        "text1":["RollUp Normal","jjjdf"],
-        "head2":"RollUp Normal",
-        "text2":["RollUp Normal","jjjdf"],
-        "head3":"RollUp Normal",
-        "text3":["RollUp Normal","jjjdf"],
-        "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]    },
-  
-
-]
 
 
-//Tele
-const tele = [
-    {
-        "title": "Telescopic Flags",
-        "img1":tel,
-        "img2":tel1,
-        "img3":tel2,
-        "img4":tel3,
-        "img5":tel5,
-        "img6":tel4,
-        "head1":"RollUp Normal",
-        "text1":["RollUp Normal","jjjdf"],
-        "head2":"RollUp Normal",
-        "text2":["RollUp Normal","jjjdf"],
-        "head3":"RollUp Normal",
-        "text3":["RollUp Normal","jjjdf"],
-        "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]    },
-  
 
-]
+
+
+
+
 //counter
 const count = [
     {
@@ -333,28 +297,32 @@ const count = [
         "img2":table1,
         "img3":table2,
         "img4":table3,
-        "head1":"RollUp Normal",
-        "text1":["RollUp Normal","jjjdf"],
-        "head2":"RollUp Normal",
-        "text2":["RollUp Normal","jjjdf"],
-        "head3":"RollUp Normal",
-        "text3":["RollUp Normal","jjjdf"],
-        "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]    },
+        "head1":" ",
+        "text1":[ ],
+        "head2":" ",
+        "text2":[ ],
+        "head3":" ",
+        "text3":[ ],
+        "head4":" ",
+        "text4":[],
+        "head5":" ",
+        "text5":[]    },
     {
         "title": "Counter Table",
         "img1":coun,
         "img2":coun1,
         "img3":coun2,
         "img4":coun3,
-        "head1":"RollUp Normal",
-        "text1":["RollUp Normal","jjjdf"],
-        "head2":"RollUp Normal",
-        "text2":["RollUp Normal","jjjdf"],
-        "head3":"RollUp Normal",
-        "text3":["RollUp Normal","jjjdf"],
-        "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]    },
+        "head1":" ",
+        "text1":[ ],
+        "head2":" ",
+        "text2":[ ],
+        "head3":" ",
+        "text3":[ ],
+        "head4":" ",
+        "text4":[],
+        "head5":" ",
+        "text5":[]     },
   
 
 ]
@@ -386,7 +354,8 @@ function Popup(){
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4} />)
+                head4={data.head4} text4={data.text4} 
+                head5={data.head4} text5={data.text4} />)
             })}
             <br/>
         </div>
@@ -472,7 +441,7 @@ function XPopup(){
       )
 }
 
-//curvedflag
+//curved flag
 
 const c_flag = [
     {
@@ -483,35 +452,31 @@ const c_flag = [
         "img4":cur3,
         "img5":cur4,
         "img6":cur5,
-        "head1":"2X3 CURVED POP UP",
-        "text1":["67x230cm Two side panels","70x230cm Two front panels", 
-        "Printing size 274x230cm ",
-        "Front visible area 194x230cm"
+        "head1":"Curved top/ Feather flag stand Small",
+        "text1":["Flag Sizes: 85x200cm",
+        "Flag Material: Knitted polyster, Blockout, Satin",
+       " Pole:260cm Black powder coated aluminium structure",
+        "Base: Spider Base, Water Base, Cement base, Spike" 
+        
         ],
 
-        "head2":"3X3 CURVED POP UP",
-        "text2":["67x230cm Two side panels",
-        "70x230cm Three front panels",
-        "Printing size 344x230cm",
-        " Front visible area 264x230cm"],
+        "head2":"Curved top/ Feather flag stand Medium",
+        "text2":["Flag Sizes: 85x300cm",
+        "Flag Material: Knitted polyster, Blockout, Satin",
+        "Pole:360cm Black powder coated aluminium structure",
+        "Base: Spider Base, Water Base, Cement base, Spike"],
 
-        "head3":"4X3 CURVED POP UP",
-        "text3":["67x230cm Two side panels","70x230cm Four front panels", 
-        "Printing size 414x230cm" ,
-       "Front visible area 334x230cm"],
+        "head3":"Curved top/ Feather flag stand Large",
+        "text3":["Flag Sizes: 85x400cm",
+        "Flag Material: Knitted polyster, Blockout, Satin",
+        "Pole:460cm Black powder coated aluminium structure",
+        "Base: Spider Base, Water Base, Cement base, Spike"],
 
-        "head4":"5X3 CURVED POP UP",
-        "text4":["67x230cm Two side panels ",
-        "70x230cm Five front panels ",
-        "Printing size 484x230cm ",
-        "Front visible area 404x230cm"
-        ],
-        "head5":"6X3 CURVED POP UP",
-        "text5":["67x230cm Two side panels",
-        "70x230cm Six front panels ",
-        "Printing size 554x230cm ",
-        "Front visible area 474 x230cm"
-        ]
+        "head4":" ",
+        "text4":[],
+        "head5":" ",
+        "text5":[],
+
     },
   
 
@@ -526,6 +491,7 @@ function Cflag(){
                 head3={data.head3} text3={data.text3}
                 head4={data.head4} text4={data.text4}
                 head5={data.head5} text5={data.text5}
+             
                  img5={data.img5} img6={data.img6}  />)
             })}
             <br/>
@@ -533,6 +499,42 @@ function Cflag(){
       )
 }
 //Lbanner
+
+//L flag
+const l_flag = [
+    {
+        "title": "L-Shape Flag / Square Flag",
+        "img1":lflag1,
+        "img2":lflag2,
+        "img3":lflag,
+        "img4":lflag3,
+        "img5":lflag4,
+        "head1":"L-Shape flag/Square flag stand Small",
+        "text1":["Flag Sizes: 90x200cm",
+           " Flag Material: Knitted polyster, Blockout, Satin",
+           " Pole:300cm Black powder coated aluminium structure",
+           " Base: Water Base, Cement base"
+            ],
+        "head2":"L-Shape flag/Square flag stand Medium",
+        "text2":["Flag Sizes: 90x300cm",
+            "Flag Material: Knitted polyster, Blockout, Satin",
+           " Pole:400cm Black powder coated aluminium structure",
+            "Base: Water Base, Cement base"
+            ],
+        "head3":"L-Shape flag/Square flag stand Large",
+        "text3":["Flag Sizes: 90x400cm",
+            "Flag Material: Knitted polyster, Blockout, Satin",
+           " Pole:500cm Black powder coated aluminium structure",
+            "Base:  Water Base, Cement base "
+            ],
+        "head4":"",
+        "text4":[],
+        "head5":"",
+        "text5":[]    },
+  
+
+]
+
 function Lflag(){
     return(
         <div>
@@ -541,12 +543,46 @@ function Lflag(){
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4} />)
+                head4={data.head4} text4={data.text4}
+                head5={data.head5} text5={data.text5} />)
             })}
             <br/>
         </div>
       )
 }
+
+//Tear
+const tear = [
+    {
+        "title": "TearDrop Flag / Flying Banner",
+        "img1":tea,
+        "img2":tea1,
+        "img3":tea2,
+        "img4":tea3,
+        "img5":tea4,
+        "img6":tea5,
+        "head1":"Teardrop/flying banner stand Small",
+        "text1":["Flag Sizes: 90x200cm",
+        "Flag Material: Knitted polyster, Blockout, Satin",
+        "Pole:340cm (2pcs aluminium pole and 2 pcs glass fiber pole)",
+        "Base: Spider Base, Water Base, Cement base, Spike" 
+        ],
+        "head2":"Teardrop/flying banner stand Medium",
+        "text2":["Flag Sizes: 100x280cm",
+        "Flag Material: Knitted polyster, Blockout, Satin",
+        "Pole:450cm (2pcs aluminium pole and 2 pcs glass fiber pole)",
+        "Base: Spider Base, Water Base, Cement base, Spike"],
+        "head3":"Teardrop/flying banner stand Large",
+        "text3":["Flag Sizes: 125x350cm",
+        "Flag Material: Knitted polyster, Blockout, Satin",
+        "Pole:550cm (3pcs aluminium pole and 2 pcs glass fiber pole)",
+        "Base: Spider Base, Water Base, Cement base, Spike"],
+
+        "head4":"",
+        "text4":[],
+        "head5":"",
+        "text5":[]    },
+]
 
 //teardrop
 function TearDflag(){
@@ -557,14 +593,38 @@ function TearDflag(){
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4} />)
+                head4={data.head4} text4={data.text4} 
+                head5={data.head5} text5={data.text5} />)
             })}
             <br/>
         </div>
       )
 }
 
-//tele
+
+//Tele
+const tele = [
+    {
+        "title": "Telescopic Flags",
+        "img1":tel,
+        "img2":tel1,
+        "img3":tel2,
+        "img4":tel3,
+        "img5":tel5,
+        "img6":tel4,
+        "head1":"",
+        "text1":["PORTABLE 5m Event Flag Pole with a plastic water fillable base,"],
+        "head2":"",
+        "text2":["Aluminium telescopic construction with 18mm diameter"],
+        "head3":" ",
+        "text3":["Total height: 5.4m"],
+        "head4":" ",
+        "text4":["Flag Size:100x500cm"]  ,
+        "head5":" ",
+        "text5":[]  },
+  
+
+]
 function Teleflag(){
     return(
         <div>
@@ -573,6 +633,7 @@ function Teleflag(){
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
+                head5={data.head5} text5={data.text5}
                 head4={data.head4} text4={data.text4} />)
             })}
             <br/>
@@ -589,7 +650,8 @@ function Counter(){
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4} />)
+                head4={data.head4} text4={data.text4}
+                head5={data.head5} text5={data.text5} />)
             })}
             <br/>
         </div>

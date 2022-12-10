@@ -22,12 +22,12 @@ import rdt from "../assets/images/rdtap.png";
 import apt from "../assets/images/apt.png";
 import pt from "../assets/images/pt.png";
 import vel from "../assets/images/velcro.png";
-import knit from "../assets/images/knit.png";
-import sat from "../assets/images/sat.png";
-import ttg from "../assets/images/ttg.png";
-import tts from "../assets/images/tts.png";
-import ttl from "../assets/images/ttl.png";
-import ttv from "../assets/images/ttv.png";
+// import knit from "../assets/images/knit.png";
+// import sat from "../assets/images/sat.png";
+// import ttg from "../assets/images/ttg.png";
+// import tts from "../assets/images/tts.png";
+// import ttl from "../assets/images/ttl.png";
+// import ttv from "../assets/images/ttv.png";
 import wbase from "../assets/images/wbase.png";
 import sbase from "../assets/images/sbase.png";
 import hwbase from "../assets/images/hwbase.png";
@@ -268,7 +268,7 @@ const data_f = [
     "img":img_host,
     "desc":["Small : 90 x 200 cm","Medium : 100 x 500 cm","Large : 100 x 600 cm"]
   },
-  {"title":"Advertising Flag Pole",
+  {"title":"Advertising Flag Pole Size:90X400cm 100X500cm 100X600cm",
   "img":adverf,
   "desc":["Small : 90 x 200 cm","Medium : 100 x 500 cm","Large : 100 x 600 cm"]
   },
