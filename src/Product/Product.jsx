@@ -117,7 +117,7 @@ const data1 = [
 },
 {"title":"Information Stand",
   "img":img_info,
-  "desc":["Size : A4 , A3"]
+  "link":"/Info"
 },
 {"title":"Slim Light Box",
   "img":img_slim,
@@ -680,7 +680,7 @@ function Product() {
         </div>
         <div className='wrapper1' >
         {data1.map((data,index)=>{
-            return(<Cards id={index} img={data.img} link={"#"} title={data.title} desc={data.desc} />)
+            return(<Cards id={index} img={data.img} link={data.link} title={data.title} desc={data.desc} />)
           })}
        </div>
         <ScrollTop/>

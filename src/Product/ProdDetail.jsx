@@ -19,6 +19,7 @@ import  normr1 from "../assets/detail/normr1.jpg"
 import  normr2 from "../assets/detail/normr2.jpg"
 import  normr3 from "../assets/detail/normr3.jpg"
 import  normr4 from "../assets/detail/normr4.jpg"
+import HomeCard from "../Cards/homeCard"
 
 //adjustable
 import ad1 from "../assets/img/adjust/ad4.jpg"
@@ -87,6 +88,22 @@ import coun1 from "../assets/img/count/count1.jpg"
 import coun2 from "../assets/img/count/count2.jpg"
 import coun3 from "../assets/img/count/count3.jpg"
 
+//info table
+import info1 from "../assets/Information board_/info1.jpg"
+import info2 from "../assets/Information board_/info2.jpg"
+import info3 from "../assets/Information board_/info3.jpg"
+import info4 from "../assets/Information board_/info4.jpg"
+import info5 from "../assets/Information board_/info5.jpg"
+import info6 from "../assets/Information board_/info6.jpg"
+import info7 from "../assets/Information board_/info7.jpg"
+import info8 from "../assets/Information board_/info8.jpg"
+import info9 from "../assets/Information board_/info9.jpg"
+import info10 from "../assets/Information board_/info10.jpg"
+import info11 from "../assets/Information board_/info11.jpg"
+import info12 from "../assets/Information board_/info12.jpg"
+import info13 from "../assets/Information board_/info13.jpg"
+import info14 from "../assets/Information board_/info14.jpg"
+import info15 from "../assets/Information board_/info15.jpg"
 
 const outFlag = [
     {
@@ -346,6 +363,28 @@ const count = [
 
 ]
 
+
+function Info(){
+    return(
+        <div className='infoc'>
+        <HomeCard img = {info1} title={"Adjustable info board stand BLACK Vertical & horizontal A4,A3 "} />
+        <HomeCard img = {info2} title={"Adjustable info board stand GOLD Vertical & horizontal A4,A3"} />
+        <HomeCard img = {info3}  title={"Adjustable info board stand SILVER Vertical & horizontal A4,A3 "}/>
+        <HomeCard img = {info4}  title={"Double leg info stand silver flip type A4,A3"}/>
+        <HomeCard img = {info5} title={"Double leg info stand silver sandwich type A4,A3"} />
+        <HomeCard img = {info6}  title={"Info stand heavy duty Black horizontal A4,A3"}/>
+        <HomeCard img = {info7}  title={"Info stand heavy duty Black Vertical A4,A3"}/>
+        <HomeCard img = {info8}  title={"Info stand heavy duty Gold horizontal A4,A3"}/>
+        <HomeCard img = {info9}  title={"Info stand heavy duty Gold Vertical A4,A3"}/>
+        <HomeCard img = {info10} title={"Info stand heavy duty silver horizontal A4,A3"} />
+        <HomeCard img = {info11} title={"Info stand heavy duty silver Vertical A4,A3"} />
+        <HomeCard img = {info12} title={"Info stand horizontal silver A4,A3"} />
+        <HomeCard img = {info13} title={"Info stand round corner horizontal silver A4,A3"} />
+        <HomeCard img = {info14} title={"Info stand round corner vertical silver A4,A3"} />
+        <HomeCard img = {info15} title={"Info stand Vertical silver A4,A3"} />
+      </div>
+      )
+}
 
 
 
@@ -677,4 +716,4 @@ function Counter(){
       )
 }
 
-export {Outdoor,Popup,FPopup,RPopup,APopup,TPopup,XPopup,Cflag,Lflag,TearDflag,Teleflag,Counter}
+export {Outdoor,Info,Popup,FPopup,RPopup,APopup,TPopup,XPopup,Cflag,Lflag,TearDflag,Teleflag,Counter}

@@ -4,7 +4,7 @@ import Footer from './Footer/footer'
 import About from './About/About'
 import Home from './Home/home'
 import {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand/*Printing,Promotional*/} from './Product/Product'
-import {Outdoor,Popup,FPopup,RPopup,APopup} from './Product/ProdDetail'
+import {Outdoor,Popup,FPopup,RPopup,APopup,Info} from './Product/ProdDetail'
 import {TPopup,XPopup,Cflag,Lflag,TearDflag,Teleflag,Counter} from './Product/ProdDetail'
 import Contact from './Contact/Contact'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
@@ -28,6 +28,7 @@ function App() {
             <Route path="/Advd" element={<Advsidplay/>}/>
             <Route path="/About" element={<About />}/>
             <Route path="/Contact" element={<Contact />}/>
+            <Route path="/Info" element={<Info />}/>
             <Route path="/Umbrella" element={<Umbrella />}/>
             <Route path="/Qs" element={<Qstand />}/>
             {/* <Route path="/Printing" element={<Printing />}/>
