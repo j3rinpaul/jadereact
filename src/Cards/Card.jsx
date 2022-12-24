@@ -1,18 +1,38 @@
 import React from 'react'
 import "./card.css"
-
 import {Link } from "react-router-dom";
+import { useState } from 'react';
 
 
 
 
 
 function Cards(props) {
+    const [cardState,setState] = useState(false)
 
+    const handleClick = () =>{
+        setState(!cardState)
+        console.log("clicked")
+    }
     return(
         <div className="card">
-            <div  >
-                <img src={props.img} alt="" className="cimg"/>
+            <div className='cing' >
+                <img src={props.img} alt="" onClick={handleClick} className="cimg"/>
+                {/* {cardState && (
+                    <dialog
+                        className="dialog"
+                        style={{ position: "absolute" }}
+                        open
+                        onClick={handleClick}
+                    >
+                        <img
+                        className="cimg"
+                        src={props.img}
+                        onClick={handleClick}
+                        
+                        />
+                    </dialog>
+                    )} */}
             </div>
             <div className="cbody">
               <Link to={props.link}>
@@ -34,5 +54,7 @@ function Cards(props) {
         </div>
     )
 }
+
+
 
 export default Cards

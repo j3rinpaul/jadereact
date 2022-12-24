@@ -17,22 +17,22 @@ function ProductPage(props) {
           <div className='show1'>
           <Carousel>
                 <div className = "sitem">
-                    <img src={props.img1} />  
+                    <img src={props.img1} alt="" />  
                 </div>
                 <div className = "sitem">
-                    <img src={props.img2} />
+                    <img src={props.img2} alt="" />
                 </div>
                 <div className = "sitem">
-                    <img src={props.img3} />
+                    <img src={props.img3}  alt=""/>
                 </div>
                 <div className = "sitem">
-                    <img src={props.img4} />
+                    <img src={props.img4} alt="" />
                 </div>
                 <div className = "sitem">
-                    <img src={props.img5} />
+                    <img src={props.img5} alt="" />
                 </div>
                 <div className = "sitem">
-                    <img src={props.img6} />
+                    <img src={props.img6} alt="" />
                 </div>
             </Carousel>
 

@@ -6,7 +6,7 @@ import "./product.css"
 import pop2 from "../assets/images/PopUpCurved.png"
 // import tent from "../assets/images/tent.png"
 // import info from "../assets/images/info.png"
-import ab from "../assets/images/ECO-LITE-Folding-A-Frame-Sign-Board-A1-Track-Trace-Social-Distance-Signs.jpg-1.png"
+import ab from "../assets/A Board/Main picture .PNG"
 import easel from "../assets/images/easel.png"
 // import prom from "../assets/images/promo.png"
 // import acb from "../assets/images/acrylicb.png";
@@ -77,7 +77,7 @@ import img_cb1 from "../assets/img/cbase2.png"
 import img_cb2 from "../assets/img/cbase3.png"
 
 //display 
-import img_bstand from "../assets/img/bstand.jpg"
+import img_bstand from "../assets/BroStand/Main picture .JPG"
 import img_tstand from "../assets/img/tstand.jpg"
 import img_info from "../assets/img/info.jpg"
 import img_slim from "../assets/img/slim.jpg"
@@ -101,19 +101,19 @@ import img_tabt from "../assets/img/tabt.jpg"
 const data1 = [
   {"title":"Self Stand Brochure Stand",
     "img":img_bstand,
-    "desc":[" "]
+    "link":"/Broc"
   },
   {"title":"Table Top Brochure Stand",
     "img":img_tstand,
-    "desc":[" "]
+    "link":"/AcryP"
   },
   {"title":"Snap Frame ",
   "img":snap,
-  "desc":["32mm Round Corner A3"]
+  "link":"/SnapF"
 },
 {"title":"A-Board Stand",
   "img":ab,
-  "desc":["Size : 100 x 70 cm , A2 , A1"]
+  "link":"/Aboard"
 },
 {"title":"Information Stand",
   "img":img_info,
@@ -121,7 +121,7 @@ const data1 = [
 },
 {"title":"Slim Light Box",
   "img":img_slim,
-  "desc":["Size : A4 , A3"]
+  "link":"/SlimL"
 },
 {"title":"Ruffle Box",
   "img":img_ruf,
@@ -343,23 +343,23 @@ const data_fb = [
 const data_q = [
   {"title":"Retractable Q Stand",
     "img":img_ret,
-    "desc":[""]
+    "link":"/QRect"
   },
   {"title":"Normal Q Stand",
     "img":img_norm,
-    "desc":[""]
+    "link":"/Nqu"
   },
   {"title":" Q Stand Rope",
     "img":img_rope,
-    "desc":[""]
+    "link":"/QRope"
   },
   {"title":"Table Top Flag Stand",
     "img":img_tabt,
-    "desc":[""]
+    "link":"/Qtt"
   },
   {"title":"Conference Flag Pole",
     "img":img_conf,
-    "desc":[""]
+    "link":"/QStan"
   }
 ]
 
@@ -742,7 +742,7 @@ function Qstand(){
       </div>
        <div className='wrapper1' >
        {data_q.map((data,index)=>{
-          return(<Cards id={index} img={data.img} title={data.title} desc={data.desc} />)
+          return(<Cards id={index} img={data.img} title={data.title} link={data.link} />)
         })}
        </div>
     </div>

@@ -28,10 +28,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.carrs2{
+    margin-top: -12%;
+}
 
 .infoc h2{
     text-decoration: none;
     color:rgb(34, 26, 26) ;
+}
+.hedd h1{
+    margin-left: 4%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
 }
 .btns{
     font-family:inherit;

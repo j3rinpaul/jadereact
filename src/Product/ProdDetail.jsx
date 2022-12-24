@@ -105,20 +105,113 @@ import info13 from "../assets/Information board_/info13.jpg"
 import info14 from "../assets/Information board_/info14.jpg"
 import info15 from "../assets/Information board_/info15.jpg"
 
+//a board
+
+import ab1 from "../assets/A Board/A board black .PNG"
+import ab2 from "../assets/A Board/A board silver .JPG"
+import ab3 from "../assets/A Board/Outdoor A board .JPG"
+import ab4 from "../assets/A Board/Spring A board .JPG"
+
+//acrylic products
+
+import ap1 from "../assets/AcryllicP/Acrylic sandwich A4,A3,A2,A1,A0.jpg"
+import ap2 from "../assets/AcryllicP/JS Wall mounted Acrylic brochure holder A4,A5,DL_.jpg"
+import ap3 from "../assets/AcryllicP/Table top acrylic brochure holder A4,A5,DL.WEBP"
+import ap4 from "../assets/AcryllicP/Table top acrylic leaflet holder L type .JPG"
+import ap5 from "../assets/AcryllicP/Table top acrylic leaflet holder T type.JPG"
+import ap6 from "../assets/AcryllicP/Wall mounted Acrylic brochure holder A4,A5,DL.JPG"
+import ap7 from "../assets/AcryllicP/Wall mounted acrylic leaflet holder A3,A4,A5.JPG"
+
+
+//brouchure stand
+
+import bs1 from "../assets/BroStand/Acrylic brochure stand .JPG"
+import bs2 from "../assets/BroStand/Acrylic ZigZag brochure stand.JPG"
+import bs3 from "../assets/BroStand/Black Metal Brochure stand .jpg"
+import bs4 from "../assets/BroStand/Metal brochure stand .JPG"
+import bs5 from "../assets/BroStand/Non foldable zig zag brochure stand .JPG"
+
+
+//slim light box
+
+import sl1 from "../assets/SlimL/Slim light box Frameless A0,A1,A2,A3,A4.PNG"
+import sl2 from "../assets/SlimL/Slim light box with flip frame A0,A1,A2,A3,A4.JPG"
+
+//snap frame
+
+import sf1 from "../assets/SnapF/Snap Frame Black A4,A3,A2,A1,A0.jpg"
+import sf2 from "../assets/SnapF/Snap Frame Gold A4,A3,A2,A1,A0.jpg"
+import sf3 from "../assets/SnapF/Snap Frame Silver A4,A3,A2,A1,A0.jpg"
+
+//qstand
+import cf1 from "../assets/QStand/Conferenceflag/VIP Conference flag pole Gold.JPG"
+import cf2 from "../assets/QStand/Conferenceflag/Indoor flag pole gold and silver .JPG"
+import cf3 from "../assets/QStand/Conferenceflag/Conference flag pole.jpg"
+import cf4 from "../assets/QStand/Conferenceflag/2m flag pole gold .JPG"
+import cf5 from "../assets/QStand/Conferenceflag/VIP flag pole .PNG"
+
+//qrope
+import qr1 from "../assets/QStand/Normalq/Q stand - Gold.JPG"
+import qr2 from "../assets/QStand/Normalq/Q stand rope black with gold end.JPG"
+import qr3 from "../assets/QStand/Normalq/Q stand rope Black with silver end.jpg"
+import qr4 from "../assets/QStand/Normalq/Q stand rope Blue with chrome end.WEBP"
+import qr5 from "../assets/QStand/Normalq/Q stand rope Blue with gold end.JPG"
+import qr6 from "../assets/QStand/Normalq/Q stand rope Red with chrome end.jpg"
+import qr7 from "../assets/QStand/Normalq/Q stand rope Red with gold end.JPG"
+import qr8 from "../assets/QStand/Normalq/Q stand rope twisted Black with silver end.jpg"
+import qr9 from "../assets/QStand/Normalq/Q stand rope twisted Red with silver end.jpg"
+import qr10 from "../assets/QStand/Normalq/Q stand rope twisted yellow with silver end.jpg"
+import qr11 from "../assets/QStand/Normalq/Q stand -Silver.JPG"
+import qr12 from "../assets/QStand/Normalq/Q stands .PNG"
+
+//retractable banner
+import rq1 from "../assets/QStand/Retractableq/Retractable black Q stand with black Ribbon .jpg"
+import rq2 from "../assets/QStand/Retractableq/Retractable black Q stand with Blue Ribbon .jpg"
+import rq3 from "../assets/QStand/Retractableq/Retractable black Q stand with Green Ribbon .jpg"
+import rq4 from "../assets/QStand/Retractableq/Retractable black Q stand with Orange Ribbon .jpg"
+import rq5 from "../assets/QStand/Retractableq/Retractable black Q stand with Red Ribbon .jpg"
+import rq6 from "../assets/QStand/Retractableq/Retractable black Q stand with Red_white Ribbon .jpg"
+import rq7 from "../assets/QStand/Retractableq/Retractable black Q stand with White Ribbon .jpg"
+import rq8 from "../assets/QStand/Retractableq/Retractable black Q stand with yellow _black Ribbon .jpg"
+import rq21 from "../assets/QStand/Retractableq/Retractable black Q stand with Yellow Ribbon .jpg"
+import rq9 from "../assets/QStand/Retractableq/Retractable Gold Q stand with Black Ribbon .jpg"
+import rq10 from "../assets/QStand/Retractableq/Retractable Gold Q stand with green Ribbon .jpg"
+import rq11 from "../assets/QStand/Retractableq/Retractable Gold Q stand with Red Ribbon .jpg"
+import rq22 from "../assets/QStand/Retractableq/Retractable Gold Q stand with white Ribbon .jpg"
+import rq12 from "../assets/QStand/Retractableq/Retractable Gold Q stand with Yellow_black Ribbon .jpg"
+import rq13 from "../assets/QStand/Retractableq/Retractable Silver Q stand with Blue Ribbon .jpg"
+import rq14 from "../assets/QStand/Retractableq/Retractable Silver Q stand with green Ribbon .jpg"
+import rq15 from "../assets/QStand/Retractableq/Retractable Silver Q stand with light blue Ribbon .jpg"
+import rq16 from "../assets/QStand/Retractableq/Retractable Silver Q stand with Orange Ribbon .jpg"
+import rq17 from "../assets/QStand/Retractableq/Retractable Silver Q stand with red Ribbon .jpg"
+import rq18 from "../assets/QStand/Retractableq/Retractable Silver Q stand with Red Ribbon _1.jpg"
+import rq19 from "../assets/QStand/Retractableq/Retractable Silver Q stand with Red_white Ribbon .jpg"
+import rq23 from "../assets/QStand/Retractableq/Retractable Silver Q stand with yellow Ribbon .jpg"
+import rq20 from "../assets/QStand/Retractableq/Retractable Silver Q stand with yellow_black Ribbon .jpg"
+
+//table top
+import qtt1 from "../assets/QStand/TableTop/Table Top Flag Stand 1 Pole Silver.jpg"
+import qtt2 from "../assets/QStand/TableTop/Table Top Flag Stand 2 pole Silver.jpg"
+import qtt3 from "../assets/QStand/TableTop/Table Top Flag Stand 3 pole Silver.jpg"
+import qtt4 from "../assets/QStand/TableTop/Table Top Flag Stand L type Silver.jpg"
+import qtt5 from "../assets/QStand/TableTop/Table Top Flag Stand Single pole Gold.jpg"
+import qtt6 from "../assets/QStand/TableTop/Table Top Flag Stand T type Silver.jpg"
+import qtt7 from "../assets/QStand/TableTop/Table Top Flag Stand Y type with crystal clear Base .PNG"
+
 const outFlag = [
     {
         "title": "Product",
         "img1":imgloc,
         "img2":imgloc,
         "img3":imgloc,
-        "head1":"RollUp Normal",
-        "text1":["RollUp Normal","jjjdf"],
-        "head2":"RollUp Normal",
-        "text2":["RollUp Normal","jjjdf"],
-        "head3":"RollUp Normal",
-        "text3":["RollUp Normal","jjjdf"],
-        "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]    }
+        "head1":"",
+        "text1":[" "],
+        "head2":"",
+        "text2":[" "],
+        "head3":"",
+        "text3":[" "],
+        "head4":"",
+        "text4":[" "]    }
 ]
 //popup
 const d_Popup = [
@@ -208,34 +301,34 @@ const f_Popup = [
         "img3":fpop3,
         "img4":fpop4,
         "img5":fpop5,
-        "head1":"RollUp Normal",
-        "text1":["RollUp Normal","jjjdf"],
-        "head2":"RollUp Normal",
-        "text2":["RollUp Normal","jjjdf"],
-        "head3":"RollUp Normal",
-        "text3":["RollUp Normal","jjjdf"],
-        "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]    },
+        "head1":"",
+        "text1":[""],
+        "head2":"",
+        "text2":[""],
+        "head3":"",
+        "text3":[""],
+        "head4":"",
+        "text4":[""]    },
 
 ]
 
 //rollup
 const r_Popup = [
     {
-        "title": "RollUp Normal",
+        "title": "",
         "img1":normr,
         "img2":normr1,
         "img3":normr2,
         "img4":normr3,
         "img5":normr4,
-        "head1":"RollUp Normal",
-        "text1":["RollUp Normal","jjjdf"],
-        "head2":"RollUp Normal",
-        "text2":["RollUp Normal","jjjdf"],
-        "head3":"RollUp Normal",
-        "text3":["RollUp Normal","jjjdf"],
-        "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]    },
+        "head1":"",
+        "text1":[""],
+        "head2":"",
+        "text2":[""],
+        "head3":"",
+        "text3":[""],
+        "head4":"",
+        "text4":[""]    },
     {
         "title": "BroadBase Rollup",
         "img1":fpop1,
@@ -243,14 +336,14 @@ const r_Popup = [
         "img3":fpop3,
         "img4":fpop4,
         "img5":fpop5,
-        "head1":"RollUp Normal",
-        "text1":["RollUp Normal","jjjdf"],
-        "head2":"RollUp Normal",
-        "text2":["RollUp Normal","jjjdf"],
-        "head3":"RollUp Normal",
-        "text3":["RollUp Normal","jjjdf"],
-        "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]    },
+        "head1":"",
+        "text1":[""],
+        "head2":"",
+        "text2":[""],
+        "head3":"",
+        "text3":[""],
+        "head4":"",
+        "text4":[""]    },
 
 ]
 //adjustable
@@ -263,14 +356,14 @@ const a_Popup = [
         "img4":ad3,
         "img5":ad4,
         "img6":ad6,
-        "head1":"RollUp Normal",
-        "text1":["RollUp Normal","jjjdf"],
-        "head2":"RollUp Normal",
-        "text2":["RollUp Normal","jjjdf"],
-        "head3":"RollUp Normal",
-        "text3":["RollUp Normal","jjjdf"],
-        "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]    },
+        "head1":"",
+        "text1":[""],
+        "head2":"",
+        "text2":[""],
+        "head3":"",
+        "text3":[""],
+        "head4":"",
+        "text4":[""]    },
   
 
 ]
@@ -284,14 +377,14 @@ const t_Popup = [
         "img4":ten3,
         "img5":ten1,
         "img6":ten6,
-        "head1":"RollUp Normal",
-        "text1":["RollUp Normal","jjjdf"],
-        "head2":"RollUp Normal",
-        "text2":["RollUp Normal","jjjdf"],
-        "head3":"RollUp Normal",
-        "text3":["RollUp Normal","jjjdf"],
-        "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]    },
+        "head1":"",
+        "text1":[""],
+        "head2":"",
+        "text2":[""],
+        "head3":"",
+        "text3":[""],
+        "head4":"",
+        "text4":[""]    },
   
 
 ]
@@ -304,14 +397,14 @@ const x_Popup = [
         "img3":xban2,
         "img4":xban3,
         "img5":xban,
-        "head1":"RollUp Normal",
-        "text1":["RollUp Normal","jjjdf"],
-        "head2":"RollUp Normal",
-        "text2":["RollUp Normal","jjjdf"],
-        "head3":"RollUp Normal",
-        "text3":["RollUp Normal","jjjdf"],
-        "head4":"RollUp Normal",
-        "text4":["RollUp Normal","jjjdf"]    },
+        "head1":" ",
+        "text1":[" "],
+        "head2":"",
+        "text2":[""],
+        "head3":"",
+        "text3":[""],
+        "head4":"",
+        "text4":[""]    },
   
 
 ]
@@ -366,6 +459,8 @@ const count = [
 
 function Info(){
     return(
+        <div className="hedd">
+            <h1>Info Stand</h1>
         <div className='infoc'>
         <HomeCard img = {info1} title={"Adjustable info board stand BLACK Vertical & horizontal A4,A3 "} />
         <HomeCard img = {info2} title={"Adjustable info board stand GOLD Vertical & horizontal A4,A3"} />
@@ -383,8 +478,173 @@ function Info(){
         <HomeCard img = {info14} title={"Info stand round corner vertical silver A4,A3"} />
         <HomeCard img = {info15} title={"Info stand Vertical silver A4,A3"} />
       </div>
+      </div>
       )
 }
+function Aboard(){
+    return(
+        <div className="hedd">
+            <h1>A Board</h1>
+        <div className='infoc'>
+        <HomeCard img = {ab1} title={"A Board Black"} />
+        <HomeCard img = {ab2} title={"A Board Silver "} />
+        <HomeCard img = {ab3} title={"Outdoor A Board "} />
+        <HomeCard img = {ab4} title={"Spring A Board "} />
+      </div>
+      </div>
+      )
+}
+
+
+function AcryP(){
+    return(
+    <div className="hedd">
+            <h1>Acryllic Brouchure Holder</h1>
+        <div className='infoc'>
+        <HomeCard img = {ap2} title={"JS Wall mounted Acrylic brochure holder A4,A5,DL "} />
+        <HomeCard img = {ap3} title={"Table top acrylic brochure holder A4,A5,DL"} />
+        <HomeCard img = {ap4} title={"Table top acrylic leaflet holder L type "} />
+        <HomeCard img = {ap1} title={"Acrylic sandwich A4,A3,A2,A1,A0"}/>
+        <HomeCard img = {ap5} title={"Table top acrylic leaflet holder T type"} />
+        <HomeCard img = {ap6} title={"Wall mounted Acrylic brochure holder A4,A5,DL"} />
+        <HomeCard img = {ap7} title={"Wall mounted acrylic leaflet holder A3,A4,A5"} />
+      </div>
+      </div>
+      )
+}
+function Broc(){
+    return(
+        <div className="hedd">
+            <h1> Brouchure Stand</h1>
+        <div className='infoc'>
+        <HomeCard img = {bs1} title={"Acrylic brochure stand"}/>
+        <HomeCard img = {bs2} title={"Acrylic ZigZag brochure stand "} />
+        <HomeCard img = {bs3} title={"Black Metal Brochure stand "} />
+        <HomeCard img = {bs4} title={"Metal brochure stand  "} />
+        <HomeCard img = {bs5} title={"Non foldable zig zag brochure stand "} />
+      </div>
+      </div>
+      )
+}
+function SlimL(){
+    return(
+        <div className="hedd">
+            <h1>Slim Light</h1>
+        <div className='infoc'>
+        <HomeCard img = {sl1} title={"Slim light box Frameless A0,A1,A2,A3,A4"}/>
+        <HomeCard img = {sl2} title={"Slim light box with flip frame A0,A1,A2,A3,A4 "} />
+      </div>
+      </div>
+      )
+}
+function SnapF(){
+    return(
+        <div className="hedd">
+        <h1>Snap Frame</h1>
+        <div className='infoc'>
+        <HomeCard img = {sf1} title={"Snap Frame Black A4,A3,A2,A1,A0"}/>
+        <HomeCard img = {sf2} title={"Snap Frame Gold A4,A3,A2,A1,A0 "} />
+        <HomeCard img = {sf3} title={"Snap Frame Silver A4,A3,A2,A1,A0"} />
+      </div>
+      </div>
+      )
+}
+function QStan(){
+    return(
+        <div className="hedd">
+        <h1>Conference Flag</h1>
+        <div className='infoc'>
+            <HomeCard img = {cf1} title={"VIP Conference flag pole Gold"}/>
+            <HomeCard img = {cf2} title={"Indoor flag pole gold and silver "} />
+            <HomeCard img = {cf3} title={"Conference flag pole"} />
+            <HomeCard img = {cf4} title={"2m flag pole gold "} />
+            <HomeCard img = {cf5} title={"VIP flag pole "} />
+      </div>
+      </div>
+      )
+}
+
+function QRope(){
+    return(
+        <div className="hedd">
+        <h1>Q Stand Rope</h1>
+        <div className='infoc'>
+            <HomeCard img = {qr2} title={"Q stand rope black with gold end"} />
+            <HomeCard img = {qr3} title={"Q stand rope Black with silver end"} />
+            <HomeCard img = {qr4} title={"Q stand rope Blue with chrome end"} />
+            <HomeCard img = {qr5} title={"Q stand rope Blue with gold end"} />
+            <HomeCard img = {qr6} title={"Q stand rope Red with chrome end"}/>
+            <HomeCard img = {qr7} title={"Q stand rope Red with gold end"} />
+            <HomeCard img = {qr8} title={"Q stand rope twisted Black with silver end"} />
+            <HomeCard img = {qr9} title={"Q stand rope twisted Red with silver end"} />
+            <HomeCard img = {qr10} title={"Q stand rope twisted yellow with silver end"} />
+      </div>
+      </div>
+      )
+    }
+function QRect(){
+    return(
+        <div className="hedd">
+        <h1>Retractable Q Stand</h1>
+        <div className='infoc'>
+            <HomeCard img = {rq1}  title={"Retractable black Q stand with black Ribbon  "}/>
+            <HomeCard img = {rq2}  title={"Retractable black Q stand with Blue Ribbon  "} />
+            <HomeCard img = {rq3}  title={"Retractable black Q stand with Green Ribbon  "} />
+            <HomeCard img = {rq4}  title={"Retractable black Q stand with Orange Ribbon  "} />
+            <HomeCard img = {rq5}  title={"Retractable black Q stand with Red Ribbon  "} />
+            <HomeCard img = {rq6}  title={"Retractable black Q stand with Red_white Ribbon  "}/>
+            <HomeCard img = {rq7}  title={"Retractable black Q stand with White Ribbon  "} />
+            <HomeCard img = {rq8}  title={"Retractable black Q stand with yellow _black Ribbon "} />
+            <HomeCard img = {rq21} title={"Retractable black Q stand with Yellow Ribbon  "} />
+            <HomeCard img = {rq9}  title={"Retractable Gold Q stand with Black Ribbon  "} />
+            <HomeCard img = {rq10} title={"Retractable Gold Q stand with green Ribbon  "} />
+            <HomeCard img = {rq11} title={"Retractable Gold Q stand with Red Ribbon "}/>
+            <HomeCard img = {rq22} title={"Retractable Gold Q stand with white Ribbon "}/>
+            <HomeCard img = {rq12} title={"Retractable Gold Q stand with Yellow_black Ribbon  "} />
+            <HomeCard img = {rq13} title={"Retractable Silver Q stand with Blue Ribbon  "}/>
+            <HomeCard img = {rq14} title={"Retractable Silver Q stand with green Ribbon "} />
+            <HomeCard img = {rq15} title={"Retractable Silver Q stand with light blue Ribbon _1"}/>
+            <HomeCard img = {rq16} title={"Retractable Silver Q stand with Orange Ribbon "} />
+            <HomeCard img = {rq17} title={"Retractable Silver Q stand with red Ribbon "}/>
+            <HomeCard img = {rq18} title={"Retractable Silver Q stand with Red Ribbon _1 "} />
+            <HomeCard img = {rq19} title={"Retractable Silver Q stand with Red_white Ribbon  "} />
+            <HomeCard img = {rq23} title={"Retractable Silver Q stand with yellow Ribbon  "} />
+            <HomeCard img = {rq20} title={"Retractable Silver Q stand with yellow_black Ribbon  "} />
+       
+
+            
+      </div>
+      </div>
+      )
+}
+function Qtt(){
+    return(
+        <div className="hedd">
+        <h1>Table Top Flag</h1>
+        <div className='infoc'>
+            <HomeCard img = {qtt1} title={"Table Top Flag Stand 1 Pole Silver"}/>
+            <HomeCard img = {qtt2} title={"Table Top Flag Stand 2 pole Silver "} />
+            <HomeCard img = {qtt3} title={"Table Top Flag Stand 3 Pole Silver "} />
+            <HomeCard img = {qtt4} title={"Table Top Flag Stand L type Silver "} />
+            <HomeCard img = {qtt5} title={"Table Top Flag Stand Single pole Gold "} />
+            <HomeCard img = {qtt6} title={"Table Top Flag Stand T type Silver"}/>
+            <HomeCard img = {qtt7} title={"Table Top Flag Stand Y type with crystal clear Base "} />
+      </div>
+      </div>
+      )
+    }
+function Nqu(){
+    return(
+        <div className="hedd">
+        <h1>Normal Q Stand</h1>
+        <div className='infoc'>
+            <HomeCard img = {qr12} title={"Q stands "} />
+            <HomeCard img = {qr11} title={"Q stand -Silver"}/>
+            <HomeCard img = {qr1} title={"Q stand - Gold"}/>
+      </div>
+      </div>
+      )
+    }
 
 
 
@@ -429,7 +689,8 @@ function FPopup(){
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4} />)
+                head4={data.head4} text4={data.text4}
+                head5={data.head4} text5={data.text4} />)
             })}
             <br/>
         </div>
@@ -446,6 +707,7 @@ function RPopup(){
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
                 head4={data.head4} text4={data.text4}
+                head5={data.head4} text5={data.text4}
                  />)
             })}
             <br/>
@@ -462,7 +724,8 @@ function APopup(){
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4} />)
+                head4={data.head4} text4={data.text4}
+                head5={data.head4} text5={data.text4} />)
             })}
             <br/>
         </div>
@@ -477,7 +740,8 @@ function TPopup(){
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4} />)
+                head4={data.head4} text4={data.text4}
+                head5={data.head4} text5={data.text4}  />)
             })}
             <br/>
         </div>
@@ -492,7 +756,8 @@ function XPopup(){
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4} />)
+                head4={data.head4} text4={data.text4}
+                head5={data.head4} text5={data.text4} />)
             })}
             <br/>
         </div>
@@ -716,4 +981,4 @@ function Counter(){
       )
 }
 
-export {Outdoor,Info,Popup,FPopup,RPopup,APopup,TPopup,XPopup,Cflag,Lflag,TearDflag,Teleflag,Counter}
+export {Outdoor,QRect,Nqu,Qtt,QStan,QRope,SnapF,SlimL,Broc,Info,Aboard,AcryP,Popup,FPopup,RPopup,APopup,TPopup,XPopup,Cflag,Lflag,TearDflag,Teleflag,Counter}
