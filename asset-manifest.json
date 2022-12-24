@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jadereact/static/css/main.a243679b.css",
-    "main.js": "/jadereact/static/js/main.c07ae202.js",
+    "main.js": "/jadereact/static/js/main.7c7aa1ba.js",
     "static/media/slide1.jpg": "/jadereact/static/media/slide1.18f6504c199b1328e39e.jpg",
     "static/media/slide2.jpg": "/jadereact/static/media/slide2.b48669819e70c958eab1.jpg",
     "static/media/jadesignanniversarysmall.jpg": "/jadereact/static/media/jadesignanniversarysmall.8cedd89f3b25019f0705.jpg",
@@ -234,10 +234,10 @@
     "static/media/arrow_left.svg": "/jadereact/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/jadereact/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
     "main.a243679b.css.map": "/jadereact/static/css/main.a243679b.css.map",
-    "main.c07ae202.js.map": "/jadereact/static/js/main.c07ae202.js.map"
+    "main.7c7aa1ba.js.map": "/jadereact/static/js/main.7c7aa1ba.js.map"
   },
   "entrypoints": [
     "static/css/main.a243679b.css",
-    "static/js/main.c07ae202.js"
+    "static/js/main.7c7aa1ba.js"
   ]
 }
