@@ -15,10 +15,12 @@
 
 .deta1{
     margin-top: -7%;
-    margin-left: 15%;
+    margin-left: 10%;
+    font-size: 20px;
 }
 .pro{
     margin: 5%;
+    margin-left: -5%;
 }
 .pro h2{
     padding-left: 7%;
@@ -117,7 +119,7 @@
     }
 
     .deta1{
-        margin-top: 13%;
+        margin-top: 25%;
         margin-left: auto;
         width: 100%;
     }

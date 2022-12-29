@@ -5,8 +5,14 @@
     font-family: 'Poppins', sans-serif;
     background-color: rgb(224, 224, 203) !important;
     /* margin-bottom: 5%; */
+    /* padding-top: 3%; */
 }
 
+.navids{
+    font-size: 20px !important;
+    padding: 1px !important;
+    font-weight: 1000 !important;
+}
 
 
 #navimg img{
@@ -22,6 +28,9 @@
     color: black;
 }
 
+.col{
+    float: left;
+}
 
 .wbtn{
     margin-left: 46%;
@@ -38,9 +47,9 @@
 
 
 
-#navitem :hover{
+/* #navitem :hover{
     background-color: #FF9C00 !important;
-}
+} */
 
 @media screen and (max-width:600px) {
     .navbar-brand img {
@@ -49,6 +58,9 @@
 
     .wbtn{
         display: none;
+    }
+    .navids{
+        padding-left: 0px;
     }
 
     

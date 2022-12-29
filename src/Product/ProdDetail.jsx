@@ -211,8 +211,9 @@ const outFlag = [
         "head3":"",
         "text3":[" "],
         "head4":"",
-        "text4":[" "]    }
-]
+        "text4":[" "]
+    }
+        ]
 //popup
 const d_Popup = [
     {
@@ -251,7 +252,9 @@ const d_Popup = [
         "75x230cm Six front panels" ,
         "Printing size 584x230cm" ,
         "Front visible area 504x230cm"
-        ]    },
+        ],
+        "detail":"Pop Up Display is a backdrop display system which available in straight  and curve types for 2x3,3X3,4x3,5x3,6x3. It is often used at indoor  events such as exhibition booths, trade shows, conferences, etc...  Its huge display will attract people's attention by the graphic or design added to the display."   
+        },
 
     {
         "title": "PopUp Curved",
@@ -289,7 +292,7 @@ const d_Popup = [
         "70x230cm Six front panels ",
         "Printing size 554x230cm ",
         "Front visible area 474 x230cm"
-        ]      
+        ],
     }
 ]
 //fabric
@@ -301,14 +304,15 @@ const f_Popup = [
         "img3":fpop3,
         "img4":fpop4,
         "img5":fpop5,
-        "head1":"",
-        "text1":[""],
-        "head2":"",
-        "text2":[""],
+        "head1":"3X3 STRAIGHT VELCRO FABRIC POP UP ",
+        "text1":["Printing size 295x225cm ","Front visible area 225x225cm"],
+        "head2":"4X3 STRAIGHT VELCRO FABRIC POP UP",
+        "text2":["Printing size 370x225cm ","Front visible area 300x225cm"],
         "head3":"",
         "text3":[""],
         "head4":"",
-        "text4":[""]    },
+        "text4":[""],
+        "detail":"This Fabric Pop Up Display is the perfect choice for any trade show booth,Exhibitions.  Graphic is printed on machine-washable fabric. Its material allows for steaming,which lets customers easily get any unwanted wrinkles out of their display.  This product is built with innovative Velcro receptive and Plastic safety connectors. The ingenious design of this product allows for it to be setup in a matter of minutes. It is so easy that even a single person could do it! The product comes with a oxford carry case which allows you to easily bring this incredible product with you anywhere you go!"   },
 
 ]
 
@@ -321,15 +325,15 @@ const r_Popup = [
         "img3":normr2,
         "img4":normr3,
         "img5":normr4,
-        "head1":"",
+        "head1":"85x200cm",
         "text1":[""],
-        "head2":"",
+        "head2":"100x200cm",
         "text2":[""],
-        "head3":"",
+        "head3":"120x200cm",
         "text3":[""],
-        "head4":"",
+        "head4":"150x200cm",
         "text4":[""],
-        "detail":"hello this is world sdkfjbsk dgjnksdf jghisdjf bvjbdv vkbjnijd fbigjnd ifjbnbb"  },
+        "detail":"This Normal Rollup-Banner-Stand features a sleek design with polished ends, ideal for any tradeshow or exhibit.The Broad base design gives a professional look although providing great stability.Rollps are also very popular for promotional displays in stores, shopping malls, theaters, airports, and conventions. Also called roll up banner stands or pull up banner stands,  a single person can easily set up a Rollup banner stand in under 1 minute."  },
     {
         "title": "BroadBase Rollup",
         "img1":fpop1,
@@ -337,15 +341,18 @@ const r_Popup = [
         "img3":fpop3,
         "img4":fpop4,
         "img5":fpop5,
-        "head1":"",
-        "text1":[""],
-        "head2":"",
-        "text2":[""],
+        "head1":"BRAODBASE ROLLUP ",
+        "text1":["85X200cm","100X200cm","120X200cm","150X200cm","200X200cm","240x200cm","300x200cm"],
+        "head2":"BROADBASE DOUBLE SIDED ROLLUP",
+        "text2":["85X200cm","100X200cm","120x200cm"],
         "head3":"",
         "text3":[""],
         "head4":"",
         "text4":[""],
-        "detail":"hello this is world sdkfjbs kdgjnksd fjghisdj fbvjbdv vk bjnij dfbigjnd ifj bnbb"    },
+        "head5":"",
+        "text5":[""],
+        // "detail":"hello this is world sdkfjbs kdgjnksd fjghisdj fbvjbdv vk bjnij dfbigjnd ifj bnbb"    
+    },
 
 ]
 //adjustable
@@ -358,14 +365,15 @@ const a_Popup = [
         "img4":ad3,
         "img5":ad4,
         "img6":ad6,
-        "head1":"",
-        "text1":[""],
-        "head2":"",
-        "text2":[""],
-        "head3":"",
-        "text3":[""],
+        "head1":"ADJUSTABLE/TELESCOPIC BACKDROP STAND 240X240cm (8x8ft)",
+        "text1":["Adjustable Size: From 135cm to 240cm wide and 90cm to 240cm height, Maximum visible graphics size is 240x240cm"],
+        "head2":"ADJUSTABLE/TELESCOPIC BACKDROP STAND 240X300cm (8x10ft)",
+        "text2":["Adjustable Size: From 170cm to 300cm wide and 120cm to 240cm height, Maximum visible graphics size is 240x300cm"],
+        "head3":"ADJUSTABLE/TELESCOPIC BACKDROP STAND 240X300cm (10x10ft)",
+        "text3":["Adjustable Size: From 170cm to 300cm wide and 120cm to 300cm height, Maximum visible graphics size is 300x300cm"],
         "head4":"",
-        "text4":[""]    },
+        "text4":[""] ,
+        "detail":"Heavy Duty Banner Holder Adjustable Telescopic Photography Backdrop Stand - Height Up to 300x300cm Adjustable Back Drop Stand for Trade Show, Photo Booth, Parties,Events, Wedding, Birthday, Photoshoot Background. Material can be used Banner or Fabric"  },
   
 
 ]
@@ -379,14 +387,15 @@ const t_Popup = [
         "img4":ten3,
         "img5":ten1,
         "img6":ten6,
-        "head1":"",
-        "text1":[""],
-        "head2":"",
-        "text2":[""],
+        "head1":"TENSION FABRIC STAND STRAIGHT",
+        "text1":["100x230cm"," 230x230cm"," 300x230cm"," 400x230cm"," 600x230cm"],
+        "head2":"TENSION FABRIC STAND CURVED ",
+        "text2":["230X300cm"],
         "head3":"",
         "text3":[""],
         "head4":"",
-        "text4":[""]    },
+        "text4":[""],
+        "detail":"Tension Fabric Stands are the perfect solution for advertising at trade shows, presentations, conventions and business meetings as they are portable and easy to assemble. The stretch polyester fabric banner is printed in full color and sewn into a “sleeve” which simply slides over the tubular frame to create a flat and seamless graphic.You can choose single or double-sided printing to create a professional finish. Change your message at any time by ordering an extra replacement fabric to use with your frame!"    },
   
 
 ]
@@ -399,8 +408,8 @@ const x_Popup = [
         "img3":xban2,
         "img4":xban3,
         "img5":xban,
-        "head1":" ",
-        "text1":[" "],
+        "head1":"Size",
+        "text1":["60 x 160 cm ","80 x 180 cm"],
         "head2":"",
         "text2":[""],
         "head3":"",
@@ -658,7 +667,8 @@ function Outdoor(){
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4} />)
+                head4={data.head4} text4={data.text4}
+                detail = {data.detail} />)
             })}
             <br/>
         </div>
@@ -675,7 +685,8 @@ function Popup(){
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
                 head4={data.head4} text4={data.text4} 
-                head5={data.head4} text5={data.text4} />)
+                head5={data.head4} text5={data.text4} 
+                detail = {data.detail}/>)
             })}
             <br/>
         </div>
@@ -692,7 +703,8 @@ function FPopup(){
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
                 head4={data.head4} text4={data.text4}
-                head5={data.head4} text5={data.text4} />)
+                head5={data.head4} text5={data.text4}
+                detail={data.detail} />)
             })}
             <br/>
         </div>
@@ -728,7 +740,8 @@ function APopup(){
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
                 head4={data.head4} text4={data.text4}
-                head5={data.head4} text5={data.text4} />)
+                head5={data.head4} text5={data.text4} 
+                detail = {data.detail}/>)
             })}
             <br/>
         </div>
@@ -744,7 +757,8 @@ function TPopup(){
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
                 head4={data.head4} text4={data.text4}
-                head5={data.head4} text5={data.text4}  />)
+                head5={data.head4} text5={data.text4} 
+                detail={data.detail} />)
             })}
             <br/>
         </div>
@@ -782,8 +796,7 @@ const c_flag = [
         "text1":["Flag Sizes: 85x200cm",
         "Flag Material: Knitted polyster, Blockout, Satin",
        " Pole:260cm Black powder coated aluminium structure",
-        "Base: Spider Base, Water Base, Cement base, Spike" 
-        
+        "Base: Spider Base, Water Base, Cement base, Spike",
         ],
 
         "head2":"Curved top/ Feather flag stand Medium",
@@ -802,6 +815,8 @@ const c_flag = [
         "text4":[],
         "head5":" ",
         "text5":[],
+        "detail":"Advertising flags are one of the best outdoor sign / media options to increase visibility and promote your business. These flags come in different shapes and sizes but all offer great durability and portability. Our advertising flags are great for temporary or seasonal uses and hold up well in outdoor conditions. Other common uses for business flags include, but aren’t limited to grand openings, races, real estate, trade shows, physical locations, events, and much more.Knitted polyester fabric and Double sided satin fabric flags are available, including feather or curve top flags, angled flags, teardrop flags and Telescopic flags. Attract attention and increase sales with your own advertising flag!"    
+
 
     },
   
@@ -818,7 +833,8 @@ function Cflag(){
                 head4={data.head4} text4={data.text4}
                 head5={data.head5} text5={data.text5}
              
-                 img5={data.img5} img6={data.img6}  />)
+                 img5={data.img5} img6={data.img6} 
+                 detail={data.detail} />)
             })}
             <br/>
         </div>
@@ -856,7 +872,9 @@ const l_flag = [
         "head4":"",
         "text4":[],
         "head5":"",
-        "text5":[]    },
+        "text5":[] ,
+        "detail":"Advertising flags are one of the best outdoor sign / media options to increase visibility and promote your business. These flags come in different shapes and sizes but all offer great durability and portability. Our advertising flags are great for temporary or seasonal uses and hold up well in outdoor conditions. Other common uses for business flags include, but aren’t limited to grand openings, races, real estate, trade shows, physical locations, events, and much more.Knitted polyester fabric and Double sided satin fabric flags are available, including feather or curve top flags, angled flags, teardrop flags and Telescopic flags. Attract attention and increase sales with your own advertising flag!"    
+       },
   
 
 ]
@@ -870,7 +888,8 @@ function Lflag(){
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
                 head4={data.head4} text4={data.text4}
-                head5={data.head5} text5={data.text5} />)
+                head5={data.head5} text5={data.text5}
+                detail={data.detail} />)
             })}
             <br/>
         </div>
@@ -907,7 +926,9 @@ const tear = [
         "head4":"",
         "text4":[],
         "head5":"",
-        "text5":[]    },
+        "text5":[] ,
+        "detail":"Advertising flags are one of the best outdoor sign / media options to increase visibility and promote your business. These flags come in different shapes and sizes but all offer great durability and portability. Our advertising flags are great for temporary or seasonal uses and hold up well in outdoor conditions. Other common uses for business flags include, but aren’t limited to grand openings, races, real estate, trade shows, physical locations, events, and much more.Knitted polyester fabric and Double sided satin fabric flags are available, including feather or curve top flags, angled flags, teardrop flags and Telescopic flags. Attract attention and increase sales with your own advertising flag!"    
+       },
 ]
 
 //teardrop
@@ -920,7 +941,8 @@ function TearDflag(){
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
                 head4={data.head4} text4={data.text4} 
-                head5={data.head5} text5={data.text5} />)
+                head5={data.head5} text5={data.text5}
+                detail={data.detail} />)
             })}
             <br/>
         </div>
@@ -947,7 +969,9 @@ const tele = [
         "head4":" ",
         "text4":["Flag Size:100x500cm"]  ,
         "head5":" ",
-        "text5":[]  },
+        "text5":[],
+        "detail":"Advertising flags are one of the best outdoor sign / media options to increase visibility and promote your business. These flags come in different shapes and sizes but all offer great durability and portability. Our advertising flags are great for temporary or seasonal uses and hold up well in outdoor conditions. Other common uses for business flags include, but aren’t limited to grand openings, races, real estate, trade shows, physical locations, events, and much more.Knitted polyester fabric and Double sided satin fabric flags are available, including feather or curve top flags, angled flags, teardrop flags and Telescopic flags. Attract attention and increase sales with your own advertising flag!"    
+      },
   
 
 ]
@@ -960,7 +984,8 @@ function Teleflag(){
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
                 head5={data.head5} text5={data.text5}
-                head4={data.head4} text4={data.text4} />)
+                head4={data.head4} text4={data.text4} 
+                detail={data.detail}/>)
             })}
             <br/>
         </div>
@@ -977,7 +1002,8 @@ function Counter(){
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
                 head4={data.head4} text4={data.text4}
-                head5={data.head5} text5={data.text5} />)
+                head5={data.head5} text5={data.text5}
+                detail={data.detail} />)
             })}
             <br/>
         </div>
