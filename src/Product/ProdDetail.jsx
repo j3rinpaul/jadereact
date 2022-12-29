@@ -315,7 +315,7 @@ const f_Popup = [
 //rollup
 const r_Popup = [
     {
-        "title": "",
+        "title": "NORMAL ROLLUP",
         "img1":normr,
         "img2":normr1,
         "img3":normr2,
@@ -328,7 +328,8 @@ const r_Popup = [
         "head3":"",
         "text3":[""],
         "head4":"",
-        "text4":[""]    },
+        "text4":[""],
+        "detail":"hello this is world sdkfjbsk dgjnksdf jghisdjf bvjbdv vkbjnijd fbigjnd ifjbnbb"  },
     {
         "title": "BroadBase Rollup",
         "img1":fpop1,
@@ -343,7 +344,8 @@ const r_Popup = [
         "head3":"",
         "text3":[""],
         "head4":"",
-        "text4":[""]    },
+        "text4":[""],
+        "detail":"hello this is world sdkfjbs kdgjnksd fjghisdj fbvjbdv vk bjnij dfbigjnd ifj bnbb"    },
 
 ]
 //adjustable
@@ -708,6 +710,7 @@ function RPopup(){
                 head3={data.head3} text3={data.text3}
                 head4={data.head4} text4={data.text4}
                 head5={data.head4} text5={data.text4}
+                detail = {data.detail}
                  />)
             })}
             <br/>

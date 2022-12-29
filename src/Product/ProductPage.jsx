@@ -123,6 +123,10 @@ function ProductPage(props) {
           </div>
           </div>
         </div>
+       
+          
+        </div>
+        <div className='deta1'>
           <p>{props.detail}</p>
         </div>
     </div>

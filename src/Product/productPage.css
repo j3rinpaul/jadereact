@@ -11,6 +11,12 @@
     font-family: 'Poppins', sans-serif
 }
 
+
+
+.deta1{
+    margin-top: -7%;
+    margin-left: 15%;
+}
 .pro{
     margin: 5%;
 }
@@ -81,7 +87,6 @@
         font-family: 'Poppins', sans-serif;
         margin-left: -5%;
     }
-   
 
     .show1 img{
         width: 70%;
@@ -107,6 +112,14 @@
         padding-left: 10%;
         width: 100%;
         margin-left: 0%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .deta1{
+        margin-top: 13%;
+        margin-left: auto;
+        width: 100%;
     }
     .pro h2{
         margin-top: 20%;
