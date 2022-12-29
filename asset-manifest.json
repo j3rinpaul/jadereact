@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jadereact/static/css/main.69fad3ad.css",
-    "main.js": "/jadereact/static/js/main.6f7dca29.js",
+    "main.js": "/jadereact/static/js/main.33952ab2.js",
     "static/media/slide1.jpg": "/jadereact/static/media/slide1.18f6504c199b1328e39e.jpg",
     "static/media/slide2.jpg": "/jadereact/static/media/slide2.b48669819e70c958eab1.jpg",
     "static/media/jadesignanniversarysmall.jpg": "/jadereact/static/media/jadesignanniversarysmall.8cedd89f3b25019f0705.jpg",
@@ -142,7 +142,6 @@
     "static/media/Table Top Flag Stand 2 pole Silver.jpg": "/jadereact/static/media/Table Top Flag Stand 2 pole Silver.d2522e217148bf22c8f9.jpg",
     "static/media/Q stand rope twisted Black with silver end.jpg": "/jadereact/static/media/Q stand rope twisted Black with silver end.fd16246677edc505a200.jpg",
     "static/media/umb.jpg": "/jadereact/static/media/umb.6a43c49d39dc38fe3f06.jpg",
-    "static/media/Snap Frame Black A4,A3,A2,A1,A0.jpg": "/jadereact/static/media/Snap Frame Black A4,A3,A2,A1,A0.63af25332be836ec355f.jpg",
     "static/media/Metal brochure stand .JPG": "/jadereact/static/media/Metal brochure stand .9eda6032a9f55ee4002f.JPG",
     "static/media/2m flag pole gold .JPG": "/jadereact/static/media/2m flag pole gold .868beaef56dd16b79d0a.JPG",
     "static/media/olfac3.png": "/jadereact/static/media/olfac3.ae46edff208bc39495a6.png",
@@ -196,6 +195,7 @@
     "static/media/info7.jpg": "/jadereact/static/media/info7.ce3adb8b749d42864f9d.jpg",
     "static/media/Table Top Flag Stand L type Silver.jpg": "/jadereact/static/media/Table Top Flag Stand L type Silver.59955f2677e109b0063d.jpg",
     "static/media/xban2.jpg": "/jadereact/static/media/xban2.5cee5eff8ad58fa5c74a.jpg",
+    "static/media/Snap Frame Black A4,A3,A2,A1,A0.jpg": "/jadereact/static/media/Snap Frame Black A4,A3,A2,A1,A0.063f7304383f0c58861c.jpg",
     "static/media/fa-regular-400.woff2": "/jadereact/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
     "static/media/JS Wall mounted Acrylic brochure holder A4,A5,DL_.jpg": "/jadereact/static/media/JS Wall mounted Acrylic brochure holder A4,A5,DL_.b9e6f25844b43302c9b4.jpg",
     "static/media/Table Top Flag Stand 1 Pole Silver.jpg": "/jadereact/static/media/Table Top Flag Stand 1 Pole Silver.b5f014b6f4b61b5831dd.jpg",
@@ -234,10 +234,10 @@
     "static/media/arrow_left.svg": "/jadereact/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/jadereact/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
     "main.69fad3ad.css.map": "/jadereact/static/css/main.69fad3ad.css.map",
-    "main.6f7dca29.js.map": "/jadereact/static/js/main.6f7dca29.js.map"
+    "main.33952ab2.js.map": "/jadereact/static/js/main.33952ab2.js.map"
   },
   "entrypoints": [
     "static/css/main.69fad3ad.css",
-    "static/js/main.6f7dca29.js"
+    "static/js/main.33952ab2.js"
   ]
 }
