@@ -8,7 +8,7 @@ import {
   MDBNavbarLink,
   MDBIcon,
   MDBCollapse,
-  // MDBDropdown,MDBDropdownItem,MDBDropdownToggle,MDBDropdownMenu
+  MDBDropdown,MDBDropdownItem,MDBDropdownToggle,MDBDropdownMenu
 } from 'mdb-react-ui-kit';
 import {
   Link, NavLink,
@@ -42,7 +42,7 @@ export default function NavBar() {
           <MDBNavbarNav>
             <NavLink to="/Home"><MDBNavbarLink id='navitem' >Home</MDBNavbarLink></NavLink>
             <NavLink to="/About"><MDBNavbarLink id='navitem'>About</MDBNavbarLink></NavLink>
-            <Navbar.Collapse id="navbar-dark-example">
+            {/* <Navbar.Collapse id="navbar-dark-example">
               <Nav>
                 <NavDropdown
                   id="navitem"
@@ -59,10 +59,10 @@ export default function NavBar() {
                   <NavDropdown.Item href="/Promotional">Promotional Gifts</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
-            </Navbar.Collapse>
+            </Navbar.Collapse> */}
            
 
-              {/* <MDBDropdown id="navitem" >
+              <MDBDropdown id="navitem" >
                 <MDBDropdownToggle  color='link' className='navids' >Products</MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem link="/Product">Display Products</MDBDropdownItem>
@@ -75,7 +75,7 @@ export default function NavBar() {
                   <MDBDropdownItem link="/Printing">Printing Services</MDBDropdownItem>
                   <MDBDropdownItem link="/Promotional">Promotional Gifts</MDBDropdownItem>
                 </MDBDropdownMenu>
-              </MDBDropdown> */}
+              </MDBDropdown>
               
             <NavLink to="/News"><MDBNavbarLink  id='navitem'>News</MDBNavbarLink></NavLink>
             <NavLink to="/Contact"><MDBNavbarLink  id='navitem'>Contact</MDBNavbarLink></NavLink>
