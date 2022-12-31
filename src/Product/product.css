@@ -14,6 +14,33 @@ body{
     margin-left: 5%;
     margin-right: 5%;
 }
+.infoc{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,
+    minmax(12rem, 14rem));
+    justify-content:center;
+    margin-bottom: 10%;
+    margin-top: 8%;
+    gap: 10rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 80%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carrs2{
+    margin-top: -12%;
+}
+
+.infoc h2{
+    text-decoration: none;
+    color:rgb(34, 26, 26) ;
+}
+.hedd h1{
+    margin-left: 4%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+}
 .btns{
     font-family:inherit;
     font-weight:bold;

@@ -1,3 +1,4 @@
+
 .page1{
     display:grid;
     grid-template-columns:repeat(auto-fit,
@@ -11,8 +12,19 @@
     font-family: 'Poppins', sans-serif
 }
 
+.deta1 h2{
+        font-size: 35px !important;
+        margin-left: -5%;
+}
+
+.deta1{
+    margin-top: -7%;
+    margin-left: 10%;
+    font-size: 20px;
+}
 .pro{
     margin: 5%;
+    margin-left: -5%;
 }
 .pro h2{
     padding-left: 7%;
@@ -42,6 +54,18 @@
 
 
 }
+.gf{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 7rem;
+    row-gap: 3rem;
+}
+
+.gfc{
+    display: block;
+    float: left;
+    width: 36%;
+}
 .items1 h3{
  
     font-size: 20px;
@@ -56,8 +80,8 @@
 
 @media  only screen and (max-width:600px){
     .show1{
-        margin-top: 5%;
-        margin-left: -18%;
+        margin-top: 3%;
+        margin-left: -8%;
         width: 100%;
     }
     .page1{
@@ -74,17 +98,43 @@
         width: 70%;
     }
     .items1{
-        margin-left: -14px;
+        margin-left: -35px;
         margin-top: 5%;
-        margin-bottom: -35%;
+        margin-bottom: -55%;
+        width: 100%;
+    }
+
+    .gfc{
+        display: block;
+
+    }
+    .deta1 h2{
+        margin-left: -5%;
+        font-size: 20px !important;
+    }
+
+    .gf{
+        gap: 4rem;display:grid;
+        grid-template-columns:repeat(auto-fit,
+        minmax(12rem, 16rem));
     }
     .pro{
         padding-left: 10%;
         width: 100%;
+        margin-left: 0%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .deta1{
+        margin-top: 25%;
+        margin-left: auto;
+        width: 100%;
     }
     .pro h2{
-        margin-top: 30%;
-        font-size: 40px;
+        margin-top: 20%;
+        font-size: 23px;
+        margin-left: -8%;
     }
 
 }

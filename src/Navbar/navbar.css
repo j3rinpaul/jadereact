@@ -5,9 +5,20 @@
     font-family: 'Poppins', sans-serif;
     background-color: rgb(224, 224, 203) !important;
     /* margin-bottom: 5%; */
+    padding-top: 2px;
 }
 
+.navids{
+    font-size: 20px !important;
+    padding: 1px !important;
+    font-weight: 1000 !important;
+    
+}
 
+#navitem button{
+    text-transform: capitalize;
+    text-decoration: none;
+}
 
 #navimg img{
     width: 70% !important; 
@@ -21,6 +32,11 @@
     font-size: 20px;
     color: black;
 }
+
+.col{
+    float: left;
+}
+
 .wbtn{
     margin-left: 46%;
     margin-top: 0.2%;
@@ -36,9 +52,9 @@
 
 
 
-#navitem :hover{
+/* #navitem :hover{
     background-color: #FF9C00 !important;
-}
+} */
 
 @media screen and (max-width:600px) {
     .navbar-brand img {
@@ -47,6 +63,13 @@
 
     .wbtn{
         display: none;
+    }
+    .navids{
+        padding-left: 0px;
+    }
+    #navitem button{
+        text-transform: capitalize;
+        margin-left: 0%;
     }
 
     
@@ -61,6 +84,17 @@
 @media screen and (max-width:950px){
     .wbtn{
         display: none;
+    }
+}
+
+@media screen and (min-width:991px ) and (max-width:1200px){
+    #navitem {
+        margin-left: 4%;
+        padding-right: 4%;
+
+    }
+    #fcolor a{
+        margin-left: 3%;
     }
 }
 @media screen and (min-width:1700px){

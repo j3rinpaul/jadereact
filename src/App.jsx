@@ -3,9 +3,9 @@ import NavBar from './Navbar/Navbar'
 import Footer from './Footer/footer'
 import About from './About/About'
 import Home from './Home/home'
-import {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand/*Printing,Promotional*/} from './Product/Product'
-import {Outdoor,Popup,FPopup,RPopup,APopup} from './Product/ProdDetail'
-import {TPopup,XPopup,Cflag,Lflag,TearDflag,Teleflag,Counter} from './Product/ProdDetail'
+import {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand/*,Promotional*/} from './Product/Product'
+import {Outdoor,SnapF,Broc,SlimL,Popup,FPopup,RPopup,APopup,Info} from './Product/ProdDetail'
+import {TPopup,QRope,Nqu,Qtt,QRect,QStan,XPopup,Cflag,AcryP,Aboard,Lflag,TearDflag,Teleflag,Counter,Printing} from './Product/ProdDetail'
 import Contact from './Contact/Contact'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -28,18 +28,29 @@ function App() {
             <Route path="/Advd" element={<Advsidplay/>}/>
             <Route path="/About" element={<About />}/>
             <Route path="/Contact" element={<Contact />}/>
+            <Route path="/Info" element={<Info />}/>
             <Route path="/Umbrella" element={<Umbrella />}/>
             <Route path="/Qs" element={<Qstand />}/>
-            {/* <Route path="/Printing" element={<Printing />}/>
-            <Route path="/Promotional" element={<Promotional />}/> */}
+             <Route path="/Printing" element={<Printing />}/>
+            {/* <Route path="/Promotional" element={<Promotional />}/> */} 
 
             {/* routing to seperate page is given here,ProdDetail*/}
 
             <Route path="/Outdoor" element={<Outdoor />}/>
             <Route path="/Popup" element={<Popup />}/>
+            <Route path="/SnapF" element={<SnapF />}/>
+            <Route path="/Nqu" element={<Nqu />}/>
+            <Route path="/QRect" element={<QRect />}/>
+            <Route path="/QStan" element={<QStan />}/>
+            <Route path="/Qtt" element={<Qtt />}/>
+            <Route path="/QRope" element={<QRope />}/>
+            <Route path="/Broc" element={<Broc />}/>
+            <Route path="/SlimL" element={<SlimL />}/>
             <Route path="/FPopup" element={<FPopup />}/>
+            <Route path="/Aboard" element={<Aboard />}/>
             <Route path="/RPopup" element={<RPopup />}/>
             <Route path="/APopup" element={<APopup />}/>
+            <Route path="/AcryP" element={<AcryP />}/>
             <Route path="/TPopup" element={<TPopup />}/>
             <Route path="/XPopup" element={<XPopup />}/>
             <Route path="/Cflag" element={<Cflag />}/>
