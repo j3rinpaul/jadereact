@@ -72,7 +72,7 @@ export default function NavBar() {
                   <MDBDropdownItem link="/Advd">Advertising accessories</MDBDropdownItem>
                   <MDBDropdownItem link="/Qs">Q-Stand & Indoor-Flag Poles</MDBDropdownItem>
                   <MDBDropdownItem link="/Counter">Counter & Tables</MDBDropdownItem>
-                  <MDBDropdownItem link="/Printing">Printing Services</MDBDropdownItem>
+                  <MDBDropdownItem link="/Printing">Signage & Printing Services</MDBDropdownItem>
                   <MDBDropdownItem link="/Promotional">Promotional Gifts</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>

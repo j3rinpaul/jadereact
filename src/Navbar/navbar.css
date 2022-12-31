@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
     background-color: rgb(224, 224, 203) !important;
     /* margin-bottom: 5%; */
-    /* padding-top: 3%; */
+    padding-top: 2px;
 }
 
 .navids{
@@ -84,6 +84,17 @@
 @media screen and (max-width:950px){
     .wbtn{
         display: none;
+    }
+}
+
+@media screen and (min-width:991px ) and (max-width:1200px){
+    #navitem {
+        margin-left: 4%;
+        padding-right: 4%;
+
+    }
+    #fcolor a{
+        margin-left: 3%;
     }
 }
 @media screen and (min-width:1700px){
