@@ -12,8 +12,13 @@
     font-size: 20px !important;
     padding: 1px !important;
     font-weight: 1000 !important;
+    
 }
 
+#navitem button{
+    text-transform: capitalize;
+    text-decoration: none;
+}
 
 #navimg img{
     width: 70% !important; 
@@ -61,6 +66,10 @@
     }
     .navids{
         padding-left: 0px;
+    }
+    #navitem button{
+        text-transform: capitalize;
+        margin-left: 0%;
     }
 
     

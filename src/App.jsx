@@ -3,9 +3,9 @@ import NavBar from './Navbar/Navbar'
 import Footer from './Footer/footer'
 import About from './About/About'
 import Home from './Home/home'
-import {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand/*Printing,Promotional*/} from './Product/Product'
+import {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand/*,Promotional*/} from './Product/Product'
 import {Outdoor,SnapF,Broc,SlimL,Popup,FPopup,RPopup,APopup,Info} from './Product/ProdDetail'
-import {TPopup,QRope,Nqu,Qtt,QRect,QStan,XPopup,Cflag,AcryP,Aboard,Lflag,TearDflag,Teleflag,Counter} from './Product/ProdDetail'
+import {TPopup,QRope,Nqu,Qtt,QRect,QStan,XPopup,Cflag,AcryP,Aboard,Lflag,TearDflag,Teleflag,Counter,Printing} from './Product/ProdDetail'
 import Contact from './Contact/Contact'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -31,8 +31,8 @@ function App() {
             <Route path="/Info" element={<Info />}/>
             <Route path="/Umbrella" element={<Umbrella />}/>
             <Route path="/Qs" element={<Qstand />}/>
-            {/* <Route path="/Printing" element={<Printing />}/>
-            <Route path="/Promotional" element={<Promotional />}/> */}
+             <Route path="/Printing" element={<Printing />}/>
+            {/* <Route path="/Promotional" element={<Promotional />}/> */} 
 
             {/* routing to seperate page is given here,ProdDetail*/}
 

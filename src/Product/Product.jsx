@@ -268,9 +268,8 @@ const data_f = [
     "img":img_host,
     "desc":["Small : 90 x 200 cm","Medium : 100 x 500 cm","Large : 100 x 600 cm"]
   },
-  {"title":"Advertising Flag Pole Size:90X400cm 100X500cm 100X600cm",
+  {"title":"Advertising Flag Pole ",
   "img":adverf,
-  "desc":["Small : 90 x 200 cm","Medium : 100 x 500 cm","Large : 100 x 600 cm"]
   },
   
 
@@ -362,6 +361,7 @@ const data_q = [
     "link":"/QStan"
   }
 ]
+
 
 const data_adv = [
   {"title":"Top Hangers 70cm for Curved Pop Up",
@@ -687,6 +687,7 @@ function Product() {
     </div>
   )
 }
+
 
 function Advsidplay(){
   return(
