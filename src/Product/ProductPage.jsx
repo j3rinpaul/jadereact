@@ -1,10 +1,10 @@
 import React from 'react'
 import "./productPage.css"
-import { Carousel } from 'react-responsive-carousel';
+// import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Card from 'react-bootstrap/Card';
-// import Lightbox from "react-awesome-lightbox";
-import "react-awesome-lightbox/build/style.css";
+import { Card } from 'react-bootstrap';
+import Image from './image';
+
 
 
 // const View = ({image}) =>{
@@ -17,17 +17,63 @@ import "react-awesome-lightbox/build/style.css";
 
 function ProductPage(props) {
   return (
-    <div className='pro'>
-        <div>
-          <h2>{props.title}</h2>
+    <div className='newsl'>
+        <div className='img2' >
+          <Image image={props.image} />
         </div>
-        <div className='page1'>
-          <div className='show1'>
+        <div className='img3'>
+          <h2>soon</h2>
+        </div>
+
+          <div className='details1'>
+            <div className='details2'>
+              <h2>{props.title}</h2>
+            </div>
+            <div className='detailcard'>
+              {/* {
+                //detail is an array containing head and text
+                props.details.map((detail, it) => (
+                  //{head:"",text:[]  }
+                  <div className='gfc' key={it}>
+                    <Card style={{ width: '18rem' }}>
+                      <Card.Body>
+                        <Card.Title>{detail.head}</Card.Title>
+                        <Card.Text>
+                        <p>{detail.text.map((id,d)=>{
+                          return(
+                            <li key={d} id={d}>{id}</li>
+                          )})}</p>
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                </div>
+
+                ))
+              } */}
+              
+
+            </div>
+          <div>
+
+      </div>
+
+          </div>
+         
+       
+    </div>
+  )
+}
+
+export default ProductPage
+
+
+
+   {/* <div className='show1'>
           <Carousel>
                 <div className = "sitem">
                   
                     <img src={props.img1} alt=""  /> 
-                    {/* <Lightbox image={props.img1} /> */}
+          
                    
                 </div>
                 <div className = "sitem">
@@ -47,8 +93,8 @@ function ProductPage(props) {
                 </div>
             </Carousel>
 
-          </div>
-          
+          </div> */}
+{/*           
           <div className='items1'>
             <h3>Available Sizes</h3>
             
@@ -133,16 +179,10 @@ function ProductPage(props) {
               <div>
           </div>
           </div>
-        </div>
        
           
         </div>
         <div className='deta1'>
           <h2>{props.desc}</h2>
           <p>{props.detail}</p>
-        </div>
-    </div>
-  )
-}
-
-export default ProductPage
+        </div> */}

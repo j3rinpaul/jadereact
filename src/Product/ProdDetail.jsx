@@ -207,9 +207,11 @@ import print3 from "../assets/Sign/sign4.jpg"
 const outFlag = [
     {
         "title": "Product",
-        "img1":imgloc,
-        "img2":imgloc,
-        "img3":imgloc,
+        // "img1":imgloc,
+        // "img2":imgloc,
+        // "img3":imgloc,
+        "image":[imgloc,imgloc,imgloc],
+        "detail":[{"head":"","text":""}],
         "head1":"",
         "text1":[" "],
         "head2":"",
@@ -224,93 +226,105 @@ const outFlag = [
 const d_Popup = [
     {
         "title": "PopUp Straight",
-        "img1":popupst,
-        "img2":popst1,
-        "img3":popc2,
-        "img4":popc4,
-        "img5":popc5,
-        "img6":popst2,
-        "head1":"2X3 STRAIGHT POP UP ",
-        "text1":["67x230cm Two side panels", 
-        "75x230cm Two front panels", 
-        "Printing size 284x230cm", 
-        "Front visible area 204x230cm"
-        ],
-        "head2":"3X3 STRAIGHT POP UP",
-        "text2":["67x230cm Two side panels", 
-        "75x230cm Three front panels ",
-        "Printing size 359x230cm ",     
-        " Front visible area 279x230cm"
-        ],
-        "head3":"4X3 STRAIGHT POP UP",
-        "text3":["67x230cm Two side panels" ,
-       " 75x230cm Four front panels" ,
-        "Printing size 434x230cm" ,
-        "Front visible area 354x230cm"        ],
-        "head4":"5X3 STRAIGHT POP UP",
-        "text4":["67x230cm Two side panels", 
-        "75x230cm Five front panels" ,
-        "Printing size 509x230cm ",
-        "Front visible area 429x230cm"
-        ],
-        "head5":"6X3 STRAIGHT POP UP",
-        "text5":["67x230cm Two side panels", 
-        "75x230cm Six front panels" ,
-        "Printing size 584x230cm" ,
-        "Front visible area 504x230cm"
-        ],
+        // "img1":popupst,
+        // "img2":popst1,
+        // "img3":popc2,
+        // "img4":popc4,
+        // "img5":popc5,
+        // "img6":popst2,
+        "image":[popupst,popst1,popc2,popc4,popc5,popst2],
+        "details":[{"head":"2X3 STRAIGHT POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
+                  {"head":"3X3 STRAIGHT POP UP","text":["67x230cm Two side panels", "75x230cm Three front panels ","Printing size 359x230cm "," Front visible area 279x230cm"]},
+                  {"head":"4X3 STRAIGHT POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
+                  {"head":"4X3 STRAIGHT POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
+                  {"head":"6X3 STRAIGHT POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},],
+        // "head1":"2X3 STRAIGHT POP UP ",
+        // "text1":["67x230cm Two side panels", 
+        
+       
+        // "head2":"3X3 STRAIGHT POP UP",
+        // "text2":["67x230cm Two side panels", 
+        // "75x230cm Three front panels ",
+        // "Printing size 359x230cm ",     
+        // " Front visible area 279x230cm"
+        // ],
+    //     "head3":"4X3 STRAIGHT POP UP",
+    //     "text3":["67x230cm Two side panels" ,
+    //    " 75x230cm Four front panels" ,
+    //     "Printing size 434x230cm" ,
+    //     "Front visible area 354x230cm"        ],
+    //     "head4":"4X3 STRAIGHT POP UP",
+    //     "text4":["67x230cm Two side panels", 
+    //     "75x230cm Five front panels" ,
+    //     "Printing size 509x230cm ",
+    //     "Front visible area 429x230cm"
+    //     ],
+    //     "head5":"6X3 STRAIGHT POP UP",
+    //     "text5":["67x230cm Two side panels", 
+    //     "75x230cm Six front panels" ,
+    //     "Printing size 584x230cm" ,
+    //     "Front visible area 504x230cm"
+    //     ],
         "desc":"Product Description",
         "detail":"Pop Up Display is a backdrop display system which available in straight  and curve types for 2x3,3X3,4x3,5x3,6x3. It is often used at indoor  events such as exhibition booths, trade shows, conferences, etc...  Its huge display will attract people's attention by the graphic or design added to the display."   
         },
 
     {
         "title": "PopUp Curved",
-        "img1":popupc,
-        "img2":popc1,
-        "img3":popc3,
-        "img4":popc2,
-        "img5":popc4,
-        "img6":popc5,
-        "head1":"2X3 CURVED POP UP",
-        "text1":["67x230cm Two side panels","70x230cm Two front panels", 
-        "Printing size 274x230cm ",
-        "Front visible area 194x230cm"
-        ],
+        // "img1":popupc,
+        // "img2":popc1,
+        // "img3":popc3,
+        // "img4":popc2,
+        // "img5":popc4,
+        // "img6":popc5,
+        "image":[popc1,popc2,popc3,popc4,popc5,popupc],
+        "details":[{"head":"2X3 CURVED POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
+                  {"head":"3X3 CURVED POP UP","text":["67x230cm Two side panels", "75x230cm Three front panels ","Printing size 359x230cm "," Front visible area 279x230cm"]},
+                  {"head":"4X3 CURVED POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
+                  {"head":"5X3 CURVED POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
+                  {"head":"6X3 CURVED POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},],
+    //     "head1":"2X3 CURVED POP UP",
+    //     "text1":["67x230cm Two side panels","70x230cm Two front panels", 
+    //     "Printing size 274x230cm ",
+    //     "Front visible area 194x230cm"
+    //     ],
 
-        "head2":"3X3 CURVED POP UP",
-        "text2":["67x230cm Two side panels",
-        "70x230cm Three front panels",
-        "Printing size 344x230cm",
-        " Front visible area 264x230cm"],
+    //     "head2":"3X3 CURVED POP UP",
+    //     "text2":["67x230cm Two side panels",
+    //     "70x230cm Three front panels",
+    //     "Printing size 344x230cm",
+    //     " Front visible area 264x230cm"],
 
-        "head3":"4X3 CURVED POP UP",
-        "text3":["67x230cm Two side panels","70x230cm Four front panels", 
-        "Printing size 414x230cm" ,
-       "Front visible area 334x230cm"],
+    //     "head3":"4X3 CURVED POP UP",
+    //     "text3":["67x230cm Two side panels","70x230cm Four front panels", 
+    //     "Printing size 414x230cm" ,
+    //    "Front visible area 334x230cm"],
 
-        "head4":"5X3 CURVED POP UP",
-        "text4":["67x230cm Two side panels ",
-        "70x230cm Five front panels ",
-        "Printing size 484x230cm ",
-        "Front visible area 404x230cm"
-        ],
-        "head5":"6X3 CURVED POP UP",
-        "text5":["67x230cm Two side panels",
-        "70x230cm Six front panels ",
-        "Printing size 554x230cm ",
-        "Front visible area 474 x230cm"
-        ],
+    //     "head4":"5X3 CURVED POP UP",
+    //     "text4":["67x230cm Two side panels ",
+    //     "70x230cm Five front panels ",
+    //     "Printing size 484x230cm ",
+    //     "Front visible area 404x230cm"
+    //     ],
+    //     "head5":"6X3 CURVED POP UP",
+    //     "text5":["67x230cm Two side panels",
+    //     "70x230cm Six front panels ",
+    //     "Printing size 554x230cm ",
+    //     "Front visible area 474 x230cm"
+    //     ],
     }
 ]
 //fabric
 const f_Popup = [
     {
         "title": "Velcro Fabric PopUp",
-        "img1":fpop1,
-        "img2":fpop2,
-        "img3":fpop3,
-        "img4":fpop4,
-        "img5":fpop5,
+        // "img1":fpop1,
+        // "img2":fpop2,
+        // "img3":fpop3,
+        // "img4":fpop4,
+        // "img5":fpop5,
+        "image":[fpop1,fpop2,fpop3,fpop4,fpop5],
+        "detail":[{"head":"","text":""}],
         "head1":"3X3 STRAIGHT VELCRO FABRIC POP UP ",
         "text1":["Printing size 295x225cm ","Front visible area 225x225cm"],
         "head2":"4X3 STRAIGHT VELCRO FABRIC POP UP",
@@ -328,28 +342,32 @@ const f_Popup = [
 const r_Popup = [
     {
         "title": "NORMAL ROLLUP",
-        "img1":normr,
-        "img2":normr1,
-        "img3":normr2,
-        "img4":normr3,
-        "img5":normr4,
-        "head1":"85x200cm",
-        "text1":[""],
-        "head2":"100x200cm",
-        "text2":[""],
-        "head3":"120x200cm",
-        "text3":[""],
-        "head4":"150x200cm",
-        "text4":[""],
+        // "img1":normr,
+        // "img2":normr1,
+        // "img3":normr2,
+        // "img4":normr3,
+        // "img5":normr4,
+        "image":[normr,normr1,normr2,normr3,normr4],
+        "detail":[{"head":"","text":""}],
+        "head1":"",
+        "text1":["85x200cm"],
+        "head2":"",
+        "text2":["100x200cm"],
+        "head3":"",
+        "text3":["120x200cm"],
+        "head4":"",
+        "text4":["150x200cm"],
         "desc":"Product Description",
         "detail":"This Normal Rollup-Banner-Stand features a sleek design with polished ends, ideal for any tradeshow or exhibit.The Broad base design gives a professional look although providing great stability.Rollps are also very popular for promotional displays in stores, shopping malls, theaters, airports, and conventions. Also called roll up banner stands or pull up banner stands,  a single person can easily set up a Rollup banner stand in under 1 minute."  },
     {
         "title": "BroadBase Rollup",
-        "img1":fpop1,
-        "img2":fpop2,
-        "img3":fpop3,
-        "img4":fpop4,
-        "img5":fpop5,
+        // "img1":fpop1,
+        // "img2":fpop2,
+        // "img3":fpop3,
+        // "img4":fpop4,
+        // "img5":fpop5,
+        "image":[fpop1,fpop2,fpop3,fpop4,fpop5],
+        "detail":[{"head":"","text":""}],
         "head1":"BRAODBASE ROLLUP ",
         "text1":["85X200cm","100X200cm","120X200cm","150X200cm","200X200cm","240x200cm","300x200cm"],
         "head2":"BROADBASE DOUBLE SIDED ROLLUP",
@@ -368,12 +386,14 @@ const r_Popup = [
 const a_Popup = [
     {
         "title": "Adjustable Backdrops",
-        "img1":ad5,
-        "img2":ad1,
-        "img3":ad2,
-        "img4":ad3,
-        "img5":ad4,
-        "img6":ad6,
+        // "img1":ad5,
+        // "img2":ad1,
+        // "img3":ad2,
+        // "img4":ad3,
+        // "img5":ad4,
+        // "img6":ad6,
+        "image":[ad5,ad1,ad2,ad3,ad4,ad6],
+        "detail":[{"head":"","text":""}],
         "head1":"ADJUSTABLE/TELESCOPIC BACKDROP STAND 240X240cm (8x8ft)",
         "text1":["Adjustable Size: From 135cm to 240cm wide and 90cm to 240cm height, Maximum visible graphics size is 240x240cm"],
         "head2":"ADJUSTABLE/TELESCOPIC BACKDROP STAND 240X300cm (8x10ft)",
@@ -391,12 +411,14 @@ const a_Popup = [
 const t_Popup = [
     {
         "title": "Tension Fabric Stand",
-        "img2":ten2,
-        "img3":ten5,
-        "img1":ten4,
-        "img4":ten3,
-        "img5":ten1,
-        "img6":ten6,
+        // "img2":ten2,
+        // "img3":ten5,
+        // "img1":ten4,
+        // "img4":ten3,
+        // "img5":ten1,
+        // "img6":ten6,
+        "image":[ten1,ten2,ten3,ten4,ten5,ten6],
+        "detail":[{"head":"","text":""}],
         "head1":"TENSION FABRIC STAND STRAIGHT",
         "text1":["100x230cm"," 230x230cm"," 300x230cm"," 400x230cm"," 600x230cm"],
         "head2":"TENSION FABRIC STAND CURVED ",
@@ -414,11 +436,13 @@ const t_Popup = [
 const x_Popup = [
     {
         "title": "X Banner Stand",
-        "img1":xban1,
-        "img2":xban4,
-        "img3":xban2,
-        "img4":xban3,
-        "img5":xban,
+        // "img1":xban1,
+        // "img2":xban4,
+        // "img3":xban2,
+        // "img4":xban3,
+        // "img5":xban,
+        "image":[xban1,xban4,xban2,xban3,xban],
+        "detail":[{"head":"","text":""}],
         "head1":"Size",
         "text1":["60 x 160 cm ","80 x 180 cm"],
         "head2":"",
@@ -444,10 +468,12 @@ const x_Popup = [
 const count = [
     {
         "title": "Popup Table",
-        "img1":table,
-        "img2":table1,
-        "img3":table2,
-        "img4":table3,
+        // "img1":table,
+        // "img2":table1,
+        // "img3":table2,
+        // "img4":table3,
+        "image":[table,table1,table2,table3],
+        "detail":[{"head":"","text":""}],
         "head1":"Size: ",
         "text1":["40w x130L x94H cm"],
         "head2":"Printing Size: ",
@@ -460,10 +486,12 @@ const count = [
         "text5":[]    },
     {
         "title": "Promotion Table",
-        "img1":coun,
-        "img2":coun1,
-        "img3":coun2,
-        "img4":coun3,
+        // "img1":coun,
+        // "img2":coun1,
+        // "img3":coun2,
+        // "img4":coun3,
+        "image":[coun,coun1,coun2,coun3],
+        "detail":[{"head":"","text":""}],
         "head1":"Size: ",
         "text1":[ "41W x 82L x 85H cm" ],
         "head2":" Header: ",
@@ -672,12 +700,12 @@ function Nqu(){
     }
 
 
-
+//1
 function Outdoor(){
     return(
         <div>
            {outFlag.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} 
+              return(<ProductPage title={data.title} image = {data.image} 
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
@@ -690,12 +718,12 @@ function Outdoor(){
       )
 }
 
-//popup stand
+//popup stand 2
 function Popup(){
     return(
         <div>
            {d_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+              return(<ProductPage title={data.title} image = {data.image} 
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
@@ -709,12 +737,12 @@ function Popup(){
       )
 }
 
-//fabric popup
+//fabric popup 3
 function FPopup(){
     return(
         <div>
            {f_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+              return(<ProductPage title={data.title} image = {data.image}
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
@@ -728,12 +756,12 @@ function FPopup(){
       )
 }
 
-//rollup
+//rollup 4
 function RPopup(){
     return(
         <div>
            {r_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+              return(<ProductPage title={data.title} image = {data.image} 
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
@@ -748,12 +776,12 @@ function RPopup(){
       )
 }
 
-//adjustable
+//adjustable5
 function APopup(){
     return(
         <div>
            {a_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+              return(<ProductPage title={data.title} image = {data.image} 
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
@@ -766,12 +794,13 @@ function APopup(){
         </div>
       )
 }
-//tension
+//tension 6
 function TPopup(){
     return(
         <div>
            {t_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+              return(<ProductPage title={data.title}
+                image = {data.image} 
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
@@ -785,12 +814,13 @@ function TPopup(){
         </div>
       )
 }
-//xbanner
+//xbanner7
 function XPopup(){
     return(
         <div>
            {x_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+              return(<ProductPage title={data.title} 
+                image = {data.image} 
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
@@ -802,17 +832,19 @@ function XPopup(){
       )
 }
 
-//curved flag
+//curved flag 8
 
 const c_flag = [
     {
         "title": "Curved Top Flag / Feather Flag",
-        "img1":cur,
-        "img2":cur1,
-        "img3":cur2,
-        "img4":cur3,
-        "img5":cur4,
-        "img6":cur5,
+        // "img1":cur,
+        // "img2":cur1,
+        // "img3":cur2,
+        // "img4":cur3,
+        // "img5":cur4,
+        // "img6":cur5,
+        "image":[cur,cur1,cur2,cur3,cur4,cur5],
+        "detail":[{"head":"","text":""}],
         "head1":"Curved top/ Feather flag stand Small",
         "text1":["Flag Sizes: 85x200cm",
         "Flag Material: Knitted polyster, Blockout, Satin",
@@ -848,14 +880,14 @@ function Cflag(){
     return(
         <div>
            {c_flag.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4}
+              return(<ProductPage title={data.title} 
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
                 head4={data.head4} text4={data.text4}
                 head5={data.head5} text5={data.text5}
-             
-                 img5={data.img5} img6={data.img6} 
+                image = {data.image}
+                
                  detail={data.detail}
                  desc={data.desc} />)
             })}
@@ -865,15 +897,17 @@ function Cflag(){
 }
 //Lbanner
 
-//L flag
+//L flag9
 const l_flag = [
     {
         "title": "L-Shape Flag / Square Flag",
-        "img1":lflag1,
-        "img2":lflag2,
-        "img3":lflag,
-        "img4":lflag3,
-        "img5":lflag4,
+        // "img1":lflag1,
+        // "img2":lflag2,
+        // "img3":lflag,
+        // "img4":lflag3,
+        // "img5":lflag4,
+        "image":[lflag1,lflag2,lflag,lflag3,lflag4],
+        "detail":[{"head":"","text":""}],
         "head1":"L-Shape flag/Square flag stand Small",
         "text1":["Flag Sizes: 90x200cm",
            " Flag Material: Knitted polyster, Blockout, Satin",
@@ -907,7 +941,7 @@ function Lflag(){
     return(
         <div>
            {l_flag.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6}
+              return(<ProductPage title={data.title} image = {data.image}
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
@@ -921,16 +955,18 @@ function Lflag(){
       )
 }
 
-//Tear
+//Tear 10
 const tear = [
     {
         "title": "TearDrop Flag / Flying Banner",
-        "img1":tea,
-        "img2":tea1,
-        "img3":tea2,
-        "img4":tea3,
-        "img5":tea4,
-        "img6":tea5,
+        // "img1":tea,
+        // "img2":tea1,
+        // "img3":tea2,
+        // "img4":tea3,
+        // "img5":tea4,
+        // "img6":tea5,
+        "image":[tea,tea1,tea2,tea3,tea4,tea5],
+        "detail":[{"head":"","text":""}],
         "head1":"Teardrop/flying banner stand Small",
         "text1":["Flag Sizes: 90x200cm",
         "Flag Material: Knitted polyster, Blockout, Satin",
@@ -962,7 +998,7 @@ function TearDflag(){
     return(
         <div>
            {tear.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6}
+              return(<ProductPage title={data.title} image = {data.image}
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
@@ -977,16 +1013,18 @@ function TearDflag(){
 }
 
 
-//Tele
+//Tele11
 const tele = [
     {
         "title": "Telescopic Flags",
-        "img1":tel,
-        "img2":tel1,
-        "img3":tel2,
-        "img4":tel3,
-        "img5":tel5,
-        "img6":tel4,
+        // "img1":tel,
+        // "img2":tel1,
+        // "img3":tel2,
+        // "img4":tel3,
+        // "img5":tel5,
+        // "img6":tel4,
+        "image":[tel,tel1,tel2,tel3,tel5,tel4],
+        "detail":[{"head":"","text":""}],
         "head1":"",
         "text1":["PORTABLE 5m Event Flag Pole with a plastic water fillable base,"],
         "head2":"",
@@ -1008,7 +1046,7 @@ function Teleflag(){
     return(
         <div>
            {tele.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6}
+              return(<ProductPage title={data.title} image = {data.image}
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
@@ -1023,12 +1061,12 @@ function Teleflag(){
       )
 }
 
-//counter & table
+//counter & table12
 function Counter(){
     return(
         <div>
            {count.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+              return(<ProductPage title={data.title} image = {data.image}
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}
@@ -1046,10 +1084,12 @@ function Counter(){
 const printf = [
     {
         "title": "Signage",
-        "img1":print,
-        "img2":print1,
-        "img3":print2,
-        "img4":print3,
+        // "img1":print,
+        // "img2":print1,
+        // "img3":print2,
+        // "img4":print3,
+        "image":[print,print1,print2,print3],
+        "detail":[{"head":"","text":""}],
         "head1":"",
         "text1":[""],
         "head2":"",
@@ -1068,7 +1108,7 @@ function Printing(){
     return(
         <div>
            {printf.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
+              return(<ProductPage title={data.title} image = {data.image}
                 head1={data.head1} text1={data.text1}
                 head2={data.head2} text2={data.text2}
                 head3={data.head3} text3={data.text3}

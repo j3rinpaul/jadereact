@@ -1,17 +1,7 @@
 
-.page1{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,
-    minmax(05rem, 16rem));
-    justify-content:center;
-    margin-bottom: 10%;
-    margin-top: 3%;
-    margin-left: 10%;
-    gap: 2rem;
-    /* height: 80%; */
-    font-family: 'Poppins', sans-serif
+.newsl{
+    display: flex;
 }
-
 .deta1 h2{
         font-size: 35px !important;
         margin-left: -5%;
@@ -40,10 +30,10 @@
 
 }
 
-.show1 img{
-    width: 100%;
-    object-fit: scale-down;
+.img3{
+    display: none;
 }
+
 
 
 
@@ -78,6 +68,12 @@
     font-weight: bold;
 }
 
+.newsl{
+    margin-bottom: 20%;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
 @media  only screen and (max-width:600px){
     .show1{
         margin-top: 3%;
@@ -104,6 +100,21 @@
         width: 100%;
     }
 
+    .newsl{
+        margin-bottom: 20%;
+        margin-top: 5%;
+        margin-left: 3%;
+        width: 10%;
+        display: flex;
+    }
+    .img2{
+        display: none;
+        
+    }
+
+    .img3{
+        display: block;
+    }
     .gfc{
         display: block;
 
