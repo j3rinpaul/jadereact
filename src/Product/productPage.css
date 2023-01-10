@@ -1,8 +1,46 @@
 
+
 .newsl{
     display: flex;
+    margin: 5% 0 5% 5%;
+    padding: 5% 0 5% 0;
+  
+
+   
 }
-.deta1 h2{
+
+.flexin{
+    flex-direction: row;
+
+
+}
+
+
+
+.idcard{
+    display: flex;
+    margin-left: 1%;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+    z-index: -10;
+    position: relative;
+ 
+}
+
+
+
+.details2 h2{
+    margin-left: 9%;
+}
+.detailcard h3{
+    margin-left: 9%;
+    margin-top: 2%;
+}
+
+/* .deta1 h2{
         font-size: 35px !important;
         margin-left: -5%;
 }
@@ -29,10 +67,20 @@
     height: auto;
 
 }
-
-.img3{
+*/
+#img3{
     display: none;
 }
+.img2{
+    z-index: 10;
+    
+}
+.descr{
+    margin: 3% 0% 0 7%;
+    padding:0 5% 0 0 ;
+
+}
+/*
 
 
 
@@ -72,10 +120,10 @@
     margin-bottom: 20%;
     margin-top: 5%;
     margin-left: 3%;
-}
+} */
 
 @media  only screen and (max-width:600px){
-    .show1{
+    /* .show1{
         margin-top: 3%;
         margin-left: -8%;
         width: 100%;
@@ -98,16 +146,23 @@
         margin-top: 5%;
         margin-bottom: -55%;
         width: 100%;
-    }
+    } */
 
     .newsl{
         margin-bottom: 20%;
         margin-top: 5%;
         margin-left: 3%;
         width: 10%;
-        display: flex;
+        display: grid;
+      
     }
-    .img2{
+
+    .flexin{
+       
+    }
+    
+    
+    /* .img2{
         display: none;
         
     }
@@ -146,6 +201,63 @@
         margin-top: 20%;
         font-size: 23px;
         margin-left: -8%;
+    } */
+
+}
+
+@media  only screen and (max-width:1040px){
+    #img3{
+        display: flex;
+        width: 100%;
+        padding-left: 2%;
     }
 
+   .newsl{
+    display: grid;
+    
+    padding-left: 8%;
+    width: 100vw;
+    overflow-x: hidden;
+   }
+   .details2 h2{
+    margin-left: 3%;
+}
+.detailcard h3{
+    margin-left: 9%;
+    margin-top: 2%;
+}
+
+
+   .flexin{
+   
+   }
+   .idcard{
+    display: flex;
+    margin-left: 1%;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+ 
+}
+
+    .img2{
+        display: none;
+    }
+    .thumbs-wrapper{
+        width: 40%;
+    }
+    .slider-wrapper{
+        width: 40%;
+    }
+    
+    #img3 .carousel-slider{
+        width: 50% !important;
+        margin-right: 2px !important;
+    }
+   
+
+     
+    
 }

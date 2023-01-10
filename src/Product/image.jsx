@@ -50,9 +50,10 @@ function Image(props) {
                                 height: 1800,
                             },
                             enlargedImageContainerDimensions: {
-                                width: '150%',
+                                width: '90%',
                                 height: '100%',
                             },
+                            shouldUsePositiveSpaceLens: true
                         }}
                     />
                 </div>
