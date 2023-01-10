@@ -854,7 +854,7 @@ const printf = [
         "title": "Signage",
       
         "image":[print,print1,print2,print3],
-        details:[{"head":"","text":""}],
+        details:[{"head":"","text":[]}],
          },
   
   

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import About from "../About/About"
 import Typewriter from "typewriter-effect";
 import HomeCard from '../Cards/homeCard'
 import cardi from "../assets/PP_Paper.png"

@@ -35,9 +35,9 @@
     aspect-ratio: 1/1;
     object-fit: contain;
 }
-.active {
+/* .active {
     border: 2px solid #e77600;
-}
+} */
 
 @media  only screen and (max-width:600px){
 
