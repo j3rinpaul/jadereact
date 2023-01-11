@@ -45,6 +45,17 @@ import xban2 from "../assets/img/xban/xban3.jpg"
 import xban3 from "../assets/img/xban/xban4.jpg"
 import xban4 from "../assets/img/xban/xban5.jpg"
 
+//broadbase
+
+import broad1 from "../assets/img/broad/broad (1).jpg"
+// import broad2 from "../assets/img/broad/broad (2).jpg"
+import broad3 from "../assets/img/broad/broad (3).jpg"
+import broad4 from "../assets/img/broad/broad (4).jpg"
+import broad5 from "../assets/img/broad/broad (5).jpg"
+import broad6 from "../assets/img/broad/broad (6).jpg"
+import broad7 from "../assets/img/broad/broad (7).jpg"
+import broad8 from "../assets/img/broad/broad (8).jpg"
+
 //curved
 import cur from "../assets/img/curved/cur1.jpg"
 import cur1 from "../assets/img/curved/cur2.jpg"
@@ -260,17 +271,14 @@ const r_Popup = [
     
         "image":[normr,normr1,normr2,normr3,normr4],
         details:[
-            {head:"85x200cm","text":[]},
-            {head:"100x200cm","text":[]},
-            {head:"120x200cm","text":[]},
-            {head:"150x200cm","text":[]}
+            {head:"85x200cm","text":["85x200cm","100x200cm","120x200cm","150x200cm"]},
     ],
         
           },
     {
         "title": "BroadBase Rollup",
        
-        "image":[fpop1,fpop2,fpop3,fpop4,fpop5],
+        "image":[broad1,broad3,broad4,broad5,broad6,broad7,broad8],
         details:[
             {head:"BRAODBASE ROLLUP",text:["85X200cm","100X200cm","120X200cm","150X200cm","200X200cm","240x200cm","300x200cm"]},
             {head:"BROADBASE DOUBLE SIDED ROLLUP",text:["85X200cm","100X200cm","120x200cm"]}
@@ -804,10 +812,7 @@ const tele = [
        
         "image":[tel,tel1,tel2,tel3,tel5,tel4],
         details:[
-            {head:"",text:["PORTABLE 5m Event Flag Pole with a plastic water fillable base"]},
-            {head:"",text:["Aluminium telescopic construction with 18mm diameter"]},
-            {head:"",text:["Total height: 5.4m"]},
-            {head:"",text:["Flag Size:100x500cm"]},
+            {head:"",text:["PORTABLE 5m Event Flag Pole with a plastic water fillable base","Aluminium telescopic construction with 18mm diameter","Total height: 5.4m","Flag Size:100x500cm"]},
     ],
        
         "desc":"Product Description",
