@@ -65,8 +65,8 @@ function Home() {
           <HomeCard img = {cardi} title="Advertising Accessories" red="/Advd" />
           <HomeCard img = {qu} title="Q-Stands & Indoor-Flag Poles " red="/Qs" />
           <HomeCard img = {tb} title="Counter & Tables " red="/Counter" />
-          <HomeCard img = {car} title="Signage & Printing Services" red="/Printing" />
-          <HomeCard img = {promt} title="Promotional & Gifts Items " red="/Promotional" />
+          <HomeCard img = {car} title="Digital Printing Media" red="/Printing" />
+          <HomeCard img = {promt} title="Promotional & Gifts Items " red="/Promo" />
 
         </div>
       </div>
