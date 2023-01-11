@@ -45,6 +45,17 @@ import xban2 from "../assets/img/xban/xban3.jpg"
 import xban3 from "../assets/img/xban/xban4.jpg"
 import xban4 from "../assets/img/xban/xban5.jpg"
 
+//broadbase
+
+import broad1 from "../assets/img/broad/broad (1).jpg"
+// import broad2 from "../assets/img/broad/broad (2).jpg"
+import broad3 from "../assets/img/broad/broad (3).jpg"
+import broad4 from "../assets/img/broad/broad (4).jpg"
+import broad5 from "../assets/img/broad/broad (5).jpg"
+import broad6 from "../assets/img/broad/broad (6).jpg"
+import broad7 from "../assets/img/broad/broad (7).jpg"
+import broad8 from "../assets/img/broad/broad (8).jpg"
+
 //curved
 import cur from "../assets/img/curved/cur1.jpg"
 import cur1 from "../assets/img/curved/cur2.jpg"
@@ -107,10 +118,10 @@ import info15 from "../assets/Information board_/info15.jpg"
 
 //a board
 
-import ab1 from "../assets/A Board/A board black .PNG"
-import ab2 from "../assets/A Board/A board silver .JPG"
-import ab3 from "../assets/A Board/Outdoor A board .JPG"
-import ab4 from "../assets/A Board/Spring A board .JPG"
+import ab1 from "../assets/A Board/A board black .png"
+import ab2 from "../assets/A Board/A board silver .jpg"
+import ab3 from "../assets/A Board/Outdoor A board .jpg"
+import ab4 from "../assets/A Board/Spring A board .jpg"
 
 //acrylic products
 
@@ -207,160 +218,74 @@ import print3 from "../assets/Sign/sign4.jpg"
 const outFlag = [
     {
         "title": "Product",
-        "img1":imgloc,
-        "img2":imgloc,
-        "img3":imgloc,
-        "head1":"",
-        "text1":[" "],
-        "head2":"",
-        "text2":[" "],
-        "head3":"",
-        "text3":[" "],
-        "head4":"",
-        "text4":[" "]
+        "image":[imgloc,imgloc,imgloc],
+        details:[{"head":"","text":""}],
+   
     }
         ]
 //popup
 const d_Popup = [
     {
         "title": "PopUp Straight",
-        "img1":popupst,
-        "img2":popst1,
-        "img3":popc2,
-        "img4":popc4,
-        "img5":popc5,
-        "img6":popst2,
-        "head1":"2X3 STRAIGHT POP UP ",
-        "text1":["67x230cm Two side panels", 
-        "75x230cm Two front panels", 
-        "Printing size 284x230cm", 
-        "Front visible area 204x230cm"
-        ],
-        "head2":"3X3 STRAIGHT POP UP",
-        "text2":["67x230cm Two side panels", 
-        "75x230cm Three front panels ",
-        "Printing size 359x230cm ",     
-        " Front visible area 279x230cm"
-        ],
-        "head3":"4X3 STRAIGHT POP UP",
-        "text3":["67x230cm Two side panels" ,
-       " 75x230cm Four front panels" ,
-        "Printing size 434x230cm" ,
-        "Front visible area 354x230cm"        ],
-        "head4":"5X3 STRAIGHT POP UP",
-        "text4":["67x230cm Two side panels", 
-        "75x230cm Five front panels" ,
-        "Printing size 509x230cm ",
-        "Front visible area 429x230cm"
-        ],
-        "head5":"6X3 STRAIGHT POP UP",
-        "text5":["67x230cm Two side panels", 
-        "75x230cm Six front panels" ,
-        "Printing size 584x230cm" ,
-        "Front visible area 504x230cm"
-        ],
-        "desc":"Product Description",
-        "detail":"Pop Up Display is a backdrop display system which available in straight  and curve types for 2x3,3X3,4x3,5x3,6x3. It is often used at indoor  events such as exhibition booths, trade shows, conferences, etc...  Its huge display will attract people's attention by the graphic or design added to the display."   
+       
+        "image":[popupst,popst1,popc2,popc4,popc5,popst2],
+        details:[{"head":"2X3 STRAIGHT POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
+                  {"head":"3X3 STRAIGHT POP UP","text":["67x230cm Two side panels", "75x230cm Three front panels ","Printing size 359x230cm "," Front visible area 279x230cm"]},
+                  {"head":"4X3 STRAIGHT POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
+                  {"head":"5X3 STRAIGHT POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
+                  {"head":"6X3 STRAIGHT POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},],
+      
         },
 
     {
         "title": "PopUp Curved",
-        "img1":popupc,
-        "img2":popc1,
-        "img3":popc3,
-        "img4":popc2,
-        "img5":popc4,
-        "img6":popc5,
-        "head1":"2X3 CURVED POP UP",
-        "text1":["67x230cm Two side panels","70x230cm Two front panels", 
-        "Printing size 274x230cm ",
-        "Front visible area 194x230cm"
-        ],
-
-        "head2":"3X3 CURVED POP UP",
-        "text2":["67x230cm Two side panels",
-        "70x230cm Three front panels",
-        "Printing size 344x230cm",
-        " Front visible area 264x230cm"],
-
-        "head3":"4X3 CURVED POP UP",
-        "text3":["67x230cm Two side panels","70x230cm Four front panels", 
-        "Printing size 414x230cm" ,
-       "Front visible area 334x230cm"],
-
-        "head4":"5X3 CURVED POP UP",
-        "text4":["67x230cm Two side panels ",
-        "70x230cm Five front panels ",
-        "Printing size 484x230cm ",
-        "Front visible area 404x230cm"
-        ],
-        "head5":"6X3 CURVED POP UP",
-        "text5":["67x230cm Two side panels",
-        "70x230cm Six front panels ",
-        "Printing size 554x230cm ",
-        "Front visible area 474 x230cm"
-        ],
+        "image":[popc1,popc2,popc3,popc4,popc5,popupc],
+        details:[{head:"2X3 CURVED POP UP",text:["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
+                  {head:"3X3 CURVED POP UP",text:["67x230cm Two side panels", "75x230cm Three front panels ","Printing size 359x230cm "," Front visible area 279x230cm"]},
+                  {head:"4X3 CURVED POP UP",text:["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
+                  {head:"5X3 CURVED POP UP",text:["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
+                  {head:"6X3 CURVED POP UP",text:["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},],
+                  
+        "desc":"Product Description",
+        "detail":"Pop Up Display is a backdrop display system which available in straight  and curve types for 2x3,3X3,4x3,5x3,6x3. It is often used at indoor  events such as exhibition booths, trade shows, conferences, etc...  Its huge display will attract people's attention by the graphic or design added to the display."   
+   
     }
 ]
 //fabric
 const f_Popup = [
     {
         "title": "Velcro Fabric PopUp",
-        "img1":fpop1,
-        "img2":fpop2,
-        "img3":fpop3,
-        "img4":fpop4,
-        "img5":fpop5,
-        "head1":"3X3 STRAIGHT VELCRO FABRIC POP UP ",
-        "text1":["Printing size 295x225cm ","Front visible area 225x225cm"],
-        "head2":"4X3 STRAIGHT VELCRO FABRIC POP UP",
-        "text2":["Printing size 370x225cm ","Front visible area 300x225cm"],
-        "head3":"",
-        "text3":[""],
-        "head4":"",
-        "text4":[""],
-        "desc":"Product Description",
-        "detail":"This Fabric Pop Up Display is the perfect choice for any trade show booth,Exhibitions.  Graphic is printed on machine-washable fabric. Its material allows for steaming,which lets customers easily get any unwanted wrinkles out of their display.  This product is built with innovative Velcro receptive and Plastic safety connectors. The ingenious design of this product allows for it to be setup in a matter of minutes. It is so easy that even a single person could do it! The product comes with a oxford carry case which allows you to easily bring this incredible product with you anywhere you go!"   },
-
-]
+      
+        "image":[fpop1,fpop2,fpop3,fpop4,fpop5],
+        details:[
+            {head:"3X3 STRAIGHT VELCRO FABRIC POP UP ",text:["Printing size 295x225cm ","Front visible area 225x225cm"]},
+            {head:"4X3 STRAIGHT VELCRO FABRIC POP UP ",text:["Printing size 370x225cm ","Front visible area 300x225cm"]}
+        ],
+   
+    }]
 
 //rollup
 const r_Popup = [
     {
         "title": "NORMAL ROLLUP",
-        "img1":normr,
-        "img2":normr1,
-        "img3":normr2,
-        "img4":normr3,
-        "img5":normr4,
-        "head1":"85x200cm",
-        "text1":[""],
-        "head2":"100x200cm",
-        "text2":[""],
-        "head3":"120x200cm",
-        "text3":[""],
-        "head4":"150x200cm",
-        "text4":[""],
-        "desc":"Product Description",
-        "detail":"This Normal Rollup-Banner-Stand features a sleek design with polished ends, ideal for any tradeshow or exhibit.The Broad base design gives a professional look although providing great stability.Rollps are also very popular for promotional displays in stores, shopping malls, theaters, airports, and conventions. Also called roll up banner stands or pull up banner stands,  a single person can easily set up a Rollup banner stand in under 1 minute."  },
+    
+        "image":[normr,normr1,normr2,normr3,normr4],
+        details:[
+            {head:"85x200cm","text":["85x200cm","100x200cm","120x200cm","150x200cm"]},
+    ],
+        
+          },
     {
         "title": "BroadBase Rollup",
-        "img1":fpop1,
-        "img2":fpop2,
-        "img3":fpop3,
-        "img4":fpop4,
-        "img5":fpop5,
-        "head1":"BRAODBASE ROLLUP ",
-        "text1":["85X200cm","100X200cm","120X200cm","150X200cm","200X200cm","240x200cm","300x200cm"],
-        "head2":"BROADBASE DOUBLE SIDED ROLLUP",
-        "text2":["85X200cm","100X200cm","120x200cm"],
-        "head3":"",
-        "text3":[""],
-        "head4":"",
-        "text4":[""],
-        "head5":"",
-        "text5":[""],
-        // "detail":"hello this is world sdkfjbs kdgjnksd fjghisdj fbvjbdv vk bjnij dfbigjnd ifj bnbb"    
+       
+        "image":[broad1,broad3,broad4,broad5,broad6,broad7,broad8],
+        details:[
+            {head:"BRAODBASE ROLLUP",text:["85X200cm","100X200cm","120X200cm","150X200cm","200X200cm","240x200cm","300x200cm"]},
+            {head:"BROADBASE DOUBLE SIDED ROLLUP",text:["85X200cm","100X200cm","120x200cm"]}
+        ],
+        "desc":"Product Description",
+        "detail":"This Normal Rollup-Banner-Stand features a sleek design with polished ends, ideal for any tradeshow or exhibit.The Broad base design gives a professional look although providing great stability.Rollps are also very popular for promotional displays in stores, shopping malls, theaters, airports, and conventions. Also called roll up banner stands or pull up banner stands,  a single person can easily set up a Rollup banner stand in under 1 minute."
+         
     },
 
 ]
@@ -368,20 +293,13 @@ const r_Popup = [
 const a_Popup = [
     {
         "title": "Adjustable Backdrops",
-        "img1":ad5,
-        "img2":ad1,
-        "img3":ad2,
-        "img4":ad3,
-        "img5":ad4,
-        "img6":ad6,
-        "head1":"ADJUSTABLE/TELESCOPIC BACKDROP STAND 240X240cm (8x8ft)",
-        "text1":["Adjustable Size: From 135cm to 240cm wide and 90cm to 240cm height, Maximum visible graphics size is 240x240cm"],
-        "head2":"ADJUSTABLE/TELESCOPIC BACKDROP STAND 240X300cm (8x10ft)",
-        "text2":["Adjustable Size: From 170cm to 300cm wide and 120cm to 240cm height, Maximum visible graphics size is 240x300cm"],
-        "head3":"ADJUSTABLE/TELESCOPIC BACKDROP STAND 240X300cm (10x10ft)",
-        "text3":["Adjustable Size: From 170cm to 300cm wide and 120cm to 300cm height, Maximum visible graphics size is 300x300cm"],
-        "head4":"",
-        "text4":[""] ,
+      
+        "image":[ad5,ad1,ad2,ad3,ad4,ad6],
+        details:[
+            {head:"ADJUSTABLE/TELESCOPIC BACKDROP STAND 240X240cm (8x8ft)",text:["Adjustable Size: From 135cm to 240cm wide and 90cm to 240cm height, Maximum visible graphics size is 240x240cm"]},
+            {head:"ADJUSTABLE/TELESCOPIC BACKDROP STAND 240X300cm (8x10ft)",text:["Adjustable Size: From 170cm to 300cm wide and 120cm to 240cm height, Maximum visible graphics size is 240x300cm"]},
+            {head:"ADJUSTABLE/TELESCOPIC BACKDROP STAND 240X300cm (10x10ft)",text:["Adjustable Size: From 170cm to 300cm wide and 120cm to 300cm height, Maximum visible graphics size is 300x300cm"]}
+    ],
         "desc":"Product Description",
         "detail":"Heavy Duty Banner Holder Adjustable Telescopic Photography Backdrop Stand - Height Up to 300x300cm Adjustable Back Drop Stand for Trade Show, Photo Booth, Parties,Events, Wedding, Birthday, Photoshoot Background. Material can be used Banner or Fabric"  },
   
@@ -391,20 +309,11 @@ const a_Popup = [
 const t_Popup = [
     {
         "title": "Tension Fabric Stand",
-        "img2":ten2,
-        "img3":ten5,
-        "img1":ten4,
-        "img4":ten3,
-        "img5":ten1,
-        "img6":ten6,
-        "head1":"TENSION FABRIC STAND STRAIGHT",
-        "text1":["100x230cm"," 230x230cm"," 300x230cm"," 400x230cm"," 600x230cm"],
-        "head2":"TENSION FABRIC STAND CURVED ",
-        "text2":["230X300cm"],
-        "head3":"",
-        "text3":[""],
-        "head4":"",
-        "text4":[""],
+        "image":[ten1,ten2,ten3,ten4,ten5,ten6],
+        details:[
+            {"head":"TENSION FABRIC STAND STRAIGHT","text":["100x230cm"," 230x230cm"," 300x230cm"," 400x230cm"," 600x230cm"]},
+            {"head":"TENSION FABRIC STAND CURVED ","text":["230X300cm"]}
+    ],
         "desc":"Product Description",
         "detail":"Tension Fabric Stands are the perfect solution for advertising at trade shows, presentations, conventions and business meetings as they are portable and easy to assemble. The stretch polyester fabric banner is printed in full color and sewn into a “sleeve” which simply slides over the tubular frame to create a flat and seamless graphic.You can choose single or double-sided printing to create a professional finish. Change your message at any time by ordering an extra replacement fabric to use with your frame!"    },
   
@@ -414,19 +323,9 @@ const t_Popup = [
 const x_Popup = [
     {
         "title": "X Banner Stand",
-        "img1":xban1,
-        "img2":xban4,
-        "img3":xban2,
-        "img4":xban3,
-        "img5":xban,
-        "head1":"Size",
-        "text1":["60 x 160 cm ","80 x 180 cm"],
-        "head2":"",
-        "text2":[""],
-        "head3":"",
-        "text3":[""],
-        "head4":"",
-        "text4":[""]    },
+        "image":[xban1,xban4,xban2,xban3,xban],
+        details:[{"head":"Size","text":["60 x 160 cm ","80 x 180 cm"]}]
+          },
   
 
 ]
@@ -444,36 +343,22 @@ const x_Popup = [
 const count = [
     {
         "title": "Popup Table",
-        "img1":table,
-        "img2":table1,
-        "img3":table2,
-        "img4":table3,
-        "head1":"Size: ",
-        "text1":["40w x130L x94H cm"],
-        "head2":"Printing Size: ",
-        "text2":["94x196 cm"],
-        "head3":" ",
-        "text3":[ ],
-        "head4":" ",
-        "text4":[],
-        "head5":" ",
-        "text5":[]    },
+      
+        "image":[table,table1,table2,table3],
+        details:[
+            {"head":"Size: ","text":["40w x130L x94H cm"]},
+            {"head":"Printing Size: ","text":["94x196 cm"]}
+    ]},
     {
         "title": "Promotion Table",
-        "img1":coun,
-        "img2":coun1,
-        "img3":coun2,
-        "img4":coun3,
-        "head1":"Size: ",
-        "text1":[ "41W x 82L x 85H cm" ],
-        "head2":" Header: ",
-        "text2":["28x77cm " ],
-        "head3":" ",
-        "text3":[ ],
-        "head4":" ",
-        "text4":[],
-        "head5":" ",
-        "text5":[],  
+       
+        "image":[coun,coun1,coun2,coun3],
+        "details":[
+            {"head":"Size: ","text":[ "41W x 82L x 85H cm" ]},
+            {"head":" Header: ","text":["28x77cm " ]} 
+    ],
+     
+         
         "detail":"It is quick and easy to assemble and you don't need any tools or any loose parts. Use it for trade show demonstrations, marketing exhibition counter displays. The printed portable pop up promotional table can be easily setup and transported."
         ,"desc":"Product Description"   },
   
@@ -672,16 +557,13 @@ function Nqu(){
     }
 
 
-
+//1
 function Outdoor(){
     return(
         <div>
            {outFlag.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} 
-                head1={data.head1} text1={data.text1}
-                head2={data.head2} text2={data.text2}
-                head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4}
+              return(<ProductPage title={data.title} image = {data.image} 
+                details={data.details}
                 detail = {data.detail}
                 desc={data.desc} />)
             })}
@@ -690,17 +572,14 @@ function Outdoor(){
       )
 }
 
-//popup stand
+//popup stand 2
 function Popup(){
     return(
         <div>
            {d_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
-                head1={data.head1} text1={data.text1}
-                head2={data.head2} text2={data.text2}
-                head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4} 
-                head5={data.head4} text5={data.text4} 
+              return(<ProductPage title={data.title} image = {data.image} 
+             
+                details={data.details}
                 detail = {data.detail}
                 desc={data.desc}/>)
             })}
@@ -709,17 +588,14 @@ function Popup(){
       )
 }
 
-//fabric popup
+//fabric popup 3
 function FPopup(){
     return(
         <div>
            {f_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
-                head1={data.head1} text1={data.text1}
-                head2={data.head2} text2={data.text2}
-                head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4}
-                head5={data.head4} text5={data.text4}
+              return(<ProductPage title={data.title} image = {data.image}
+               
+                details={data.details}
                 detail={data.detail}
                 desc={data.desc} />)
             })}
@@ -728,17 +604,14 @@ function FPopup(){
       )
 }
 
-//rollup
+//rollup 4
 function RPopup(){
     return(
         <div>
            {r_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
-                head1={data.head1} text1={data.text1}
-                head2={data.head2} text2={data.text2}
-                head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4}
-                head5={data.head4} text5={data.text4}
+              return(<ProductPage title={data.title} image = {data.image} 
+              
+                details={data.details}
                 detail = {data.detail}
                 desc={data.desc}
                  />)
@@ -748,17 +621,14 @@ function RPopup(){
       )
 }
 
-//adjustable
+//adjustable5
 function APopup(){
     return(
         <div>
            {a_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
-                head1={data.head1} text1={data.text1}
-                head2={data.head2} text2={data.text2}
-                head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4}
-                head5={data.head4} text5={data.text4} 
+              return(<ProductPage title={data.title} image = {data.image} 
+             
+                details={data.details} 
                 detail = {data.detail}
                 desc={data.desc}/>)
             })}
@@ -766,17 +636,15 @@ function APopup(){
         </div>
       )
 }
-//tension
+//tension 6
 function TPopup(){
     return(
         <div>
            {t_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
-                head1={data.head1} text1={data.text1}
-                head2={data.head2} text2={data.text2}
-                head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4}
-                head5={data.head4} text5={data.text4} 
+              return(<ProductPage title={data.title}
+                image = {data.image} 
+               
+                details={data.details}
                 detail={data.detail}
                 desc={data.desc}
                  />)
@@ -785,57 +653,43 @@ function TPopup(){
         </div>
       )
 }
-//xbanner
+//xbanner7
 function XPopup(){
     return(
         <div>
            {x_Popup.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
-                head1={data.head1} text1={data.text1}
-                head2={data.head2} text2={data.text2}
-                head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4}
-                head5={data.head4} text5={data.text4} />)
+              return(<ProductPage title={data.title} 
+                image = {data.image} 
+              
+                details={data.details} />)
             })}
             <br/>
         </div>
       )
 }
 
-//curved flag
+//curved flag 8
 
 const c_flag = [
     {
         "title": "Curved Top Flag / Feather Flag",
-        "img1":cur,
-        "img2":cur1,
-        "img3":cur2,
-        "img4":cur3,
-        "img5":cur4,
-        "img6":cur5,
-        "head1":"Curved top/ Feather flag stand Small",
-        "text1":["Flag Sizes: 85x200cm",
+       
+        "image":[cur,cur1,cur2,cur3,cur4,cur5],
+        details:[
+            {"head":"Curved top/ Feather flag stand Small","text":["Flag Sizes: 85x200cm",
         "Flag Material: Knitted polyster, Blockout, Satin",
        " Pole:260cm Black powder coated aluminium structure",
         "Base: Spider Base, Water Base, Cement base, Spike",
-        ],
-
-        "head2":"Curved top/ Feather flag stand Medium",
-        "text2":["Flag Sizes: 85x300cm",
-        "Flag Material: Knitted polyster, Blockout, Satin",
-        "Pole:360cm Black powder coated aluminium structure",
-        "Base: Spider Base, Water Base, Cement base, Spike"],
-
-        "head3":"Curved top/ Feather flag stand Large",
-        "text3":["Flag Sizes: 85x400cm",
-        "Flag Material: Knitted polyster, Blockout, Satin",
-        "Pole:460cm Black powder coated aluminium structure",
-        "Base: Spider Base, Water Base, Cement base, Spike"],
-
-        "head4":" ",
-        "text4":[],
-        "head5":" ",
-        "text5":[],
+        ]},
+            {"head":"Curved top/ Feather flag stand Medium","text":["Flag Sizes: 85x300cm",
+            "Flag Material: Knitted polyster, Blockout, Satin",
+            "Pole:360cm Black powder coated aluminium structure",
+            "Base: Spider Base, Water Base, Cement base, Spike"]},
+            {"head":"Curved top/ Feather flag stand Large","text":["Flag Sizes: 85x400cm",
+            "Flag Material: Knitted polyster, Blockout, Satin",
+            "Pole:460cm Black powder coated aluminium structure",
+            "Base: Spider Base, Water Base, Cement base, Spike"]},
+    ],
         "desc":"Product Description",
         "detail":"Advertising flags are one of the best outdoor sign / media options to increase visibility and promote your business. These flags come in different shapes and sizes but all offer great durability and portability. Our advertising flags are great for temporary or seasonal uses and hold up well in outdoor conditions. Other common uses for business flags include, but aren’t limited to grand openings, races, real estate, trade shows, physical locations, events, and much more.Knitted polyester fabric and Double sided satin fabric flags are available, including feather or curve top flags, angled flags, teardrop flags and Telescopic flags. Attract attention and increase sales with your own advertising flag!"    
 
@@ -848,14 +702,11 @@ function Cflag(){
     return(
         <div>
            {c_flag.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4}
-                head1={data.head1} text1={data.text1}
-                head2={data.head2} text2={data.text2}
-                head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4}
-                head5={data.head5} text5={data.text5}
-             
-                 img5={data.img5} img6={data.img6} 
+              return(<ProductPage title={data.title} 
+              
+                image = {data.image}
+                details={data.details}
+                
                  detail={data.detail}
                  desc={data.desc} />)
             })}
@@ -865,37 +716,29 @@ function Cflag(){
 }
 //Lbanner
 
-//L flag
+//L flag9
 const l_flag = [
     {
         "title": "L-Shape Flag / Square Flag",
-        "img1":lflag1,
-        "img2":lflag2,
-        "img3":lflag,
-        "img4":lflag3,
-        "img5":lflag4,
-        "head1":"L-Shape flag/Square flag stand Small",
-        "text1":["Flag Sizes: 90x200cm",
-           " Flag Material: Knitted polyster, Blockout, Satin",
-           " Pole:300cm Black powder coated aluminium structure",
-           " Base: Water Base, Cement base"
-            ],
-        "head2":"L-Shape flag/Square flag stand Medium",
-        "text2":["Flag Sizes: 90x300cm",
+        
+        "image":[lflag1,lflag2,lflag,lflag3,lflag4],
+        details:[
+            {head:"L-Shape flag/Square flag stand Small",text:["Flag Sizes: 90x200cm",
+        " Flag Material: Knitted polyster, Blockout, Satin",
+        " Pole:300cm Black powder coated aluminium structure",
+        " Base: Water Base, Cement base"
+         ]},
+            {head:"L-Shape flag/Square flag stand Medium",text:["Flag Sizes: 90x300cm",
             "Flag Material: Knitted polyster, Blockout, Satin",
            " Pole:400cm Black powder coated aluminium structure",
             "Base: Water Base, Cement base"
-            ],
-        "head3":"L-Shape flag/Square flag stand Large",
-        "text3":["Flag Sizes: 90x400cm",
+            ]},
+            {head:"L-Shape flag/Square flag stand Large",text:["Flag Sizes: 90x400cm",
             "Flag Material: Knitted polyster, Blockout, Satin",
            " Pole:500cm Black powder coated aluminium structure",
             "Base:  Water Base, Cement base "
-            ],
-        "head4":"",
-        "text4":[],
-        "head5":"",
-        "text5":[] ,
+            ]},
+        ],
         "desc":"Product Description",
         "detail":"Advertising flags are one of the best outdoor sign / media options to increase visibility and promote your business. These flags come in different shapes and sizes but all offer great durability and portability. Our advertising flags are great for temporary or seasonal uses and hold up well in outdoor conditions. Other common uses for business flags include, but aren’t limited to grand openings, races, real estate, trade shows, physical locations, events, and much more.Knitted polyester fabric and Double sided satin fabric flags are available, including feather or curve top flags, angled flags, teardrop flags and Telescopic flags. Attract attention and increase sales with your own advertising flag!"    
        },
@@ -907,13 +750,10 @@ function Lflag(){
     return(
         <div>
            {l_flag.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6}
-                head1={data.head1} text1={data.text1}
-                head2={data.head2} text2={data.text2}
-                head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4}
-                head5={data.head5} text5={data.text5}
+              return(<ProductPage title={data.title} image = {data.image}
+                
                 detail={data.detail}
+                details={data.details}
                 desc={data.desc} />)
             })}
             <br/>
@@ -921,37 +761,28 @@ function Lflag(){
       )
 }
 
-//Tear
+//Tear 10
 const tear = [
     {
         "title": "TearDrop Flag / Flying Banner",
-        "img1":tea,
-        "img2":tea1,
-        "img3":tea2,
-        "img4":tea3,
-        "img5":tea4,
-        "img6":tea5,
-        "head1":"Teardrop/flying banner stand Small",
-        "text1":["Flag Sizes: 90x200cm",
+       
+        "image":[tea,tea1,tea2,tea3,tea4,tea5],
+        details:[
+            {head:"Teardrop/flying banner stand Small",text:["Flag Sizes: 90x200cm",
         "Flag Material: Knitted polyster, Blockout, Satin",
         "Pole:340cm (2pcs aluminium pole and 2 pcs glass fiber pole)",
         "Base: Spider Base, Water Base, Cement base, Spike" 
-        ],
-        "head2":"Teardrop/flying banner stand Medium",
-        "text2":["Flag Sizes: 100x280cm",
+        ]},
+        {head:"Teardrop/flying banner stand Medium",text:["Flag Sizes: 100x280cm",
         "Flag Material: Knitted polyster, Blockout, Satin",
         "Pole:450cm (2pcs aluminium pole and 2 pcs glass fiber pole)",
-        "Base: Spider Base, Water Base, Cement base, Spike"],
-        "head3":"Teardrop/flying banner stand Large",
-        "text3":["Flag Sizes: 125x350cm",
+        "Base: Spider Base, Water Base, Cement base, Spike"]},
+        {head:"Teardrop/flying banner stand Large",text:["Flag Sizes: 125x350cm",
         "Flag Material: Knitted polyster, Blockout, Satin",
         "Pole:550cm (3pcs aluminium pole and 2 pcs glass fiber pole)",
-        "Base: Spider Base, Water Base, Cement base, Spike"],
-
-        "head4":"",
-        "text4":[],
-        "head5":"",
-        "text5":[] ,
+        "Base: Spider Base, Water Base, Cement base, Spike"]},
+    ],
+        
         "desc":"Product Description",
         "detail":"Advertising flags are one of the best outdoor sign / media options to increase visibility and promote your business. These flags come in different shapes and sizes but all offer great durability and portability. Our advertising flags are great for temporary or seasonal uses and hold up well in outdoor conditions. Other common uses for business flags include, but aren’t limited to grand openings, races, real estate, trade shows, physical locations, events, and much more.Knitted polyester fabric and Double sided satin fabric flags are available, including feather or curve top flags, angled flags, teardrop flags and Telescopic flags. Attract attention and increase sales with your own advertising flag!"    
        },
@@ -962,13 +793,10 @@ function TearDflag(){
     return(
         <div>
            {tear.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6}
-                head1={data.head1} text1={data.text1}
-                head2={data.head2} text2={data.text2}
-                head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4} 
-                head5={data.head5} text5={data.text5}
+              return(<ProductPage title={data.title} image = {data.image}
+               
                 detail={data.detail}
+                details={data.details}
                 desc={data.desc} />)
             })}
             <br/>
@@ -977,26 +805,16 @@ function TearDflag(){
 }
 
 
-//Tele
+//Tele11
 const tele = [
     {
         "title": "Telescopic Flags",
-        "img1":tel,
-        "img2":tel1,
-        "img3":tel2,
-        "img4":tel3,
-        "img5":tel5,
-        "img6":tel4,
-        "head1":"",
-        "text1":["PORTABLE 5m Event Flag Pole with a plastic water fillable base,"],
-        "head2":"",
-        "text2":["Aluminium telescopic construction with 18mm diameter"],
-        "head3":" ",
-        "text3":["Total height: 5.4m"],
-        "head4":" ",
-        "text4":["Flag Size:100x500cm"]  ,
-        "head5":" ",
-        "text5":[],
+       
+        "image":[tel,tel1,tel2,tel3,tel5,tel4],
+        details:[
+            {head:"",text:["PORTABLE 5m Event Flag Pole with a plastic water fillable base","Aluminium telescopic construction with 18mm diameter","Total height: 5.4m","Flag Size:100x500cm"]},
+    ],
+       
         "desc":"Product Description",
         // "style2": "{width:'30rem'}",
         "detail":"Advertising flags are one of the best outdoor sign / media options to increase visibility and promote your business. These flags come in different shapes and sizes but all offer great durability and portability. Our advertising flags are great for temporary or seasonal uses and hold up well in outdoor conditions. Other common uses for business flags include, but aren’t limited to grand openings, races, real estate, trade shows, physical locations, events, and much more.Knitted polyester fabric and Double sided satin fabric flags are available, including feather or curve top flags, angled flags, teardrop flags and Telescopic flags. Attract attention and increase sales with your own advertising flag!"    
@@ -1008,13 +826,10 @@ function Teleflag(){
     return(
         <div>
            {tele.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6}
-                head1={data.head1} text1={data.text1}
-                head2={data.head2} text2={data.text2}
-                head3={data.head3} text3={data.text3}
-                head5={data.head5} text5={data.text5}
-                head4={data.head4} text4={data.text4} 
+              return(<ProductPage title={data.title} image = {data.image}
+               
                 detail={data.detail}
+                details={data.details}
                 desc={data.desc}
                 />)
             })}
@@ -1023,18 +838,15 @@ function Teleflag(){
       )
 }
 
-//counter & table
+//counter & table12
 function Counter(){
     return(
         <div>
            {count.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
-                head1={data.head1} text1={data.text1}
-                head2={data.head2} text2={data.text2}
-                head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4}
-                head5={data.head5} text5={data.text5}
+              return(<ProductPage title={data.title} image = {data.image}
+                
                 detail={data.detail}
+                details={data.details}
                 desc={data.desc} />)
             })}
             <br/>
@@ -1046,20 +858,10 @@ function Counter(){
 const printf = [
     {
         "title": "Signage",
-        "img1":print,
-        "img2":print1,
-        "img3":print2,
-        "img4":print3,
-        "head1":"",
-        "text1":[""],
-        "head2":"",
-        "text2":[""],
-        "head3":" ",
-        "text3":[ ],
-        "head4":" ",
-        "text4":[],
-        "head5":" ",
-        "text5":[]    },
+      
+        "image":[print,print1,print2,print3],
+        details:[{"head":"","text":[]}],
+         },
   
   
 
@@ -1068,13 +870,8 @@ function Printing(){
     return(
         <div>
            {printf.map((data,index)=>{
-              return(<ProductPage title={data.title} img1={data.img1} img2={data.img2} img3={data.img3} img4={data.img4} img5={data.img5} img6={data.img6} 
-                head1={data.head1} text1={data.text1}
-                head2={data.head2} text2={data.text2}
-                head3={data.head3} text3={data.text3}
-                head4={data.head4} text4={data.text4}
-                head5={data.head5} text5={data.text5}
-                detail={data.detail} />)
+              return(<ProductPage title={data.title} image = {data.image}
+                details={data.details} />)
             })}
             <br/>
         </div>

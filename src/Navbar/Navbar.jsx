@@ -65,15 +65,15 @@ export default function NavBar() {
               <MDBDropdown id="navitem" >
                 <MDBDropdownToggle  color='link' className='navids' >Products</MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem link="/Product">Display Products</MDBDropdownItem>
-                  <MDBDropdownItem link="/Backdrop">Backdrops & Accessories</MDBDropdownItem>
-                  <MDBDropdownItem link="/Flags">Outdoor Flags & Bases</MDBDropdownItem>
-                  <MDBDropdownItem link="/Umbrella">Tent & Umbrella</MDBDropdownItem>
-                  <MDBDropdownItem link="/Advd">Advertising accessories</MDBDropdownItem>
-                  <MDBDropdownItem link="/Qs">Q-Stand & Indoor-Flag Poles</MDBDropdownItem>
-                  <MDBDropdownItem link="/Counter">Counter & Tables</MDBDropdownItem>
-                  <MDBDropdownItem link="/Printing">Signage & Printing Services</MDBDropdownItem>
-                  <MDBDropdownItem link="/Promotional">Promotional Gifts</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Product">Display Products</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Backdrop">Backdrops & Accessories</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Flags">Outdoor Flags & Bases</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Umbrella">Tent & Umbrella</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Advd">Advertising accessories</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Qs">Q-Stand & Indoor-Flag Poles</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Counter">Counter & Tables</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Printing">Signage & Printing Services</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Promotional">Promotional Gifts</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
               

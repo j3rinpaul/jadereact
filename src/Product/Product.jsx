@@ -3,53 +3,30 @@ import Cards from "../Cards/Card"
 import "./product.css"
 
 
-import pop2 from "../assets/images/PopUpCurved.png"
-// import tent from "../assets/images/tent.png"
-// import info from "../assets/images/info.png"
 import ab from "../assets/A Board/Main picture .PNG"
 import easel from "../assets/images/easel.png"
-// import prom from "../assets/images/promo.png"
-// import acb from "../assets/images/acrylicb.png";
-// import bh from "../assets/images/broh.png";
-// import arrow1 from "../assets/images/arrow1.png";
-// import chrome from "../assets/images/chrome.png";
-// import leds from "../assets/images/ledstr.png";
-// import trans from "../assets/images/trans.png";
 import snap from "../assets/images/snap.png";
-// import ft from "../assets/images/ftoilet.png";
 import dtape from "../assets/images/dtape.png";
 import rdt from "../assets/images/rdtap.png";
 import apt from "../assets/images/apt.png";
-import pt from "../assets/images/pt.png";
 import vel from "../assets/images/velcro.png";
-// import knit from "../assets/images/knit.png";
-// import sat from "../assets/images/sat.png";
-// import ttg from "../assets/images/ttg.png";
-// import tts from "../assets/images/tts.png";
-// import ttl from "../assets/images/ttl.png";
-// import ttv from "../assets/images/ttv.png";
 import wbase from "../assets/images/wbase.png";
 import sbase from "../assets/images/sbase.png";
 import hwbase from "../assets/images/hwbase.png";
 import ScrollTop from './scrollTop';
 import bump from "../assets/images/bump.png";
-import glue from "../assets/images/glue.png";
 import bboard from "../assets/images/bboard.png";
 import cb from "../assets/images/cb.png";
 import cutterb from "../assets/images/cutterb.png";
-import ecoi from "../assets/images/ecoink.png";
 import eye from "../assets/images/eye.png";
 import punch from "../assets/images/punch.png";
 import eyelet from "../assets/images/eyelet.png";
-import fish from "../assets/images/fish.png";
 import jbond from "../assets/images/jbond.png";
 import olfac from "../assets/images/olfac.png";
 import olfac1 from "../assets/images/olfac1.png";
 import olfac2 from "../assets/images/olfac2.png";
 import olfac3 from "../assets/images/olfac3.png";
-import popli from "../assets/images/popli.png";
 import sb from "../assets/images/sb.png";
-import pl from "../assets/images/pl.png";
 import pl1 from "../assets/images/pl1.png";
 
 
@@ -96,6 +73,252 @@ import img_rope from "../assets/img/rope.jpg"
 import img_conf from "../assets/img/conf.jpg"
 import img_tabt from "../assets/img/tabt.jpg"
 
+//adv new
+import acrysp from "../assets/Advertising accessories_/Acrylic spacer .JPG"
+import acrygl from "../assets/Advertising accessories_/Acrylic special glue .jpg"
+import arrow from "../assets/Advertising accessories_/Arrow sticker .jpg"
+import bubble from "../assets/Advertising accessories_/Bubble wrap .jpg"
+import caut from "../assets/Advertising accessories_/Caution board.jpg"
+import chp from "../assets/Advertising accessories_/Chrome pipe .JPG"
+import eyes from "../assets/Advertising accessories_/Eyelit punching machine small.jpg"
+import fish from "../assets/Advertising accessories_/Fish rope.jpg"
+import flag from "../assets/Advertising accessories_/Flag weight .jpg"
+import magnet from "../assets/Advertising accessories_/Magnetic button.JPG"
+import pack from "../assets/Advertising accessories_/Packing tape Papper .jpg"
+import ptape from "../assets/Advertising accessories_/Packing tape clear .JPG"
+import rgb from "../assets/Advertising accessories_/RGB light .jpg"
+import shrin from "../assets/Advertising accessories_/Shring wrap.JPG"
+import felt from "../assets/Advertising accessories_/Squeegee felt.jpg"
+
+
+//digital printing media
+import digi1 from "../assets/Digital printing media_/ACP sheet .jpg"
+import digi2 from "../assets/Digital printing media_/Acrylic sheet .JPG"
+import digi3 from "../assets/Digital printing media_/Art canvas .JPG"
+import digi4 from "../assets/Digital printing media_/Backlit flex .jpg"
+import digi5 from "../assets/Digital printing media_/Eco solvent Clear vinyl .jpg"
+import digi6 from "../assets/Digital printing media_/Foam Board .JPG"
+import digi7 from "../assets/Digital printing media_/Forex sheet .JPG"
+import digi8 from "../assets/Digital printing media_/Frontlite Banner.JPG"
+import digi9 from "../assets/Digital printing media_/Frosted sticker .jpg"
+import digi10 from "../assets/Digital printing media_/Greyback vinyl sticker .JPG"
+import digi11 from "../assets/Digital printing media_/Lamination sticker .JPG"
+import digi12 from "../assets/Digital printing media_/Mounting film .jpg"
+import digi13 from "../assets/Digital printing media_/One way vision sticker .jpg"
+import digi14 from "../assets/Digital printing media_/PP Papper .JPG"
+import digi15 from "../assets/Digital printing media_/White back vinyl sticker .JPG"
+import digi16 from "../assets/Digital printing media_/Window film .JPG"
+
+//promotional
+import promo from "../assets/Prompt gift items_/3D sign board .JPG"
+import promo1 from "../assets/Prompt gift items_/Flex sign board .JPG"
+import promo2 from "../assets/Prompt gift items_/Mug printing .jpg"
+import promo3 from "../assets/Prompt gift items_/Non woven bag .jpg"
+import promo4 from "../assets/Prompt gift items_/T shirt printing .jpg"
+
+//digital printing media
+const data_digi = [
+  {"title":"ACP sheet ",
+    "img":digi1,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Acrylic sheet",
+    "img":digi2,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Art canvas",
+    "img":digi3,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Backlit flex",
+    "img":digi4,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Eco solvent Clear vinyl",
+    "img":digi5,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Foam Board",
+    "img":digi6,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Forex sheet",
+    "img":digi7,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Frontlite Banner",
+    "img":digi8,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Frosted sticker",
+    "img":digi9,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Lamination sticker",
+    "img":digi11,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Greyback vinyl sticker",
+    "img":digi10,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"PP Papper",
+    "img":digi14,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Mounting film",
+    "img":digi13,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Mounting film",
+    "img":digi12,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"White back vinyl sticker",
+    "img":digi15,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Window film",
+    "img":digi16,
+    "desc":["3m x 8mm"]
+  },
+]
+
+
+const data_adv = [
+  
+  
+  {"title":"Magnetic Button",
+    "img":magnet,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Flag Weight",
+    "img":flag,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Fish Rope",
+    "img":fish,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Eyelit punching machine small",
+    "img":eyes,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Chrome Pipe",
+    "img":chp,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Caution Board",
+    "img":caut,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Bubble Wrap",
+    "img":bubble,
+    "desc":["3m x 8mm"]
+  },
+
+  {"title":"Bumpon",
+    "img":bump,
+    "desc":["3m x 8mm"]
+  },
+ 
+  {"title":"Blackboard Foil Sticker ",
+    "img":bboard,
+    "desc":["45cmx15m"]
+  },
+  {"title":"Chrome Ball",
+    "img":cb,
+    "desc":[""]
+  },
+  {"title":"Arrow Sticker",
+    "img":arrow,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Squeegee Felt",
+    "img":felt,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Shring Wrap",
+    "img":shrin,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"RGB Light",
+    "img":rgb,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Packing Tape Clear",
+    "img":ptape,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Packing tape Papper",
+    "img":pack,
+    "desc":["3m x 8mm"]
+  },
+  {"title":"Cutter Big",
+    "img":cutterb,
+    "desc":[""]
+  },
+  
+  {"title":"Eyelet HB-250 Gold ",
+    "img":eye,
+    "desc":["250pcs"]
+  },
+  {"title":"Eyelet Manual Punch",
+    "img":punch,
+    "desc":[""]
+  },
+  {"title":"Eyelet Silver ",
+    "img":eyelet,
+    "desc":["#24 500pcs/pkr"]
+  },
+  // {"title":"Fish Rope ",
+  //   "img":fish,
+  //   "desc":["0.8mm x 100m"]
+  // },
+  {"title":"J Bond Glue ",
+    "img":jbond,
+    "desc":["20 g"]
+  },
+  {"title":"Acrylic Spacer  ",
+    "img":acrysp,
+  },
+  {"title":"Acrylic Spacer Glue ",
+    "img":acrygl,
+    "desc":["20 g"]
+  },
+  
+  {"title":"Olfa Cutter Black Small ",
+    "img":olfac,
+    "desc":[" "]
+  },
+  {"title":"Olfa Cutter Blade ASB-10 Small ",
+    "img":olfac1,
+    "desc":[" "]
+  },
+  {"title":"Olfa Cutter Blade LB-10 Big ",
+    "img":olfac2,
+    "desc":[" "]
+  },
+  {"title":"Olfa Cutter Stainless Steel Small AB-S ",
+    "img":olfac3,
+    "desc":[" "]
+  },
+ 
+  {"title":"Spray Bottle  ",
+    "img":sb,
+    "desc":[["2L "],["3L"]]
+  },
+  
+  
+  {"title":"Squeegee Felt One Sided",
+    "img":pl1,
+    "desc":[" "]
+  }
+  
+]
+
+//digital printing media
+
 
 //display 
 const data1 = [
@@ -139,42 +362,7 @@ const data1 = [
   "img":easel,
   "desc":["Size : A2 , A1 , A0"]
 }
-  // {"title":"Arrow Sticker Flurecent Reflective ",
-  //   "img":arrow1,
-  //   "desc":["5x90 cm "]
-  // },
-  // {"title":"Chrome Pipe ",
-  //   "img":chrome,
-  //   "desc":[" 24mm X 3m "]
-  // },
  
- 
-  // {"title":"Neotec Rainproof Transformer ",
-  //   "img":trans,
-  //   "desc":["12v-400w "]
-  // },
- 
-  // {"title":"Acrylic Brochure Holder L Type",
-  //   "img":bh,
-  //   "desc":[" "]
-  // },
-  // {"title":"Jade Light 5050 Led Strip White",
-  //   "img":leds,
-  //   "desc":[" "]
-  // },
-  // {"title":"Sign Boards and Signs ",
-  //   "img":ft,
-  //   "desc":["20x10 cm "]
-  // },
- 
-  // {"title":"3x3 Tent",
-  //   "img":tent,
-  //   "desc":["Small : 90 x 200 cm","Medium : 100 x 500 cm","Large : 100 x 600 cm"]
-  // },
-  // {"title":"Promotional Table",
-  //   "img":prom,
-  //   "desc":["Size : 85 x 82 x 41 cm"]
-  // }
 ]
 
 const data_t = [
@@ -188,10 +376,6 @@ const data_t = [
   },
   {"title":"Application tape",
     "img":apt,
-    "desc":[""]
-  },
-  {"title":"Packing tape",
-    "img":pt,
     "desc":[""]
   },
   {"title":"Velcro",  
@@ -275,39 +459,6 @@ const data_f = [
 
 ]
 
-// const indoor_flag = [
-//   {"title":"Knitted Polyster Flag",
-//     "img":knit,
-//     "desc":[" "]
-//   }
-//   ,
-//   {"title":"Satin Flag",
-//     "img":sat,
-//     "desc":[" "]
-//   }
-//   ,
-//   {"title":"Table Top Flag Stand Gold ",
-//     "img":ttg,
-//     "desc":["Size : 30 cm"]
-//   }
-//   ,
-//   {"title":"Table Top Flag Stand Silver",
-//     "img":tts,
-//     "desc":["Size : 30cm,35cm"]
-//   }
-//   ,
-//   {"title":"Table Top Flag Stand Silver",
-//     "img":ttl,
-//     "desc":["Size : 30cm,35cm"]
-//   }
-//   ,
-//   {"title":"Table Top Flag Stand Silver",
-//     "img":ttv,
-//     "desc":["Size : 30cm,35cm"]
-//   }
-
-// ]
-
 //bases
 const data_fb = [
   
@@ -362,269 +513,33 @@ const data_q = [
   }
 ]
 
+//promotion
 
-const data_adv = [
-  {"title":"Top Hangers 70cm for Curved Pop Up",
-    "img":pop2,
-    "desc":[["Curved : 70cm"],["Straight : 75cm"]]
+const data_p = [
+  {"title":"3D Sign Board",
+    "img":promo,
+
   },
-  // {"title":"Top Hanger 75cm for Straight Pop Up",
-  //   "img":pops,
-  //   "desc":[" "]
-  // },
-  // {"title":"Top Hanger for Straight Pop Up",
-  //   "img":pops3,
-  //   "desc":["3x3 5pcs"]
-  // },
-  {"title":"Bumpon",
-    "img":bump,
-    "desc":["3m x 8mm"]
+  {"title":"Flex Sign Board",
+    "img":promo1,
+    
   },
-  {"title":"Acrylic Special Glue ",
-    "img":glue,
-    "desc":["1 Ltr"]
+  {"title":" Mug Printing",
+    "img":promo2,
+    
   },
-  {"title":"Blackboard Foil Sticker ",
-    "img":bboard,
-    "desc":["45cmx15m"]
+  {"title":"Non Woven Bag",
+    "img":promo3,
+    
   },
-  {"title":"Chrome Ball",
-    "img":cb,
-    "desc":[""]
-  },
-  {"title":"Cutter Big",
-    "img":cutterb,
-    "desc":[""]
-  },
-  {"title":"Eco-Solvent Cleaning Liquid (Flush) ",
-    "img":ecoi,
-    "desc":["1 Ltr"]
-  },
-  {"title":"Eyelet HB-250 Gold ",
-    "img":eye,
-    "desc":["250pcs"]
-  },
-  {"title":"Eyelet Manual Puch",
-    "img":punch,
-    "desc":[""]
-  },
-  {"title":"Eyelet Silver ",
-    "img":eyelet,
-    "desc":["#24 500pcs/pkr"]
-  },
-  {"title":"Fish Rope ",
-    "img":fish,
-    "desc":["0.8mm x 100m"]
-  },
-  {"title":"J Bond Glue ",
-    "img":jbond,
-    "desc":["20 g"]
-  },
-  {"title":"Olfa Cutter Black Small ",
-    "img":olfac,
-    "desc":[" "]
-  },
-  {"title":"Olfa Cutter Blade ASB-10 Small ",
-    "img":olfac1,
-    "desc":[" "]
-  },
-  {"title":"Olfa Cutter Blade LB-10 Big ",
-    "img":olfac2,
-    "desc":[" "]
-  },
-  {"title":"Olfa Cutter Stainless Steel Small AB-S ",
-    "img":olfac3,
-    "desc":[" "]
-  },
-  {"title":"Pop Up Light ",
-    "img":popli,
-    "desc":[" "]
-  },
-  {"title":"Spray Bottle  ",
-    "img":sb,
-    "desc":[["2L "],["3L"]]
-  },
-  // {"title":"Spray Bottle Heavy 3L ",
-  //   "img":sb1,
-  //   "desc":[" "]
-  // },
-  {"title":"Squeegee One Side Flat and One Side Plastic ",
-    "img":pl,
-    "desc":[" "]
-  },
-  {"title":"Squeegee Felt",
-    "img":pl1,
-    "desc":[" "]
+  {"title":"T Shirt Printing",
+    "img":promo4,
+    
   }
-  
 ]
 
-// const data = [
-//   {"title":"Eco Solvent Vinyl",
-//     "img":Eco,
-//     "desc":["0.92 x 50m","1.07 x 50m","1.27 x 50m","1.37 x 50m","1.52 x 50 m"]
-//   },
-//   {"title":"Lamination",
-//   "img":plas,
-//   "desc": ["0.92 x 50m","1.07 x 50m","1.27 x 50m","1.37 x 50m","1.52 x 50 m"]
-// },
-// {"title":"Floor Lamination",
-// "img":floor,
-// "desc":["1.07 x 50m","1.27 x 50m","1.52 x 50 m"]
-// },
-// {"title":"Mounting Film",
-// "img":mount,
-// "desc":["1.07 x 50m","1.27 x 50m","1.52 x 50 m"]
-// },
-// {"title":"Backlit Film",
-// "img":back,
-// "desc":["1.07 x 30m","1.27 x 30m","1.52 x 30 m"]
-// },
-// {"title":"Canvas",
-// "img":canvas,
-// "desc":["1.07 x 18m","1.27 x 18m","1.52 x18 m"]
-// },
-// {"title":"Eco Solvent PP Paper",
-//   "img":ink,
-//   "desc": ["0.92 x 50m","1.07 x 50m","1.27 x 50m","1.37 x 50m","1.52 x 50 m"]
-// },
-//   {"title":"One Way Vision",
-//     "img":one,
-//     "desc":["1.07 x 50m","1.27 x 50m","1.52 x 50 m"]
-//   },
-//   {"title":"Window Film",
-//     "img":wind,
-//     "desc":["1.52 x 30m"]
-//   },
-//   {"title":"Frosted Sticker",
-//     "img":frost,
-//     "desc":["1.22 x 50m"]
-//   },
-//   {"title":"Reflective Sticker",
-//     "img":ref,
-//     "desc":["1.24 x 50m"]
-//   },    
-// ]
 
-// const data2 = [
-  
-//   {"title":"2 x 3 Pop-Up Curved",
-//     "img":pop2,
-//     "desc":["Front Visible Area:192 x 230 cm",
-//     "Printable Area:274 x 230 cm"]
-//   },
-//   {"title":"3 x 3 Pop-Up Curved",
-//     "img":pop3,
-//     "desc":["Front Visible Area : 202 x 230 cm",
-//     "Printable Area : 334 x 230 cm"]
-//   }
-//   ,
-//   {"title":"2 x 3 Pop-Up Straight",
-//     "img":pops,
-//     "desc":["Front Visible Area : 192 x 230 cm",
-//     "Printable Area : 274 x 230 cm"]
-//   }
-//   ,
-//   {"title":"3 x 3 Pop-Up Straight",
-//     "img":pops3,
-//     "desc":["Front Visible Area : 277 x 230 cm",
-//     "Printable Area : 344 x 230 cm"]
-//   },
-//   {"title":"FrontLit Banner",
-//     "img":fl,
-//     "desc":["Density:440 gsm","510 gsm",
-//     "Size: 1.07 m ,1.10 m,1.27 m ,1.37 m ,1.52m, 1.60m, 1.83m ,2.02m, 2.22m ,2.25m, 3.22m",
-//     "Length: 50 m"]
-//   },
-//   {"title":"4 x 3 Pop-Up Curved",
-//     "img":pop4,
-//     "desc":["Front Visible Area : 332 x 230 cm",
-//     "Printable Area : 414 x 230 cm"]
-//   },
-//   {"title":"Backlit FLex",
-//     "img":backl,
-//     "desc":["Density : 560 Gsm,610 Gsm",
-//     "Size : 1.65m2,2.02m,2.60m,3.20m",
-//     "Length:50 m"]
-//   },
-//   {"title":"Coated Banner",
-//     "img":coatb,
-//     "desc":["Density:560 gsm,610 gsm",
-//     "Size : 1.65m2,2.02m,2.60m,3.20m",
-//     "Length : 50 m"]
-//   },
-//   {"title":"Black Back Banner",
-//     "img":blackb,
-//     "desc":["Density:440 gsm,510 gsm",
-//     "Size: 1.07 m,1.10 m,1.22 m,1.27 m,1.37 m,1.52m,1.60m,1.83m,2.02m,2.22m,2.25m,3.22m",
-//     "Length:50 m"]
-//   },
-//   {"title":"4 x 3 Pop-Up Straight",
-//     "img":popu3,
-//     "desc":["Front Visible Area : 362 x 230 cm",
-//     "Printable Area : 434 x 230 cm"]
-//   }
-//   ,
-//   {"title":"3 x 3 Fabric Pop Up Stand",
-//     "img":popus,
-//     "desc":["Front Visible Area:225 x 223 cm",
-//     "Printable Area:295 x 223 cm"]
-//   }
-//   ,
-//   {"title":"4 x 3 Fabric Pop Up Stand",
-//     "img":popf3,
-//     "desc":["Front Visible Area : 297 x 223 cm",
-//     "Printable Area : 367 x 223 cm"]
-//   }
-//   ,
-//   {"title":"Adjustable BackDrop Stand",
-//     "img":backd,
-//     "desc":["Size : 240 x 240 cm"]
-//   }
-//   ,
-//   {"title":"Tension Fabric Stand",
-//     "img":tf,
-//     "desc":["Size : 220 x 220 cm ,220 x 300 cm"]
-//   }
-//   ,
-//   {"title":"Fabric Pop Up Stand",
-//     "img":fpop,
-//     "desc":["Size : 240 x 240 cm"]
-//   }
-//   ,
-//   {"title":"Roll Up Stand",
-//     "img":rollup,
-//     "desc":["Size : 85 x 200 cm , 100 x 200 cm , 120 x 200 cm , 150 x 200 cm , 200 x 200 cm , 240 x 200 cm"]
-//   }  
-//   ,
-//   {"title":"BroadBase Roll Up Stand",
-//     "img":broadb,
-//     "desc":["Size : 85 x 200 cm , 100 x 200 cm , 120 x 200 cm , 150 x 200 cm , 200 x 200 cm , 240 x 200 cm"]
-//   }
 
-//   ,
-//   {"title":"Photo Frame",
-//     "img":photo,
-//     "desc":["Size : A4 , A3 ,A2 , A1 , A0"]
-//   }
-//   ,
-//   {"title":"Zig Zag Broucher Stand",
-//     "img":zig,
-//     "desc":["Size : A4 , A3 "]
-//   }
-  
-//   ,
-//   {"title":"White Board",
-//     "img":wb,
-//     "desc":["Size : 60 x 90 cm , 90 x 120 cm , 90 x 180 cm"]
-//   }
-  
-//   ,
-//   {"title":"Pop Up Table",
-//     "img":popt,
-//     "desc":["Size : 0.94 x 1.3 x  0.4 m"]
-//   }
-// ]
 
 function Flags(){
   return(
@@ -751,10 +666,17 @@ function Qstand(){
 
 }
 
-function Counter(){
+function DigitalPrint(){
   return(
     <div>
-      COunter
+      <div className='uk'>
+      <h2>Digital printing Media</h2>
+      </div>
+       <div className='wrapper1' >
+       {data_digi.map((data,index)=>{
+          return(<Cards id={index} img={data.img} title={data.title} link={data.link} />)
+        })}
+       </div>
     </div>
   )
 }
@@ -769,11 +691,18 @@ function Printing(){
 function Promotional(){
   return(
     <div>
-      COunter
+      <div className='uk'>
+      <h2>Digital printing Media</h2>
+      </div>
+       <div className='wrapper1' >
+       {data_p.map((data,index)=>{
+          return(<Cards id={index} img={data.img} title={data.title} link={data.link} />)
+        })}
+       </div>
     </div>
   )
 }
 
 
 
-export {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand,Counter,Printing,Promotional}
+export {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand,DigitalPrint,Printing,Promotional}

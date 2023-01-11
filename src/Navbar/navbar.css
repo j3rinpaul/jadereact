@@ -5,9 +5,13 @@
     font-family: 'Poppins', sans-serif;
     background-color: rgb(224, 224, 203) !important;
     /* margin-bottom: 5%; */
-    padding-top: 2px;
+    padding-top: 1%;
+    padding-bottom: -2%;
 }
 
+.navbar-nav{
+    padding-top: 2%;
+}
 .navids{
     font-size: 20px !important;
     padding: 1px !important;
@@ -31,6 +35,7 @@
     
     font-size: 20px;
     color: black;
+   
 }
 
 .col{

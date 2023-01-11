@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import slide1 from "./images/slide2.jpg"
 import slide2 from "./images/slide1.jpg"
 import slide3 from "../assets/cp.jpg"
+import slide4 from "../assets/cover.jpg"
 import React from 'react'
 
 // import slide3 from "./images/flagtear.jpg"
@@ -36,6 +37,13 @@ function Slide() {
             <img
               className="d-block w-100"
               src={slide3}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item interval={7000}>
+            <img
+              className="d-block w-100"
+              src={slide4}
               alt="Third slide"
             />
           </Carousel.Item>

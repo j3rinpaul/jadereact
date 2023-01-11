@@ -3,7 +3,7 @@ import NavBar from './Navbar/Navbar'
 import Footer from './Footer/footer'
 import About from './About/About'
 import Home from './Home/home'
-import {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand/*,Promotional*/} from './Product/Product'
+import {Product,Flags,Backdrop,Advsidplay,Umbrella,Qstand,DigitalPrint,Promotional} from './Product/Product'
 import {Outdoor,SnapF,Broc,SlimL,Popup,FPopup,RPopup,APopup,Info} from './Product/ProdDetail'
 import {TPopup,QRope,Nqu,Qtt,QRect,QStan,XPopup,Cflag,AcryP,Aboard,Lflag,TearDflag,Teleflag,Counter,Printing} from './Product/ProdDetail'
 import Contact from './Contact/Contact'
@@ -31,7 +31,7 @@ function App() {
             <Route path="/Info" element={<Info />}/>
             <Route path="/Umbrella" element={<Umbrella />}/>
             <Route path="/Qs" element={<Qstand />}/>
-             <Route path="/Printing" element={<Printing />}/>
+             <Route path="/Printing" element={<DigitalPrint />}/>
             {/* <Route path="/Promotional" element={<Promotional />}/> */} 
 
             {/* routing to seperate page is given here,ProdDetail*/}
@@ -58,6 +58,7 @@ function App() {
             <Route path="/TearDflag" element={<TearDflag />}/>
             <Route path="/Teleflag" element={<Teleflag />}/>
             <Route path="/Counter" element={<Counter />}/>
+            <Route path="/Promo" element={<Promotional/>}/>
 
             
 

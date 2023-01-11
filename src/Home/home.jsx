@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import About from "../About/About"
 import Typewriter from "typewriter-effect";
 import HomeCard from '../Cards/homeCard'
 import cardi from "../assets/PP_Paper.png"
@@ -64,8 +65,8 @@ function Home() {
           <HomeCard img = {cardi} title="Advertising Accessories" red="/Advd" />
           <HomeCard img = {qu} title="Q-Stands & Indoor-Flag Poles " red="/Qs" />
           <HomeCard img = {tb} title="Counter & Tables " red="/Counter" />
-          <HomeCard img = {car} title="Signage & Printing Services" red="/Printing" />
-          <HomeCard img = {promt} title="Promotional & Gifts Items " red="/Promotional" />
+          <HomeCard img = {car} title="Digital Printing Media" red="/Printing" />
+          <HomeCard img = {promt} title="Promotional & Gifts Items " red="/Promo" />
 
         </div>
       </div>

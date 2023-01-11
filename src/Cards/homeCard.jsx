@@ -1,28 +1,28 @@
 import React from 'react'
 import './card.css'
 import {Link} from 'react-router-dom'
-// import { useState } from 'react';
-// import Popover from '@mui/material/Popover';
+import { useState } from 'react';
+import Popover from '@mui/material/Popover';
 
 function HomeCard(props) {
-    // const [anchorEl, setAnchorEl] = useState(null);
+    const [anchorEl, setAnchorEl] = useState(null);
 
-    // const handleClick = (event) => {
-    //   setAnchorEl(event.currentTarget);
-    // };
+    const handleClick = (event) => {
+      setAnchorEl(event.currentTarget);
+    };
   
-    // const handleClose = () => {
-    //   setAnchorEl(null);
-    // };
+    const handleClose = () => {
+      setAnchorEl(null);
+    };
   
-    // const open = Boolean(anchorEl);
-    // const id = open ? 'simple-popover' : undefined;
+    const open = Boolean(anchorEl);
+    const id = open ? 'simple-popover' : undefined;
   return (
             <div className="hcard">
                 <div >
-                    <img src={props.img} /*onClick={handleClick}*/ alt="" className="hcimg"/>
+                    <img src={props.img} onClick={handleClick} alt="" className="hcimg"/>
                 </div>
-                {/* <Popover
+                <Popover
                     id={id}
                     open={open}
                     anchorEl={anchorEl}
@@ -37,7 +37,7 @@ function HomeCard(props) {
                     }}
       >
         <img style={{"width":"90%"}} src={props.img} alt="" />
-      </Popover> */}
+      </Popover>
                 <div className="hcbody">
                 <Link to={props.red} >
                     <h2 className="hctitle">{props.title}</h2>
