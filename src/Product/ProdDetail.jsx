@@ -107,10 +107,10 @@ import info15 from "../assets/Information board_/info15.jpg"
 
 //a board
 
-import ab1 from "../assets/A Board/A board black .PNG"
-import ab2 from "../assets/A Board/A board silver .JPG"
-import ab3 from "../assets/A Board/Outdoor A board .JPG"
-import ab4 from "../assets/A Board/Spring A board .JPG"
+import ab1 from "../assets/A Board/A board black .png"
+import ab2 from "../assets/A Board/A board silver .jpg"
+import ab3 from "../assets/A Board/Outdoor A board .jpg"
+import ab4 from "../assets/A Board/Spring A board .jpg"
 
 //acrylic products
 
@@ -221,7 +221,7 @@ const d_Popup = [
         details:[{"head":"2X3 STRAIGHT POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
                   {"head":"3X3 STRAIGHT POP UP","text":["67x230cm Two side panels", "75x230cm Three front panels ","Printing size 359x230cm "," Front visible area 279x230cm"]},
                   {"head":"4X3 STRAIGHT POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
-                  {"head":"4X3 STRAIGHT POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
+                  {"head":"5X3 STRAIGHT POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},
                   {"head":"6X3 STRAIGHT POP UP","text":["67x230cm Two side panels","75x230cm Two front panels", "Printing size 284x230cm", "Front visible area 204x230cm"]},],
       
         },
@@ -266,8 +266,7 @@ const r_Popup = [
             {head:"150x200cm","text":[]}
     ],
         
-        "desc":"Product Description",
-        "detail":"This Normal Rollup-Banner-Stand features a sleek design with polished ends, ideal for any tradeshow or exhibit.The Broad base design gives a professional look although providing great stability.Rollps are also very popular for promotional displays in stores, shopping malls, theaters, airports, and conventions. Also called roll up banner stands or pull up banner stands,  a single person can easily set up a Rollup banner stand in under 1 minute."  },
+          },
     {
         "title": "BroadBase Rollup",
        
@@ -276,6 +275,8 @@ const r_Popup = [
             {head:"BRAODBASE ROLLUP",text:["85X200cm","100X200cm","120X200cm","150X200cm","200X200cm","240x200cm","300x200cm"]},
             {head:"BROADBASE DOUBLE SIDED ROLLUP",text:["85X200cm","100X200cm","120x200cm"]}
         ],
+        "desc":"Product Description",
+        "detail":"This Normal Rollup-Banner-Stand features a sleek design with polished ends, ideal for any tradeshow or exhibit.The Broad base design gives a professional look although providing great stability.Rollps are also very popular for promotional displays in stores, shopping malls, theaters, airports, and conventions. Also called roll up banner stands or pull up banner stands,  a single person can easily set up a Rollup banner stand in under 1 minute."
          
     },
 

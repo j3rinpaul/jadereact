@@ -22,6 +22,9 @@ function ProductPage(props) {
   console.log(details);
   return (
     <div>
+      <div className='details2'>
+              <h2>{props.title}</h2>
+        </div>
     <div className='newsl'>
       <div className='felxin'>
         <div className='img2' >
@@ -42,9 +45,7 @@ function ProductPage(props) {
       </div>
 
           <div className='felxin'>
-            <div className='details2'>
-              <h2>{props.title}</h2>
-            </div>
+            
             <div className='detailcard'>
             <div>
             <h3>Available Sizes</h3>

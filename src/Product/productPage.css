@@ -2,8 +2,8 @@
 
 .newsl{
     display: flex;
-    margin: 5% 0 5% 5%;
-    padding: 5% 0 5% 0;
+    margin: 7% 0 10% 5%;
+    padding: 5% 0 8% 0;
   
 
    
@@ -34,10 +34,14 @@
 
 .details2 h2{
     margin-left: 9%;
+    margin-top: 2%;
+    margin-bottom: -9%;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .detailcard h3{
     margin-left: 9%;
-    margin-top: 2%;
+    margin-top: 0%;
 }
 
 /* .deta1 h2{
@@ -76,8 +80,8 @@
     
 }
 .descr{
-    margin: 3% 0% 0 7%;
-    padding:0 5% 0 0 ;
+    margin: -7% 0% 0 7%;
+    padding:-5% 5% 0 0 ;
 
 }
 /*
