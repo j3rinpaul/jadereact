@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jadereact/static/css/main.26b2c8b8.css",
-    "main.js": "/jadereact/static/js/main.3b02737c.js",
+    "main.js": "/jadereact/static/js/main.846d6d0b.js",
     "static/media/slide1.jpg": "/jadereact/static/media/slide1.18f6504c199b1328e39e.jpg",
     "static/media/slide2.jpg": "/jadereact/static/media/slide2.b48669819e70c958eab1.jpg",
     "static/media/Squeegee felt.jpg": "/jadereact/static/media/Squeegee felt.6387b65399738ac69853.jpg",
@@ -275,10 +275,10 @@
     "static/media/arrow_left.svg": "/jadereact/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/jadereact/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
     "main.26b2c8b8.css.map": "/jadereact/static/css/main.26b2c8b8.css.map",
-    "main.3b02737c.js.map": "/jadereact/static/js/main.3b02737c.js.map"
+    "main.846d6d0b.js.map": "/jadereact/static/js/main.846d6d0b.js.map"
   },
   "entrypoints": [
     "static/css/main.26b2c8b8.css",
-    "static/js/main.3b02737c.js"
+    "static/js/main.846d6d0b.js"
   ]
 }
