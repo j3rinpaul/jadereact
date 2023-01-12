@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jadereact/static/css/main.5614f591.css",
-    "main.js": "/jadereact/static/js/main.e49c163b.js",
+    "main.css": "/jadereact/static/css/main.89d1c769.css",
+    "main.js": "/jadereact/static/js/main.0d007aec.js",
     "static/media/slide1.jpg": "/jadereact/static/media/slide1.07058d55a93fb66ef56c.jpg",
     "static/media/Squeegee felt.jpg": "/jadereact/static/media/Squeegee felt.e8d144c8da8b24049c45.jpg",
     "static/media/jadesignanniversarysmall.jpg": "/jadereact/static/media/jadesignanniversarysmall.8cedd89f3b25019f0705.jpg",
@@ -266,11 +266,11 @@
     "index.html": "/jadereact/index.html",
     "static/media/arrow_left.svg": "/jadereact/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/jadereact/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
-    "main.5614f591.css.map": "/jadereact/static/css/main.5614f591.css.map",
-    "main.e49c163b.js.map": "/jadereact/static/js/main.e49c163b.js.map"
+    "main.89d1c769.css.map": "/jadereact/static/css/main.89d1c769.css.map",
+    "main.0d007aec.js.map": "/jadereact/static/js/main.0d007aec.js.map"
   },
   "entrypoints": [
-    "static/css/main.5614f591.css",
-    "static/js/main.e49c163b.js"
+    "static/css/main.89d1c769.css",
+    "static/js/main.0d007aec.js"
   ]
 }
